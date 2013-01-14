@@ -22,7 +22,7 @@
 
 alberta,97,51,0	script	Fabian	84,{
 	mes "[Fabian]";
-	mes "Hombre.. cuando viajas alrededor de todo el mundo, escuchas cosas locas.";
+	mes "Hombre.. Cuando tu viajas alrededor de todo el mundo, escuchas cosas locas.";
 	next;
 	mes "[Fabian]";
 	mes "Como, una vez escuche que las Cartas las cuales contienen el poder de los monstruos. Si alguien pone sus manos en una carta, el podra usar el poder del monstruo";
@@ -73,9 +73,9 @@ alberta,131,139,2	script	Drunken Old Man	54,{
 	switch(select("No decir nada","Dejarlo solo")) {
 		case 1:
 			mes "[Deagle]";
-			mes "Hahahaha ^666666*hiccup*^000000... Parece que te puse nervioso. Me debo mirar mal ahora, pero yo sol�a ser un marinero en el 'Going Mary.";
+			mes "Hahahaha ^666666*hiccup*^000000... Parece que te puse nervioso. Me debo mirar mal ahora, pero yo solía ser un marinero en el 'Going Mary.";
 			next;
-			switch(select("Nunca he o�do hablar de ella.","�En serio? Es broma!")) {
+			switch(select("Nunca he oído hablar de ella.","¿En serio? Es broma!")) {
 				case 1:
 					mes "[Deagle]";
 					mes "Nunca has escuchado de ella?! Todos conocen el barco pirata 'Going Mary!' ^666666*Hiccup~*^000000";
@@ -84,23 +84,23 @@ alberta,131,139,2	script	Drunken Old Man	54,{
 					mes "Ah~ Los viejoss tiempos. Si solo... No se hubieran metido en esa TORMENTA...^666666*hiccup*^000000";
 					next;
 					mes "[Deagle]";
-					mes "AH~ Capitan. Extra�o su sombrero mas que nada..... Ningun enemigo sobrevivio a la espada del capitan.";
+					mes "AH~ Capitan. Extraño su sombrero mas que nada..... Ningun enemigo sobrevivio a la espada del capitan.";
 					close;
 				case 2:
 					mes "[Deagle]";
-					mes "Esi es!! NADIE se mete con la banda del �Going Mary!� Y nadie puede vencer al ca�tan en una pelea de espadas!";
+					mes "Esi es!! NADIE se mete con la banda del 'Going Mary!' Y nadie puede vencer al capitán en una pelea de espadas!";
 					next;
 					mes "[Deagle]";
 					mes "CAPITAAN!!~!!! ^666666*HICCUP~*^000000 El debio mover su espada asi, entonces... ENTONCES!!";
 					next;
 					mes "[Deagle]";
-					mes "El bastardo del capit�n estaba luchando, y todos sus amigos cerca de �l, estaban envueltos en llamas!";
+					mes "El bastardo del capitán estaba luchando, y todos sus amigos cerca de él, estaban envueltos en llamas!";
 					next;
 					mes "[Deagle]";
 					mes "Hombre, esa espada debio tener algun tipo de misterioso poder, o el capidan era solo bueno..!";
 					next;
 					mes "[Deagle]";
-					mes "Phew~~ ^666666*Sob* *Sob...*^000000 Dios, Extra�o a todos!! Estoy deprimido! Porfavor, te puedes ir ahora.";
+					mes "Phew~~ ^666666*Sob* *Sob...*^000000 Dios, Extraño a todos!! Estoy deprimido! Porfavor, te puedes ir ahora.";
 					close;
 			}
 		case 2:
@@ -117,7 +117,7 @@ alberta,58,80,2	script	Shakir	99,{
 		mes "Los Merchants tenemos nuestra propia habilidad para vender cosas. Esta habilidad nos puede dar mas dinero que lo que le dan a otra gente.";
 		next;
 		mes "[Shakir]";
-		mes "Es mas que andar diciendo �Dame mas dinero por favor� Necesitas carisma, y un buen sentido de ventas";
+		mes "Es mas que andar diciendo 'Dame mas dinero por favor' Necesitas carisma, y un buen sentido de ventas";
 		next;
 		mes "[Shakir]";
 		mes "Podemos obtener hasta 24% mas zeny con esta increible habilidad. Pero recuerda.. entrena duro para adquirirla!!";
@@ -142,16 +142,16 @@ alberta,62,156,2	script	Sonya	102,{
 	mes "[Sonya]";
 	switch(rand(3)){
 	case 0:
-		mes "Hey, sabes.. una vez estaba caminando por el bosque y vi una peque�a rama verde moviendose.";
+		mes "Hey, sabes.. una vez estaba caminando por el bosque y vi una pequeña rama verde moviendose.";
 		next;
 		mes "[Sonya]";
 		mes "Quise ver que era y cuando la toque. La rama golpeo mi mano!";
 		next;
 		mes "[Sonya]";
-		mes "Me asusto, entonces salte un poco atras entonces me di cuenta que no era una rama, era un peque�o animal.";
+		mes "Me asusto, entonces salte un poco atras entonces me di cuenta que no era una rama, era un pequeño animal.";
 		next;
 		mes "[Sonya]";
-		mes "Tube suerte de no hacerlo enojar. Hasta el mas peque�o animal puede ser peligroso si esta hambriento.";
+		mes "Tube suerte de no hacerlo enojar. Hasta el mas pequeño animal puede ser peligroso si esta hambriento.";
 		close;
 	case 1:
 		mes "Si has visto esos osos perezosos que viven en el bosque camino a Payon?";
@@ -205,7 +205,7 @@ alberta,189,151,5	script	Fisk	100,{
 		case 1:
 			if (Zeny < 250) {
 				mes "[Fisk]";
-				mes "Hey, no trates de enga�arme!, dije 250zeny!";
+				mes "Hey, no trates de engañarme!, dije 250zeny!";
 				close;
 			}
 			set Zeny,Zeny - 250;
@@ -339,7 +339,7 @@ alberta,190,173,4	script	Phelix	85,{
 						close;
 					}
 					if (.@amount > 100) {
-						mes "Hey, que dijimos? 100 cada ves!! �MAXIMO�, estas tratando de matarme verdad!?";
+						mes "Hey, que dijimos? 100 cada ves!! 'MAXIMO', estas tratando de matarme verdad!?";
 						close;
 					}
 					if (countitem(909) < .@amount*10) {
@@ -356,7 +356,7 @@ alberta,190,173,4	script	Phelix	85,{
 					close;
 				}
 				mes "[Phelix]";
-				mes "Ah� lo tienes! Como lo promet�. No vaya aspirandolas todas de una vez.";
+				mes "Ahí lo tienes! Como lo prometí. No vaya aspirandolas todas de una vez.";
 				close;
 			}
 		case 2:
@@ -392,7 +392,7 @@ alberta,190,173,4	script	Phelix	85,{
 						close;
 					}
 					if (countitem(909) < .@amount*10) {
-						mes "Parece que no tienes suficiente. Ve a buscar un poco m�s si deseas algo.";
+						mes "Parece que no tienes suficiente. Ve a buscar un poco más si deseas algo.";
 						close;
 					}
 					delitem 909,.@amount*3;	// Jellopy
@@ -404,7 +404,7 @@ alberta,190,173,4	script	Phelix	85,{
 					close;
 				}
 				mes "[Phelix]";
-				mes "Aqu� tienes ~! Como lo promet�. Trate de no meter la cara.";
+				mes "Aquí tienes ~! Como lo prometí. Trate de no meter la cara.";
 				close;
 			}
 		}
