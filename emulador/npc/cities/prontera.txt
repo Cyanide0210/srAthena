@@ -27,7 +27,7 @@
 //============================================================
 prontera,160,330,0	script	Guard#pront::prtguard	105,{
 	mes "[Prontera Guard]";
-	mes "Welcome to Prontera.";
+	mes "Bienvenido a Prontera.";
 	close;
 }
 prontera,223,99,1	duplicate(prtguard)	Guard#2pront	105
@@ -36,10 +36,10 @@ prontera,47,339,5	duplicate(prtguard)	Guard#4pront	105
 
 prontera,101,288,3	script	Shuger#pront	98,{
 	mes "[Shuger]";
-	mes "Outside the safety of the city, there is a pink beast known as ^000077Poring^000000.";
+	mes "Fuera de la seguridad de la ciudad, hay una bestia rosa conocida como ^000077Poring^000000.";
 	next;
 	mes "[Shuger]";
-	mes "Though it's cute in appearance and does not actively harm people, Poring is known to absorb items that are on the ground into its own body.";
+	mes "A pesar de que es lindo en apariencia y no daña mucho a la gente, Poring es conocido por absorber objetos que estan en el piso con su propio cuerpo.";
 	next;
 	mes "[Shuger]";
 	mes "So if there's something on the ground that you want to pick up, be careful lest it be consumed by a Poring. Then again... Porings are pretty weak...";
