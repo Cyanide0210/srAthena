@@ -1,4 +1,4 @@
-//===== rAthena Script ======================================= 
+Ôªø//===== rAthena Script ======================================= 
 //= Dewata Town
 //===== By: ================================================== 
 //= Gennosuke Kouga
@@ -18,21 +18,21 @@ dewata,181,88,6	script	Young Man#dewata	536,{
 	mes "[Hombre Joven]";
 	mes "No es ^C35817Dewata^000000 beach";
 	mes "realmente precioso?";
-	mes "Los niÒos siempre juegan";
+	mes "Los ni√±os siempre juegan";
 	mes "en esta playa; eso me hace";
 	mes "acordarme de cuando era joven.";
 	next;
 	mes "[Hombre Joven]";
 	mes "Por la noche, se pueden ver";
 	mes "fuegos artificiales desde esta playa.";
-	mes "Con la brisa del ocÈano, el romper de las olas, y fuegos artificiales iluminando";
+	mes "Con la brisa del oc√©ano, el romper de las olas, y fuegos artificiales iluminando";
 	mes "el cielo, la noche es un momento maravilloso aqui!";
 	close;
 }
 
 dewata,159,81,4	script	Tourist#dewata	881,{
 	mes "[Nasolo]";
-	mes "Wow~ OcÈano puro, una playa c·lida..";
+	mes "Wow~ Oc√©ano puro, una playa c√°lida..";
 	mes "Perfecta para una cita con tu novia..";
 	next;
 	emotion e_sob;
@@ -41,7 +41,7 @@ dewata,159,81,4	script	Tourist#dewata	881,{
 	next;
 	emotion e_ohnoes;
 	mes "[Nasolo]";
-	mes "Me pregunto cuando llegar· mi princesa..";
+	mes "Me pregunto cuando llegar√° mi princesa..";
 	close;
 }
 
@@ -61,7 +61,7 @@ dewata,147,107,5	script	Gourmet#dewata	85,{
 	emotion e_no1;
 	emotion e_sob,0,"Restauranteur#dewata";
 	mes "[Gourmet]";
-	mes "Maestro~ Uno m·s por favor~";
+	mes "Maestro~ Uno m√°s por favor~";
 	next;
 	mes "[Gourmet]";
 	mes "Tienes que probar esto! La comida aqui es muy suculenta~";
@@ -79,19 +79,19 @@ dewata,146,109,5	script	Restauranteur#dewata	886,{
 	switch(select("About Dewata dishes:Today's menu?:I'm okay.")) {
 		case 1:
 			mes .@n$;
-			mes "Necesitas informaciÛn acerca de nuestras comidas? Bueno...";
+			mes "Necesitas informaci√≥n acerca de nuestras comidas? Bueno...";
 			mes "No tengo mucho que decir,";
 			mes "pero sientete libre de escuchar si quieres.";
 			next;
 			mes .@n$;
-			mes "Es algo largo, dÈjame que empiece.";
+			mes "Es algo largo, d√©jame que empiece.";
 			next;
 			mes .@n$;
 			mes "Primero, los platos de Dewata dishes tienen";
 			mes "nombres especiales basados en cada receta de cocina.";
 			next;
 			mes .@n$;
-			mes "Si el nombre lleva la palabra 'Goreng' en Èl,";
+			mes "Si el nombre lleva la palabra 'Goreng' en √©l,";
 			mes "se trata de revueltos o";
 			mes "comida frita.";
 			next;
@@ -100,12 +100,12 @@ dewata,146,109,5	script	Restauranteur#dewata	886,{
 			mes "es comida a la parrilla.";
 			next;
 			mes .@n$;
-			mes "Y si es 'Satay', entonces est·s";
+			mes "Y si es 'Satay', entonces est√°s";
 			mes "comiendote un plato de brochetas.";
 			next;
 			mes .@n$;
 			mes "Segundo, tenemos platos con nombres de";
-			mes "ingredientes b·sicos.";
+			mes "ingredientes b√°sicos.";
 			next;
 			mes .@n$;
 			mes "En la isla de Dewata, nos referimos al arroz";
@@ -114,7 +114,7 @@ dewata,146,109,5	script	Restauranteur#dewata	886,{
 			mes "Ikan, y al maiz Jagung.";
 			next;
 			mes .@n$;
-			mes "Asi que, si el arroz est· frito lo llamamos";
+			mes "Asi que, si el arroz est√° frito lo llamamos";
 			mes "'Nasi Goreng', y los fideos fritos son";
 			mes "'Mie Goreng'.";
 			next;
@@ -145,8 +145,8 @@ dewata,146,109,5	script	Restauranteur#dewata	886,{
 					mes "No damos comida gratis aqui! Vale?";
 					close; }
 				mes .@n$;
-				mes "AquÌ est· tu Satay, no te";
-				mes "arrepentir·s!";
+				mes "Aqu√≠ est√° tu Satay, no te";
+				mes "arrepentir√°s!";
 				getitem 11533,1;
 				set Zeny, Zeny-5000;
 				close; }
@@ -165,8 +165,8 @@ dewata,146,109,5	script	Restauranteur#dewata	886,{
 				mes "No damos comida gratis aqui! Vale?";
 				close; }	
 			mes .@n$;
-			mes "AquÌ est· tu Nasi Goreng. No te";
-			mes "arrepentir·s!";
+			mes "Aqu√≠ est√° tu Nasi Goreng. No te";
+			mes "arrepentir√°s!";
 			getitem 11532,1;
 			set Zeny, Zeny-5000;
 			close;
@@ -179,24 +179,24 @@ dewata,146,109,5	script	Restauranteur#dewata	886,{
 
 dewata,165,103,5	script	Adventurer Semangat	534,{
 	mes "[Adventurer Semangat]";
-	mes "Yo tambien viajÈ alrededor del mundo";
-	mes "cuando era joven como t˙.";
+	mes "Yo tambien viaj√© alrededor del mundo";
+	mes "cuando era joven como t√∫.";
 	mes "^FF0000Moneky, Cuttlefish";
 	mes "Eagle, and Snake^000000,";
-	mes "Todos fueron buenos amigos que conocÌ";
+	mes "Todos fueron buenos amigos que conoc√≠";
 	mes "en el transcurso de mis viajes.";
 	next;
 	mes "[Adventurer Semangat]";
-	mes "Aun conservo mi pasiÛn por la aventura";
+	mes "Aun conservo mi pasi√≥n por la aventura";
 	mes "y viajar.";
 	mes "Pero no puedo dejar a";
 	mes "mi amada y esposa y a";
-	mes "nuestro nieto atr·s...";
+	mes "nuestro nieto atr√°s...";
 	next;
 	mes "[Adventurer Semangat]";
-	mes "Tu tambiÈn tendras algo";
+	mes "Tu tambi√©n tendras algo";
 	mes "o alguien que ocupe un lugar especial";
-	mes "en tu corazÛn algun dia.";
+	mes "en tu coraz√≥n algun dia.";
 	close;	
 }
 
@@ -209,11 +209,11 @@ dewata,139,114,5	script	Old Wife#dewata	535,{
 	if(select("I think I saw him there!:No, I haven't...")==2) {
 		mes "[Semangat's Wife]";
 		mes "Oh, por favor hazmelo saber";
-		mes "si alguna vez lo ves por aquÌ.";
+		mes "si alguna vez lo ves por aqu√≠.";
 		close; }
 	mes "[Semangat's Wife]";
-	mes "…l huyÛ cuando lo estaba";
-	mes "buscando. DeberÌa";
+	mes "√âl huy√≥ cuando lo estaba";
+	mes "buscando. Deber√≠a";
 	mes "estar en alguna parte, contando cuentos chinos";
 	mes "a los viajeros, como siempre.";
 	next;
@@ -221,13 +221,13 @@ dewata,139,114,5	script	Old Wife#dewata	535,{
 	mes "Me disculpo en nombre de";
 	mes "mi marido. Por favor no";
 	mes "creas sus tontas historias,";
-	mes "diciendo que Èl me conociÛ ^FF0000Monkey y";
-	mes "Snakes^000000, o que luchÛ arduamente contra ^FF0000Cuttlerfish^000000.";
+	mes "diciendo que √©l me conoci√≥ ^FF0000Monkey y";
+	mes "Snakes^000000, o que luch√≥ arduamente contra ^FF0000Cuttlerfish^000000.";
 	next;
 	mes "[Semangat's Wife]";
-	mes "Ha vivido aquÌ";
+	mes "Ha vivido aqu√≠";
 	mes "toda su vida.";
-	mes "Aun asi, Èl siempre encuentra a";
+	mes "Aun asi, √©l siempre encuentra a";
 	mes "curiosos viajeros que escuchan sus cuentos.";
 	close;
 }
@@ -246,7 +246,7 @@ dewata,251,85,5	script	Poppa#dewata	97,{
 
 dewata,227,129,4	script	Sarr#dewata	538,{
 	mes "[Sarr]";
-	mes "Se estan escondiendo, asÌ que deberÌa buscar.";
+	mes "Se estan escondiendo, as√≠ que deber√≠a buscar.";
 	mes "Seguro que las encuentro!~";
 	next;
 	mes "[Sarr]";
@@ -276,7 +276,7 @@ dewata,193,145,4	script	Sipo#dewata	538,{
 	mes "He encontrado a Siyak!! Sal, sal!!";
 	next;
 	mes "[Sipo]";
-	mes "Hehe~ Ahora ESO es Siyak~ SeguirÈ escondida aqui.";
+	mes "Hehe~ Ahora ESO es Siyak~ Seguir√© escondida aqui.";
 	close;
 }
 
@@ -290,7 +290,7 @@ dewata,228,177,4	script	Majya#dewata	538,{
 	mes "ellos no me han encontrado en tres horas...";
 	next;
 	mes "[Majya]";
-	mes "Que deberÌa hacer? Salir? Yo";
+	mes "Que deber√≠a hacer? Salir? Yo";
 	mes "no quiero ser ESO!";
 	close;
 }
@@ -300,13 +300,13 @@ dewata,269,208,5	script	Little Kid in Town	538,{
 	mes "Eh amigo, fijate en ese hombre!";
 	next;
 	mes "[Kid]";
-	mes "Ha estado allÌ una semana sin hacer nada";
+	mes "Ha estado all√≠ una semana sin hacer nada";
 	next;
 	mes "[Kid]";
-	mes "QuiÈn es ese hombre?";
+	mes "Qui√©n es ese hombre?";
 	next;
 	mes "[Kid]";
-	mes "Estoy seguro de que no quiero ser un vago como Èl cuando crezca.";
+	mes "Estoy seguro de que no quiero ser un vago como √©l cuando crezca.";
 	close;
 }
 
@@ -315,11 +315,11 @@ dewata,279,213,4	script	Tourist#dewata-1	887,{
 	mes "Wow~ Esto es muy comodo~";
 	next;
 	mes "[Reclining Tourist]";
-	mes "Estoy pasando un tiempo genial relaj·ndome.";
+	mes "Estoy pasando un tiempo genial relaj√°ndome.";
 	next;
 	mes "[Reclining Tourist]";
 	mes "Deberias acostarte tambien.";
-	mes "Una vez lo hagas, ya no querr·s levantarte nunca m·s.";
+	mes "Una vez lo hagas, ya no querr√°s levantarte nunca m√°s.";
 	next;
 	emotion e_heh;
 	mes "[Reclining Tourist]";
@@ -332,15 +332,15 @@ dewata,280,236,5	script	Settler#dewata	726,{
 	mes "[Settler]";
 	mes "En realidad no soy de ^C35817Dewata^000000.";
 	mes "Pero mientras viajaba,";
-	mes "encontrÈ este lugar...";
-	mes "y tomÈ la decisiÛn";
+	mes "encontr√© este lugar...";
+	mes "y tom√© la decisi√≥n";
 	mes "de vivir en esta hermosa ciudad.";
 	next;
 	mes "[Settler]";
-	mes "He sido muy feliz viviendo aquÌ,";
+	mes "He sido muy feliz viviendo aqu√≠,";
 	mes "para encontrar experiencias";
 	mes "en todos estos bellos lugares.";
-	mes "Es un sueÒo hecho realidad!";
+	mes "Es un sue√±o hecho realidad!";
 	next;
 	mes "[Settler]";
 	mes "Alguna vez piensas en establecerte aqui tambien?";
@@ -376,7 +376,7 @@ dewata,221,237,5	script	Young Man#dewata-2	536,{
 			mes "Si quieres saber como usar Aceite de";
 			mes "Palm, ve a ver a Memo";
 			mes "en el lado norte de la Isla de Dewata. Cada";
-			mes "dÌa hace bebidas tradicionales con el Aceite de Palm.";
+			mes "d√≠a hace bebidas tradicionales con el Aceite de Palm.";
 			next;
 			mes .@n$;
 			mes "De todos modos, nos referimos al aceite que";
@@ -385,12 +385,12 @@ dewata,221,237,5	script	Young Man#dewata-2	536,{
 			mes "conocido por su calidad.";
 			next;
 			mes .@n$;
-			mes "Los restos de la producciÛn de aceite";
+			mes "Los restos de la producci√≥n de aceite";
 			mes "son secados, y se usan como combustible";
-			mes "en la cocina o para la calefacciÛn.";
+			mes "en la cocina o para la calefacci√≥n.";
 			next;
 			mes .@n$;
-			mes "Arde bien y tiene buen aroma. No podrÌa ser mejor.";
+			mes "Arde bien y tiene buen aroma. No podr√≠a ser mejor.";
 			next;
 			mes .@n$;
 			mes "Vale!! Todo se trata de la pulpa!";
@@ -398,7 +398,7 @@ dewata,221,237,5	script	Young Man#dewata-2	536,{
 			mes "los usos posibles de las conchas de las Palm Fruit.";
 			next;
 			mes .@n$;
-			mes "No es como si fuera todo lo que sÈ.";
+			mes "No es como si fuera todo lo que s√©.";
 			mes "No me interpretes mal!";
 			close;
 		case 2:
@@ -421,7 +421,7 @@ dewata,221,237,5	script	Young Man#dewata-2	536,{
 			mes "Dentro de la cascara, hay aproximadamente";
 			mes "300cc de agua, que es muy util";
 			mes "para calmar la sed de la gente";
-			mes "cuando el clima de Dewata es muy c·lido.";
+			mes "cuando el clima de Dewata es muy c√°lido.";
 			next;
 			mes .@n$;
 			mes "Y no es como si se lo lanzaramos";
@@ -434,9 +434,9 @@ dewata,221,237,5	script	Young Man#dewata-2	536,{
 			mes "para actuar de botella de agua.";
 			next;
 			mes .@n$;
-			mes "TambiÈn es ideal para hacer carbÛn.";
-			mes "El carbÛn vegetal a base de frutas de palma es";
-			mes "bien conocido por el fuego de larga duraciÛn";
+			mes "Tambi√©n es ideal para hacer carb√≥n.";
+			mes "El carb√≥n vegetal a base de frutas de palma es";
+			mes "bien conocido por el fuego de larga duraci√≥n";
 			mes "y de calidad.";
 			next;
 			mes .@n$;
@@ -448,31 +448,31 @@ dewata,221,237,5	script	Young Man#dewata-2	536,{
 			mes "placer por el agradable aroma al arder.";
 			next;
 			mes .@n$;
-			mes "Vale!! Eso es toda la informaciÛn";
+			mes "Vale!! Eso es toda la informaci√≥n";
 			mes "de la pulpa. Toma demasiado tiempo";
-			mes "explicar todos los efectos ˙tiles.";
+			mes "explicar todos los efectos √∫tiles.";
 			next;
 			mes .@n$;
-			mes "No es como si fuera todo lo que sÈ.";
+			mes "No es como si fuera todo lo que s√©.";
 			mes "No me entiendas mal!";
 			close;
 		case 3:
 			mes .@n$;
 			mes "Asi que quieres saber acerca del tierno";
-			mes "n˙cleo interior? Deja que te explique.";
+			mes "n√∫cleo interior? Deja que te explique.";
 			next;
 			mes .@n$;
-			mes "El n˙cleo interior de la pulpa dura se usa como digestivo natural.";
+			mes "El n√∫cleo interior de la pulpa dura se usa como digestivo natural.";
 			next;
 			mes .@n$;
-			mes "No hay mucho que decir acerca del n˙cleo interior...";
+			mes "No hay mucho que decir acerca del n√∫cleo interior...";
 			next;
 			mes .@n$;
 			mes "Pero nos aseguramos de usar cada";
 			mes "parte de la fruta de Palm.";
 			next;
 			mes .@n$;
-			mes "No est·s de acuerdo?";
+			mes "No est√°s de acuerdo?";
 			close;
 		case 4:
 			mes .@n$;
@@ -483,7 +483,7 @@ dewata,221,237,5	script	Young Man#dewata-2	536,{
 
 dewata,245,244,4	script	Lodge Employee	536,{
 	mes "[Lodge Employee]";
-	mes "Argg~ Esto realmente me est· afectando!";
+	mes "Argg~ Esto realmente me est√° afectando!";
 	close;
 }
 
@@ -492,8 +492,8 @@ dewata,204,230,5	script	Dieting Lady	537,{
 	if (!countitem(11533)) {
 		mes "[Dieting Lady]";
 		mes "Ah~ Me muero de hambre!!";
-		mes "DeberÌa estar a dieta ahora.";
-		mes "Por quÈ tengo hambre?";
+		mes "Deber√≠a estar a dieta ahora.";
+		mes "Por qu√© tengo hambre?";
 		next;
 		mes "[Dieting Lady]";
 		mes "No me hables demasiado!!";
@@ -509,12 +509,12 @@ dewata,204,230,5	script	Dieting Lady	537,{
 		mes "[Dieting Lady]";
 		mes "Argh... Eres tan codicioso!";
 		mes "Puesto que no quieres compartir...";
-		mes "No deberÌa fallar con la dieta";
+		mes "No deber√≠a fallar con la dieta";
 		mes "incluso por algo que se ve y";
 		mes "huele tan bien...";
 		close; }
 	mes "[Dieting Lady]";
-	mes "MuchÌsimas gracias!!";
+	mes "Much√≠simas gracias!!";
 	mes "Estaba tan hambrienta~!!";
 	mes "El aroma de este ^348017Satay^000000";
 	mes "es delicioso~!";
@@ -537,7 +537,7 @@ dewata,179,204,4	script	Young Lady#dewata	537,{
 	next;
 	select("What do you mean?");
 	mes "[Young Lady]";
-	mes "No he visto todavÌa,";
+	mes "No he visto todav√≠a,";
 	mes "pero dice la leyenda que hay un";
 	mes "cruel monstruo llamado ^FF0000Leak^000000";
 	mes "que puede transformarse en animal";
@@ -560,11 +560,11 @@ dewata,144,216,4	script	Energetic Kid	538,{
 	mes "- Ser feliz. -";
 	mes "- Vivir una lenta -";
 	mes "- y segura vida. -";
-	mes "- La montaÒa m·s all· -";
-	mes "- siempre estar· ahÌ para tÌ. -^000000";
+	mes "- La monta√±a m√°s all√° -";
+	mes "- siempre estar√° ah√≠ para t√≠. -^000000";
 	next;
 	mes "[Energetic Kid]";
-	mes "No es una filosofÌa genial?";
+	mes "No es una filosof√≠a genial?";
 	mes "Quiero vivir de ese modo";
 	mes "y convertirme en una gran persona,";
 	mes "y ayudar a toda la gente de la ciudad";
@@ -575,44 +575,44 @@ dewata,144,216,4	script	Energetic Kid	538,{
 dewata,117,156,5	script	Dreaming Kid	538,{
 	mes "[Dreaming Kid]";
 	mes "Mi abuelita dice";
-	mes "que una vez hubo un p·jaro llamado ^FF0000Garuda^000000";
-	mes "que volÛ por encima de esta ciudad.";
+	mes "que una vez hubo un p√°jaro llamado ^FF0000Garuda^000000";
+	mes "que vol√≥ por encima de esta ciudad.";
 	mes "Despues de aquello tuvieron unas grandes cosechas";
 	mes "y pudieron vivir felices.";
 	next;
 	mes "[Dreaming Kid]";
-	mes "Quiero ver a ese p·jaro";
+	mes "Quiero ver a ese p√°jaro";
 	mes "volando por encima de nuestra ciudad otra vez!";
-	mes "AsÌ mi mam·, pap·,";
+	mes "As√≠ mi mam√°, pap√°,";
 	mes "abuelita y abuelito";
-	mes "podr·n ser felices como en los viejos tiempos.";
-	mes "Tu quÈ crees?";
+	mes "podr√°n ser felices como en los viejos tiempos.";
+	mes "Tu qu√© crees?";
 	close;
 }
 
 dewata,211,272,4	script	Lodge Owner	534,{
 	mes "[Lodge Owner]";
-	mes "…stos ˙ltimos dÌas tenemos muchos";
-	mes "reciÈn casados visit·ndonos.";
+	mes "√âstos √∫ltimos d√≠as tenemos muchos";
+	mes "reci√©n casados visit√°ndonos.";
 	next;
 	mes "[Lodge Owner]";
 	mes "Debe ser el bello paisaje, cierto?";
 	next;
 	mes "[Lodge Owner]";
 	mes "El negocio va genial. Espero";
-	mes "que tengamos muchos m·s visitantes como esos.";
+	mes "que tengamos muchos m√°s visitantes como esos.";
 	next;
 	mes "[Lodge Owner]";
-	mes "Ah! DeberÌas traer a tu pareja tambiÈn";
+	mes "Ah! Deber√≠as traer a tu pareja tambi√©n";
 	mes "Dewata en tu luna de miel.";
-	mes "Te harÈ un buen precio~";
+	mes "Te har√© un buen precio~";
 	close;
 }
 
 dewata,233,263,7	script	Sweet Married Couple#1	828,{
 	emotion e_kis;
 	mes "[Sweet Husband]";
-	mes "Tu eres la cosa m·s linda";
+	mes "Tu eres la cosa m√°s linda";
 	mes "del mundo, mi amor~";
 	next;
 	emotion e_kis2;
@@ -629,26 +629,26 @@ dewata,233,263,7	script	Sweet Married Couple#1	828,{
 	mes "ohohohohohohohohohohohohohohohohohoho";
 	next;
 	mes "[Sweet Husband]";
-	mes "Venga, me estoy cansando de esto ya. V·monos.";
+	mes "Venga, me estoy cansando de esto ya. V√°monos.";
 	close;
 }
 
 dewata,234,263,7	script	Sweet Married Couple#2	727,{
 	emotion e_what;
 	mes "[Sweet Wife]";
-	mes "Mi vida~ Sabes quÈ flor es esa~?";
+	mes "Mi vida~ Sabes qu√© flor es esa~?";
 	next;
 	mes "[Sweet Husband]";
-	mes "Hmm? No lo sÈ, pero es realmente bonita.";
+	mes "Hmm? No lo s√©, pero es realmente bonita.";
 	next;
 	emotion e_what;
 	mes "[Sweet Wife]";
-	mes "Mi vida~ QuiÈn es mas linda, la flor o yo?";
+	mes "Mi vida~ Qui√©n es mas linda, la flor o yo?";
 	next;
 	emotion e_kis;
 	mes "[Sweet Husband]";
 	mes "No importa lo bonita que sea la flor,";
-	mes "tu siempre ser·s m·s linda~";
+	mes "tu siempre ser√°s m√°s linda~";
 	next;
 	emotion e_kis2;
 	mes "[Sweet Wife]";
@@ -663,13 +663,13 @@ dewata,234,263,7	script	Sweet Married Couple#2	727,{
 	mes "ohohohohohohohohohohohohohohohohohoho";
 	next;
 	mes "[Sweet Wife]";
-	mes "V·monos ya, esto me aburre. Mov·monos.";
+	mes "V√°monos ya, esto me aburre. Mov√°monos.";
 	close;
 }
 
 dewata,278,281,4	script	Happily Married Grandpa	534,{
 	mes "[Happily Married Grandpa]";
-	mes "Hoy deberÌa pedirle a mi dama que";
+	mes "Hoy deber√≠a pedirle a mi dama que";
 	mes "me cocine un poco de ^348017fried rice^000000.";
 	next;
 	mes "[Happily Married Grandpa]";
@@ -678,7 +678,7 @@ dewata,278,281,4	script	Happily Married Grandpa	534,{
 	next;
 	emotion e_lv;
 	mes "[Happily Married Grandpa]";
-	mes "Me hace amarla todavÌa m·s.";
+	mes "Me hace amarla todav√≠a m√°s.";
 	mes "No puedes imaginarte el maravilloso sabor!";
 	close;
 }
@@ -686,22 +686,22 @@ dewata,278,281,4	script	Happily Married Grandpa	534,{
 dewata,280,277,4	script	Happily Married Grandma	535,{
 	emotion e_swt2;
 	mes "[Happily Married Grandma]";
-	mes "En mis dÌas de juventud,";
-	mes "habÌan muchos caballeros";
-	mes "que querÌan cortejarme.";
+	mes "En mis d√≠as de juventud,";
+	mes "hab√≠an muchos caballeros";
+	mes "que quer√≠an cortejarme.";
 	next;
 	mes "[Happily Married Grandma]";
-	mes "Aun asÌ, conocÌ al adecuado,";
-	mes "y me casÈ.";
-	mes "Le preguntÈ quÈ era lo que m·s le gustaba";
-	mes "de mÌ, y Èl me respondiÛ que";
+	mes "Aun as√≠, conoc√≠ al adecuado,";
+	mes "y me cas√©.";
+	mes "Le pregunt√© qu√© era lo que m√°s le gustaba";
+	mes "de m√≠, y √©l me respondi√≥ que";
 	mes "mi ^348017fried rice^000000 casero.";
 	next;
 	mes "[Happily Married Grandma]";
 	mes "Y desde entonces solo me pide que";
 	mes "haga ^348017fried rice^000000 para cenar.";
-	mes "Unos 40 aÒos de matrimonio y";
-	mes "Èl todavia no se cansa de comerlo.";
+	mes "Unos 40 a√±os de matrimonio y";
+	mes "√©l todavia no se cansa de comerlo.";
 	next;
 	emotion e_lv;
 	mes "[Happily Married Grandma]";
@@ -715,15 +715,15 @@ dewata,114,243,5	script	Lazy Young Man	536,1,1,{
 	if (countitem(11534)) {
 		mes "[Lazy Young Man]";
 		mes "Wewt~!! No es eso Palm Juice?";
-		mes "Puedes darme eso? Me despertÈ";
+		mes "Puedes darme eso? Me despert√©";
 		mes "con la garganta seca!";
 		next;
 		if(select("Give:Don't give")==2) {
 			mes "[Lazy Young Man]";
-			mes "AsÌ sea~ Vale...";
+			mes "As√≠ sea~ Vale...";
 			close; }
 		mes "[Lazy Young Man]";
-		mes "De verdad? Para mi?? Te lo devolverÈ... Gracias!";
+		mes "De verdad? Para mi?? Te lo devolver√©... Gracias!";
 		delitem 11534,1;
 		// Need more information
 		if (rand(1,2)==1) getitem 7034,1; // Red Stocking
@@ -731,7 +731,7 @@ dewata,114,243,5	script	Lazy Young Man	536,1,1,{
 		close; }
 	mes "[Lazy Young Man]";
 	mes "Ah~ Sediento~ Alguien tiene algo de Palm";
-	mes "juice para mÌ?~";
+	mes "juice para m√≠?~";
 	close;
 OnTouch:
 	if (countitem(11534)) end;
@@ -748,7 +748,7 @@ OnTouch:
 dewata,127,248,5	script	Wishing Kid	539,{
 	mes "[Wishing Kid]";
 	mes "Mi familia ha estado fermentando";
-	mes "el vino tradicional de Dewata durante aÒos.";
+	mes "el vino tradicional de Dewata durante a√±os.";
 	mes "Quiero probarlo yo mismo,";
 	mes "pero mi padre dice que soy demasiado joven.";
 	mes "Dice que puedo bebermelo";
@@ -759,7 +759,7 @@ dewata,127,248,5	script	Wishing Kid	539,{
 	mes "A todos los adultos les encanta beber";
 	mes "el vino de mi padre.";
 	mes "Quiero intentar algo muy malo.";
-	mes "Pero, deberÌa...?";
+	mes "Pero, deber√≠a...?";
 	mes "He olvidado cuantas ^FF0000nights^000000";
 	mes "he dormido ya... boo hoo!";
 	close;
@@ -767,26 +767,26 @@ dewata,127,248,5	script	Wishing Kid	539,{
 
 dewata,75,122,5	script	Monk#dewata-1	834,{
 	mes "[Monk]";
-	mes "Tu eres un extraÒo aqui. QuÈ";
+	mes "Tu eres un extra√±o aqui. Qu√©";
 	mes "te trae a este tranquilo lugar?";
 	next;
 	if(select("I'm sightseeing:No reason")==2) {
 		mes "[Monk]";
-		mes "Buenos dÌas para tÌ...";
+		mes "Buenos d√≠as para t√≠...";
 		close; }
 	mes "[Monk]";
 	mes "Oh, tu eres un turista. Esta es la";
 	mes "'^0000FFPadoga^000000' para adorar al gran";
-	mes "Buddha. Por favor sÈ respetuoso con";
-	mes "los monjes que rezan aquÌ.";
+	mes "Buddha. Por favor s√© respetuoso con";
+	mes "los monjes que rezan aqu√≠.";
 	close;
 }
 
 dewata,71,79,0	script	Monk#dewata-2	834,{
 	mes "[Monk]";
-	mes "…sta torre est· construÌda en el borde de un";
+	mes "√âsta torre est√° constru√≠da en el borde de un";
 	mes "acantilado. Puedes rezar con la brisa";
-	mes "oce·nica acariciando tu cabello.";
+	mes "oce√°nica acariciando tu cabello.";
 	next;
 	mes "[Monk]";
 	mes "Ven, debes sentir la";
@@ -797,7 +797,7 @@ dewata,71,79,0	script	Monk#dewata-2	834,{
 
 dewata,69,101,5	script	Monk#dewata-3	834,{
 	mes "[Monk]";
-	mes "Tenemos la pagoda para la adoraciÛn de";
+	mes "Tenemos la pagoda para la adoraci√≥n de";
 	mes "Buddhas. Cada templo tiene una de";
 	mes "esas torres, aunque no mucha";
 	mes "gente viene aqui aparte de otros monjes.";
@@ -805,13 +805,13 @@ dewata,69,101,5	script	Monk#dewata-3	834,{
 	switch(select("I see...:Explain about Buddhas:Ah, okay.")) {
 		case 1:
 			mes "[Monk]";
-			mes "Debes sentir la compasiÛn de Buddha!";
+			mes "Debes sentir la compasi√≥n de Buddha!";
 			close;
 		case 2:
 			mes "[Monk]";
 			mes "Buddha is es el dios de nuestro mito en Dewata,";
 			mes "el rey de las almas y tambien";
-			mes "el lÌder de los dioses buenos.";
+			mes "el l√≠der de los dioses buenos.";
 			next;
 			mes "[Monk]";
 			mes "Buddha es el guardian de las almas,";
@@ -828,37 +828,37 @@ dewata,69,101,5	script	Monk#dewata-3	834,{
 			mes "Tenemos diferentes";
 			mes "manifestaciones de Buddha,";
 			mes "normalmente descrito como oso, tigre,";
-			mes "dragÛn, serpiente, o leÛn.";
+			mes "drag√≥n, serpiente, o le√≥n.";
 			next;
 			mes "[Monk]";
-			mes "El Gran LeÛn es uno de los Buddhas mas famosos";
+			mes "El Gran Le√≥n es uno de los Buddhas mas famosos";
 			mes "adorados en Dewata.";
 			next;
 			mes "[Monk]";
-			mes "Espero que haya sido una buena explicaciÛn";
-			mes "para tÌ. Hazme saber si hay";
-			mes "algo m·s que quieras saber.";
+			mes "Espero que haya sido una buena explicaci√≥n";
+			mes "para t√≠. Hazme saber si hay";
+			mes "algo m√°s que quieras saber.";
 			close;
 		case 3:
 			mes "[Monk]";
-			mes "Buenos dÌas...";
+			mes "Buenos d√≠as...";
 			close;
 	}
 }
 
 dewata,67,186,7	script	Monk#dewata-4	834,{
 	mes "[Monk]";
-	mes "Soy un monje contento de pasar mis dÌas en el estudio religioso.";
+	mes "Soy un monje contento de pasar mis d√≠as en el estudio religioso.";
 	next;
 	mes "[Monk]";
 	mes "Acabo de volver de un";
 	mes "peregrinaje al templo de Borobudur con";
-	mes "mis compaÒeros monjes...";
+	mes "mis compa√±eros monjes...";
 	next;
 	mes "[Monk]";
 	mes "El templo de Borobudur recibe muchas visitas de";
 	mes "peregrinos, ya que es uno de los pocos";
-	mes "templos que todavÌa adoran al";
+	mes "templos que todav√≠a adoran al";
 	mes "Gran Buddha.";
 	close;
 }
@@ -866,12 +866,12 @@ dewata,67,186,7	script	Monk#dewata-4	834,{
 dewata,65,188,7	script	Monk#dewata-5	834,{
 	mes "[Monk]";
 	mes "El templo de Borobudur temple es uno de los pocos";
-	mes "templos que todavÌa adoran al";
+	mes "templos que todav√≠a adoran al";
 	mes "Gran Buddha.";
 	next;
 	mes "[Monk]";
-	mes "No entiendo por quÈ hay";
-	mes "solo unos pocos templos que a˙n siguen";
+	mes "No entiendo por qu√© hay";
+	mes "solo unos pocos templos que a√∫n siguen";
 	mes "nuestros caminos...";
 	close;
 }
@@ -882,35 +882,35 @@ dewata,63,190,7	script	Monk#dewata-6	834,{
 	mes "ofrenda y pedir un deseo en uno de los santuarios.";
 	next;
 	mes "[Monk]";
-	mes "Nuestro Gran Buddha podrÌa cumplir tu deseo...";
+	mes "Nuestro Gran Buddha podr√≠a cumplir tu deseo...";
 	close;
 }
 
 dewata,61,192,7	script	Monk#dewata-7	834,{
 	mes "[Monk]";
 	mes "Nuestro Gran Buddha es el rey de";
-	mes "de las almas y el lÌder de todos los dioses buenos.";
+	mes "de las almas y el l√≠der de todos los dioses buenos.";
 	next;
 	mes "[Monk]";
 	mes "Las tribus de Dewata creen en";
-	mes "Buddha, pero lo extraÒo es como todos ellos";
+	mes "Buddha, pero lo extra√±o es como todos ellos";
 	mes "describen a Buddha como distintas critaturas.";
 	next;
 	mes "[Monk]";
 	mes "No estoy seguro de cual es el";
-	mes "motivo. Quiz·s porque";
+	mes "motivo. Quiz√°s porque";
 	mes "hay muchas tribus distintas en Dewata";
-	mes "con caracterÌsticas diferentes.";
+	mes "con caracter√≠sticas diferentes.";
 	close;
 }
 
 dewata,89,191,0	script	Small Shrine#A::DewShrine	111,{
-	mes "- Hay un pequeÒo santuario aquÌ. -";
+	mes "- Hay un peque√±o santuario aqu√≠. -";
 	mes "Hay mucha gente pidiendo deseos.";
 	next;
 	switch(select("Make a donation:Make a wish:Walk away.")) {
 		case 1:
-			mes "Caso de donaciÛn dice:";
+			mes "Caso de donaci√≥n dice:";
 			mes "^FF00001,000 ~ 100,000 Zeny^000000";
 			mes "Cuanto quieres donar?";
 			next;
@@ -921,17 +921,17 @@ dewata,89,191,0	script	Small Shrine#A::DewShrine	111,{
 			if (.@donate > Zeny) {
 				mes "- Not enough Zeny. -";
 				close; }
-			mes "- QuÈ es lo que deseas? -";
+			mes "- Qu√© es lo que deseas? -";
 			next;
 			input .@wish$;
-			mes "Ha donado al pequeÒo santuario y se te ha cumplido el deseo ^0000FF"+.@wish$+"^000000.";
+			mes "Ha donado al peque√±o santuario y se te ha cumplido el deseo ^0000FF"+.@wish$+"^000000.";
 			next;
 			set Zeny, Zeny-.@donate;
 			specialeffect EF_FLASHER;
-			mes "- EnergÌas misteriosas emergen del santuario. -";
+			mes "- Energ√≠as misteriosas emergen del santuario. -";
 			next;
 			skilleffect 34,0; sc_start SC_BLESSING,360000,10;
-			mes "- Has recibido la bendiciÛn del santuario. -";
+			mes "- Has recibido la bendici√≥n del santuario. -";
 			next;
 			mes "- Se siente como si el deseo pudiera hacerse realidad. -";
 			close;	
@@ -939,13 +939,13 @@ dewata,89,191,0	script	Small Shrine#A::DewShrine	111,{
 			mes "- Cual es tu deseo? -";
 			next;
 			input .@wish$;
-			mes "- Has pedido tu deseo de ^0000FF"+.@wish$+"^000000 en este pequeÒo santuario. -";
+			mes "- Has pedido tu deseo de ^0000FF"+.@wish$+"^000000 en este peque√±o santuario. -";
 			next;
 			specialeffect EF_FLASHER;
-			mes "- EnergÌas misteriosas emergen del santuario. -";
+			mes "- Energ√≠as misteriosas emergen del santuario. -";
 			next;
 			skilleffect 34,0; sc_start SC_BLESSING,60000,1;
-			mes "- Has recibido la bendiciÛn del santuario. -";
+			mes "- Has recibido la bendici√≥n del santuario. -";
 			next;
 			mes "- Se siente como si el deseo pudiera hacerse realidad. -";
 			close;
@@ -960,7 +960,7 @@ dewata,68,191,0	duplicate(DewShrine)	Small Shrine#D	111
 
 dewata,78,192,5	script	Borobudur Temple Manager	536,{
 	mes "[Borobudur Temple Manager]";
-	mes "El clima hoy es esplÈndido.";
+	mes "El clima hoy es espl√©ndido.";
 	if (checkquest(9164)>=0 && countitem(11533)) {
 		next;
 		mes "[Borobudur Temple Manager]";
@@ -969,37 +969,37 @@ dewata,78,192,5	script	Borobudur Temple Manager	536,{
 		next;
 		select("^0000FFTribal Chief Paiko^000000");
 		mes "[Borobudur Temple Manager]";
-		mes "No sabÌa que tal cosa habÌa";
+		mes "No sab√≠a que tal cosa hab√≠a";
 		mes "sucedido. Si me lo hubieras dicho";
-		mes "antes, podrÌa haber ayudado aunque";
+		mes "antes, podr√≠a haber ayudado aunque";
 		mes "fuera un poco.";
 		mes "Sin embargo, las cosas han ido bien con tu ayuda.";
 		next;
 		mes "[Borobudur Temple Manager]";
 		mes "Ah, este es el ^4AA02CSatay^000000 que";
-		mes "probÈ cuando la tribu me invitÛ hace un tiempo.";
+		mes "prob√© cuando la tribu me invit√≥ hace un tiempo.";
 		next;
 		mes "[Borobudur Temple Manager]";
 		mes "Bien~ Este es el mismo sabor que";
 		mes "recuerdo. Como agradecimiento";
-		mes "te contarÈ una historia";
+		mes "te contar√© una historia";
 		mes "que puede interesarte.";
 		next;
 		mes "[Borobudur Temple Manager]";
 		mes "La leyenda cuenta sobre un misterioso";
-		mes "p·jaro llamado ^FF0000Garuda^000000.";
+		mes "p√°jaro llamado ^FF0000Garuda^000000.";
 		mes "Tenia el torso, los brazos y las piernas";
-		mes "de un humano, pero tenÌa la cabeza y el pico";
-		mes "de un ·guila.";
+		mes "de un humano, pero ten√≠a la cabeza y el pico";
+		mes "de un √°guila.";
 		next;
 		mes "[Borobudur Temple Manager]";
-		mes "La historia de este p·jaro lo describe";
+		mes "La historia de este p√°jaro lo describe";
 		mes "ayudando a los dioses a exterminar";
 		mes "demonios malvados y serpientes.";
 		next;
 		mes "[Borobudur Temple Manager]";
 		mes "La historia ha ido pasando de";
-		mes "generaciÛn en generaciÛn.";
+		mes "generaci√≥n en generaci√≥n.";
 		mes "Bastante interesante, no crees?";
 		next;
 		mes "[Borobudur Temple Manager]";
@@ -1007,12 +1007,12 @@ dewata,78,192,5	script	Borobudur Temple Manager	536,{
 		mes "^C35817Jaty Tribe^000000 hay muchas";
 		mes "historias legendarias.";
 		mes "Cuando llegue a conocer al jefe, Estoy";
-		mes "seguro de que escucharÈ grandes historias como esta.";
+		mes "seguro de que escuchar√© grandes historias como esta.";
 		next;
 		mes "[Borobudur Temple Manager]";
-		mes "No sÈ cuando se volver·n a cruzar";
+		mes "No s√© cuando se volver√°n a cruzar";
 		mes "nuestros caminos, pero espero que";
-		mes "podamos volver a encontrarnos algun dÌa.";
+		mes "podamos volver a encontrarnos algun d√≠a.";
 		mes "Te deseo un buen viaje,";
 		mes "joven aventurero.";
 		delitem 11533,1;
@@ -1023,9 +1023,9 @@ dewata,78,192,5	script	Borobudur Temple Manager	536,{
 dewata,95,203,5	script	Travel Guide#dewata	536,{
 	emotion e_swt2;
 	mes "[Travel Guide]";
-	mes "Este templo detr·s de mÌ se llama";
+	mes "Este templo detr√°s de m√≠ se llama";
 	mes "Borobudur.";
-	mes "El templo de Borobudur fue construÌdo en";
+	mes "El templo de Borobudur fue constru√≠do en";
 	mes "el siglo 9";
 	mes "para venerar al Gran Buddha, una";
 	mes "figura religiosa antigua.";
@@ -1035,23 +1035,23 @@ dewata,95,203,5	script	Travel Guide#dewata	536,{
 	mes "Este templo esta hecho con 6 plataformas";
 	mes "cuadradas, 3 plataformas redondas,";
 	mes "y 2672 paneles tallados artesanalmente,";
-	mes "asÌ como 504 estatuas de diferentes";
+	mes "as√≠ como 504 estatuas de diferentes";
 	mes "Buddhas.";
 	next;
 	emotion e_swt2;
 	mes "[Travel Guide]";
 	mes "La estupa central, o santuario";
-	mes "est· ubicado en el centro de";
-	mes "la plataforma m·s alta, rodeado por 72";
-	mes "estatuas m·s.";
+	mes "est√° ubicado en el centro de";
+	mes "la plataforma m√°s alta, rodeado por 72";
+	mes "estatuas m√°s.";
 	next;
 	emotion e_swt2;
 	mes "[Travel Guide]";
 	mes "Incluso en los tiempos modernos, el templo de Borobudur";
-	mes "es el lugar de peregrinaciÛn para los";
+	mes "es el lugar de peregrinaci√≥n para los";
 	mes "monjes que adoran a Buddha. Es";
-	mes "tambiÈn una gran atracciÛn turÌstica, como";
-	mes "podr·s imaginarte.";
+	mes "tambi√©n una gran atracci√≥n tur√≠stica, como";
+	mes "podr√°s imaginarte.";
 	next;
 	mes "[Travel Guide]";
 	mes "Eso es todo lo que hay en el templo de";
@@ -1062,13 +1062,13 @@ dewata,95,203,5	script	Travel Guide#dewata	536,{
 
 dewata,97,207,4	script	Tourist#dewata-2	803,{
 	mes "[Tourist]";
-	mes "Oh, maldita sea... Me fuÌ";
-	mes "y escogÌ al guÌa equivocado...";
+	mes "Oh, maldita sea... Me fu√≠";
+	mes "y escog√≠ al gu√≠a equivocado...";
 	next;
 	emotion e_turn;
 	mes "[Tourist]";
 	mes "Este hombre es realmente aburrido...";
-	mes "Por quÈ lo alarga..";
+	mes "Por qu√© lo alarga..";
 	next;
 	emotion e_sigh;
 	mes "[Tourist]";
@@ -1084,10 +1084,10 @@ dewata,99,203,4	script	Tourist#dewata-3	755,{
 	next;
 	mes "[Tourist]";
 	mes "Pero realmente no entiendo toda";
-	mes "la simbologÌa de aquÌ.";
+	mes "la simbolog√≠a de aqu√≠.";
 	next;
 	mes "[Tourist]";
-	mes "Tan hermoso... Me pregunto quiÈn construirÌa";
+	mes "Tan hermoso... Me pregunto qui√©n construir√≠a";
 	mes "este lugar?";
 	close;
 }
@@ -1095,17 +1095,17 @@ dewata,99,203,4	script	Tourist#dewata-3	755,{
 dewata,101,206,4	script	Tourist#dewata-4	90,{
 	mes "[Tourist]";
 	mes "No nos vamos a perder sin";
-	mes "el guÌa?";
+	mes "el gu√≠a?";
 	next;
 	mes "[Tourist]";
-	mes "Ya nos perdimos la ˙ltima vez..";
+	mes "Ya nos perdimos la √∫ltima vez..";
 	close;
 }
 
 dewata,100,206,4	script	Tourist#dewata-5	59,{
 	mes "[Tourist]";
-	mes "Eh, vamos ahÌ, r·pido,";
-	mes "mientras el guÌa est· explicando~";
+	mes "Eh, vamos ah√≠, r√°pido,";
+	mes "mientras el gu√≠a est√° explicando~";
 	next;
 	mes "[Tourist]";
 	mes "Vamos... No suena como";
@@ -1127,7 +1127,7 @@ dewata,278,100,4	script	Missing Child#dewata	703,{
 	emotion e_sob;
 	emotion e_swt2;
 	mes "[Ukki]";
-	mes "Mama~ Papa~ Donde est·aaais~ Waa~";
+	mes "Mama~ Papa~ Donde est√°aaais~ Waa~";
 	next;
 	emotion e_dots,0;
 	select("... ... ...");
@@ -1137,8 +1137,8 @@ dewata,278,100,4	script	Missing Child#dewata	703,{
 dew_fild01,101,259,5	script	Jaty Tribe Gatekeeper	541,{
 	mes "[Jaty Tribe Gatekeeper]";
 	mes "Bienvenido a la ciudad de ^FF0000Jaty^000000,";
-	mes "que venera la fuerza y la valentÌa.";
-	mes "Te deseo un tiempo seguro y tranquilo aquÌ.";
+	mes "que venera la fuerza y la valent√≠a.";
+	mes "Te deseo un tiempo seguro y tranquilo aqu√≠.";
 	close;
 }
 
@@ -1151,7 +1151,7 @@ dew_fild01,106,306,4	script	R. Jaty Tribe Warrior	541,{
 	mes "Estoy aprendiendo habilidades de caza";
 	mes "ultimamente. Me estoy volviendo";
 	mes "mejor y mejor";
-	mes "cada dÌa!";
+	mes "cada d√≠a!";
 	next;
 	mes "[Reserved Jaty Warrior]";
 	mes "No quiero parar hasta";

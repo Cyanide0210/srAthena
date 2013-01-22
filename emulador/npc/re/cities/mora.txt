@@ -1,4 +1,4 @@
-//===== rAthena Script ======================================= 
+Ôªø//===== rAthena Script ======================================= 
 //= Mora Village
 //===== By: ================================================== 
 //= SuperHulk
@@ -19,15 +19,15 @@ mora,185,163,5	script	Mora Citizen#1	516,{
 	mes "[Profesor Gary]";
 	mes "Hola, viajero!";
 	mes "Soy Gary, el experto sobre encantamientos en esta zona.";
-	mes "QuÈ quieres saber?";
+	mes "Qu√© quieres saber?";
 	next;
 	switch(select("Fundamentals of enchantment.:Nothing.")) {
 	case 1:
 		mes "[Profesor Gary]";
-		mes "Ah, veo que est·s interesado";
+		mes "Ah, veo que est√°s interesado";
 		mes "en los encantamientos!";
-		mes "Muy bien, esto es lo b·sico!!";
-		mes "DespuÈs de esto entender·s";
+		mes "Muy bien, esto es lo b√°sico!!";
+		mes "Despu√©s de esto entender√°s";
 		mes "los misterios de nuestros encantamientos!";
 		next;
 		mes "[Profesor Gary]";
@@ -38,13 +38,13 @@ mora,185,163,5	script	Mora Citizen#1	516,{
 		mes "[Profesor Gary]";
 		mes "No sabes realmente lo que va a";
 		mes "pasar. Puedes ser afortunado o";
-		mes "desafortunado, y conseguir un encantamiento m·s";
+		mes "desafortunado, y conseguir un encantamiento m√°s";
 		mes "o menos poderoso.";
 		next;
 		mes "[Profesor Gary]";
 		mes "Puedes fallar la magia tambien!";
 		mes "Si esto pasa mientras tu equipo";
-		mes "est· siendo encantado, perder·s";
+		mes "est√° siendo encantado, perder√°s";
 		mes "todos los encantamientos previos, las cartas, y el refine!";
 		next;
 		mes "[Profesor Gary]";
@@ -54,22 +54,22 @@ mora,185,163,5	script	Mora Citizen#1	516,{
 		mes "tu equipo con un segundo encantamiento!";
 		next;
 		mes "[Profesor Gary]";
-		mes "Cada intento de encantar te costar·";
+		mes "Cada intento de encantar te costar√°";
 		mes "1 Mora coin y 100,000 zeny.";
-		mes "Si no lo sabes a˙n, el dinero";
+		mes "Si no lo sabes a√∫n, el dinero";
 		mes "obtenido de este servicio va";
 		mes "directo a la gente de Mora!";
 		next;
 		mes "[Profesor Gary]";
 		mes "Esas han sido las bases.";
-		mes "AcuÈrdate de ellas.";
-		mes "Para m·s detalles, siempre";
+		mes "Acu√©rdate de ellas.";
+		mes "Para m√°s detalles, siempre";
 		mes "puedes visitar a mi maestro,";
-		mes "GougueulÈ Tonami!";
+		mes "Gougueul√© Tonami!";
 		close;
 	case 2:
 		mes "[Profesor Gary]";
-		mes "AdiÛs, y buena suerte!";
+		mes "Adi√≥s, y buena suerte!";
 		close;
 	}
 }
@@ -77,7 +77,7 @@ mora,185,163,5	script	Mora Citizen#1	516,{
 mora,52,138,8	script	Mora Citizen#2	516,{
 	mes "[Valere]";
 	mes "Hola, aventurero!";
-	mes "Parece que est·s";
+	mes "Parece que est√°s";
 	mes "perdido, cierto!?";
 	next;
 	mes "[Valere]";
@@ -88,21 +88,21 @@ mora,52,138,8	script	Mora Citizen#2	516,{
 	next;
 	mes "[Valere]";
 	mes "Solo necesito saber una cosa";
-	mes "antes de contarte m·s sobre";
+	mes "antes de contarte m√°s sobre";
 	mes "los encantamientos de equipo de Mora!";
 	mes "Asi que dime, cual es tu clase?";
 	next;
 	switch(select("Warlock.:Arch Bishop.:Ranger.:Guillotine Cross.:Rune Knight.:Other.:Goodbye.")) {
 	case 1:
 		mes "[Valere]";
-		mes "Hmm, deberÌas visitar a";
+		mes "Hmm, deber√≠as visitar a";
 		mes "Artifact Crafter.";
 		mes "Ese es nuestro experto encantador";
 		mes "para el equipo de Warlock!";
 		close;
 	case 2:
 		mes "[Valere]";
-		mes "Hmm, deberÌas visitar a";
+		mes "Hmm, deber√≠as visitar a";
 		mes "Master of Relics.";
 		mes "Ese es nuestro experto encantador";
 		mes "para el equipo de Arch Bishop!";
@@ -111,7 +111,7 @@ mora,52,138,8	script	Mora Citizen#2	516,{
 	case 4:
 	case 5:
 		mes "[Valere]";
-		mes "Hmm, deberÌas visitar a";
+		mes "Hmm, deber√≠as visitar a";
 		mes "Artifact Researcher.";
 		mes "Ese es nuestro experto encantador";
 		mes "para el equipo de Ranger, Guillotine Cross,";
@@ -119,11 +119,11 @@ mora,52,138,8	script	Mora Citizen#2	516,{
 		close;
 	case 6:
 		mes "[Valere]";
-		mes "Hmm, ahÌ est· el Master Tailor";
+		mes "Hmm, ah√≠ est√° el Master Tailor";
 		mes "quien vende y encanta 'Army Padding'.";
 		next;
 		mes "[Valere]";
-		mes "Tambien est· el Pendant Crafter";
+		mes "Tambien est√° el Pendant Crafter";
 		mes "quien encanta 'Pendant of Guardian'.";
 		next;
 		mes "[Valere]";
@@ -132,7 +132,7 @@ mora,52,138,8	script	Mora Citizen#2	516,{
 		close;
 	case 7:
 		mes "[Valere]";
-		mes "AdiÛs y buena suerte!";
+		mes "Adi√≥s y buena suerte!";
 		close;
 	}
 }
@@ -143,12 +143,12 @@ mora,160,123,5	script	Mora Citizen#3	517,{
 	mes "lejos de casa!";
 	mes "Mora es una ciudad remota.";
 	mes "Es por eso que tenemos";
-	mes "moneda propia aquÌ!";
+	mes "moneda propia aqu√≠!";
 	next;
 	mes "[Boudril]";
-	mes "M·s all· de eso, nuestra comunidad";
-	mes "desarrollÛ este arte.";
-	mes "Los objetos encontrados aquÌ";
+	mes "M√°s all√° de eso, nuestra comunidad";
+	mes "desarroll√≥ este arte.";
+	mes "Los objetos encontrados aqu√≠";
 	mes "no pueden encontrarse en ningun otro lugar!";
 	close;
 }
@@ -156,31 +156,31 @@ mora,160,123,5	script	Mora Citizen#3	517,{
 mora,105,100,3	script	Mora Citizen#4	518,{
 	mes "[Buisso]";
 	mes "Hola, amigo mio.";
-	mes "QuÈ te trae a este";
+	mes "Qu√© te trae a este";
 	mes "lugar, tan lejos de casa?";
-	mes "Est·s buscando un reto?";
-	mes "PodrÌas quedar decepcionado aquÌ!";
+	mes "Est√°s buscando un reto?";
+	mes "Podr√≠as quedar decepcionado aqu√≠!";
 	next;
 	mes "[Buisso]";
 	mes "Estamos rodeado por";
 	mes "Bifrost, una zona con poderosos";
-	mes "y engaÒosos monstruos...";
-	mes "Muy lindos, pero aun asÌ peligrosos.";
+	mes "y enga√±osos monstruos...";
+	mes "Muy lindos, pero aun as√≠ peligrosos.";
 	close;
 }
 
 mora,98,104,4	script	Mora Citizen#5	516,{
 	mes "[Malavida]";
 	mes "...";
-	mes "QuÈ!? Parezco deprimido!?";
-	mes "Es normal viviendo aquÌ!";
-	mes "Mi sueÒo era ser como tu!";
+	mes "Qu√©!? Parezco deprimido!?";
+	mes "Es normal viviendo aqu√≠!";
+	mes "Mi sue√±o era ser como tu!";
 	next;
 	mes "[Malavida]";
 	mes "Viajando alrededor del mundo,";
 	mes "persiguiendo monstruos,";
 	mes "cazando tesoros...";
-	mes "Tu tienes la oportunidad. ⁄sala!";
+	mes "Tu tienes la oportunidad. √ösala!";
 	close;
 }
 
@@ -194,7 +194,7 @@ mora,102,107,6	script	Mora Citizen#6	517,{
 	mes "[Skape]";
 	mes "Si quieres probar este";
 	mes "plato, visita a nuestro chef.";
-	mes "…l hace la mejor";
+	mes "√âl hace la mejor";
 	mes "carne tostada de Mora!";
 	close;
 }
@@ -202,7 +202,7 @@ mora,102,107,6	script	Mora Citizen#6	517,{
 mora,101,107,4	script	Mora Citizen#7	518,{
 	mes "[Wouadel Kami]";
 	mes "*Dances*";
-	mes "Soy coreÛgrafo, pero";
+	mes "Soy core√≥grafo, pero";
 	mes "nadie me entiende.";
 	mes "*doridori*";
 	mes "*bingbing*";
@@ -213,16 +213,16 @@ mora,101,107,4	script	Mora Citizen#7	518,{
 mora,103,100,6	script	Mora Citizen#8	518,{
 	mes "[Didier Lans]";
 	mes "Yooo gaba gaba!";
-	mes "Hola, querido. Has oÌdo";
+	mes "Hola, querido. Has o√≠do";
 	mes "sobre mis lecciones, cierto?";
 	mes "No golpees a tus amigos!";
-	mes "*da pequeÒos pasos hacia atras*";
+	mes "*da peque√±os pasos hacia atras*";
 	next;
 	mes "[Didier Lans]";
 	mes "Yooo gaba gaba!";
-	mes "CÛmete tus verduras.";
+	mes "C√≥mete tus verduras.";
 	mes "*es el tonto*";
-	mes "SÈ inteligente, sÈ educado!";
+	mes "S√© inteligente, s√© educado!";
 	mes "Yooo gaba gaba!";
 	close;
 }
@@ -230,10 +230,10 @@ mora,103,100,6	script	Mora Citizen#8	518,{
 mora,184,169,3	script	Mora Citizen#9	516,{
 	mes "[Moussa Wi]";
 	mes "Bleh, he estado";
-	mes "aquÌ demasiado tiempo.";
+	mes "aqu√≠ demasiado tiempo.";
 	mes "Viviendo con estos perros...";
 	mes "Sin tener nada que hacer...";
-	mes "Hmm, tu cuidarÌas";
+	mes "Hmm, tu cuidar√≠as";
 	mes "de ellos?";
 	close;
 }
@@ -243,7 +243,7 @@ mora,108,182,3	script	Mora Citizen#10	516,{
 	mes "Hola!";
 	mes "Me llamo Yosou Keh,";
 	mes "y vivo en Mora.";
-	mes "El Bifrost est· habitado";
+	mes "El Bifrost est√° habitado";
 	mes "por muchos monstruos fuertes...";
 	close;
 }
@@ -251,16 +251,16 @@ mora,108,182,3	script	Mora Citizen#10	516,{
 mora,113,185,5	script	Mora Citizen#11	516,{
 	mes "[Ninkasi]";
 	mes "Eh, colega.";
-	mes "Como est·s hoy, colega?";
-	mes "QuÈ puedo hacer por tÌ, colega?";
+	mes "Como est√°s hoy, colega?";
+	mes "Qu√© puedo hacer por t√≠, colega?";
 	next;
 	switch(select("Why do you call me 'dude'?:Goodbye.")) {
 	case 1:
 		mes "[Ninkasi]";
-		mes "Por quÈ no?";
-		mes "Llamar a los dem·s 'colega'";
+		mes "Por qu√© no?";
+		mes "Llamar a los dem√°s 'colega'";
 		mes "es mi marca.";
-		mes "Tranquilo, colega, rel·jate!";
+		mes "Tranquilo, colega, rel√°jate!";
 		mes "Disfruta tu vida, colega!";
 		close;
 	case 2:
@@ -273,8 +273,8 @@ mora,113,185,5	script	Mora Citizen#11	516,{
 mora,43,127,4	script	Mora Citizen#12	522,{
 	mes "[Glouti Vori]";
 	mes "Mmm adoro esta carne tostada!";
-	mes "Esa es la unica razÛn por la que";
-	mes "a˙n sigo aqui! No hay nada";
+	mes "Esa es la unica raz√≥n por la que";
+	mes "a√∫n sigo aqui! No hay nada";
 	mes "mejor que la carne tostada de Mora!";
 	close;
 }
@@ -294,7 +294,7 @@ mora,139,102,4	script	Milvida	515,{
 	next;
 	mes "[Milvida]";
 	mes "Al norte de la ciudad";
-	mes "encontrar·s la comida.";
+	mes "encontrar√°s la comida.";
 	close;
 }
 
@@ -316,6 +316,6 @@ mora,131,165,4	script	Bifrost Resident#1	520,{
 	next;
 	mes "[Bifrost resident]";
 	mes "En una nota lateral... Creo que soy";
-	mes "realmente lindo, no est·s de acuerdo?";
+	mes "realmente lindo, no est√°s de acuerdo?";
 	close;
 }

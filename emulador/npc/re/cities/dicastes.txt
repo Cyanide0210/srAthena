@@ -1,4 +1,4 @@
-//===== rAthena Script ======================================= 
+ï»¿//===== rAthena Script ======================================= 
 //= Ciudad El Dicastes
 //===== By: ================================================== 
 //= Gennosuke Kouga
@@ -21,14 +21,14 @@ dicastes01,194,159,5	script	Excited Galten#a	492,{
 		mes "La imagen de Ahat fuera de mi cabeza.";
 		emotion e_lv;
 		mes "Mientras lo tenemos,";
-		mes "esto solo será una una materia de tiempo antes de que Sapha";
+		mes "esto solo serÃ¡ una una materia de tiempo antes de que Sapha";
 		mes "domine esta tierra.";
 		close; }
-	mes "¡ø¢²¢£ ¡Ğ ¡ò¡ğ¡ğ";
-	mes "¡÷¡ø¡ñ ¡ü ¡ü";
-	mes "¡ù¢²¢³ ¢²";
-	mes "¡ó¡õ¡ô ¢£ ¡Ğ¡û¡ü ¡ò ¡ğ¡ö¢£";
-	mes "¢¤¡õ¡ş ¡÷ ¡ñ";
+	mes "Â¡Ã¸Â¢Â²Â¢Â£ Â¡Ã Â¡Ã²Â¡Ã°Â¡Ã°";
+	mes "Â¡Ã·Â¡Ã¸Â¡Ã± Â¡Ã¼ Â¡Ã¼";
+	mes "Â¡Ã¹Â¢Â²Â¢Â³ Â¢Â²";
+	mes "Â¡Ã³Â¡ÃµÂ¡Ã´ Â¢Â£ Â¡ÃÂ¡Ã»Â¡Ã¼ Â¡Ã² Â¡Ã°Â¡Ã¶Â¢Â£";
+	mes "Â¢Â¤Â¡ÃµÂ¡Ã¾ Â¡Ã· Â¡Ã±";
 	close;
 }
 
@@ -38,23 +38,23 @@ dicastes01,201,86,4	script	Sentinel#a	492,{
 		mes "El Dicastes,";
 		mes "cuidad capital de Sapha.";
 		mes "La tierra es bastante rocosa,";
-		mes "así que muchos forasteros no pueden pasar. Haha...";
+		mes "asÃ­ que muchos forasteros no pueden pasar. Haha...";
 		next;
 		mes "[Sentinel]";
 		mes "...";
 		next;
 		mes "[Sentinel]";
-		mes "Eh, tú eres un forastero!";
+		mes "Eh, tÃº eres un forastero!";
 		close; }
-	mes "¡ô¢±¢± ¡û ¡ó¡Ğ¡ñ ¢£ ¢¤¡ú";
-	mes "¡ø¡ó¢² ¢¤ ";
-	mes "¡õ¡ó¡Ğ ¢³ ¡Ğ¡õ¢£ ¡û ¡ú¡ï";
+	mes "Â¡Ã´Â¢Â±Â¢Â± Â¡Ã» Â¡Ã³Â¡ÃÂ¡Ã± Â¢Â£ Â¢Â¤Â¡Ãº";
+	mes "Â¡Ã¸Â¡Ã³Â¢Â² Â¢Â¤ ";
+	mes "Â¡ÃµÂ¡Ã³Â¡Ã Â¢Â³ Â¡ÃÂ¡ÃµÂ¢Â£ Â¡Ã» Â¡ÃºÂ¡Ã¯";
 	next;
 	mes "[Sentinel]";
-	mes "¡ù";
+	mes "Â¡Ã¹";
 	next;
 	mes "[Sentinel]";
-	mes "¡ñ¡ö¡ï ¡ú ¡ó¢³¡ô";
+	mes "Â¡Ã±Â¡Ã¶Â¡Ã¯ Â¡Ãº Â¡Ã³Â¢Â³Â¡Ã´";
 	close;	
 }
 
@@ -63,11 +63,11 @@ dicastes01,194,95,5	script	Sentinel#b	450,{
 	if (isequipped(2782)) {
 		mes "Te permito pasar.";
 		mes "Pero si te atreves a causar problemas,";
-		mes "no sabrás qué te golpeó. ¡Cuidado!";
+		mes "no sabrÃ¡s quÃ© te golpeÃ³. Â¡Cuidado!";
 		close; }
-	mes "¡ø¡ô¡ü ¡ø ¡ó";
-	mes "¡ø¡ï¡û ¡ó ¡û¢¤¢² ¡÷ ¢£";
-	mes "¢¤¡ô¡ø ¢³ ¡÷¡û¡ö ¡õ ¡ø";
+	mes "Â¡Ã¸Â¡Ã´Â¡Ã¼ Â¡Ã¸ Â¡Ã³";
+	mes "Â¡Ã¸Â¡Ã¯Â¡Ã» Â¡Ã³ Â¡Ã»Â¢Â¤Â¢Â² Â¡Ã· Â¢Â£";
+	mes "Â¢Â¤Â¡Ã´Â¡Ã¸ Â¢Â³ Â¡Ã·Â¡Ã»Â¡Ã¶ Â¡Ãµ Â¡Ã¸";
 	close;
 }
 
@@ -79,10 +79,10 @@ dicastes01,252,133,1	script	Training Galten#a	450,{
 		next;
 		mes "[Training Galten]";
 		mes "Hahaha~";
-		mes "Sólo bromeaba. No puedo luchar contra un huésped en nuestra tierra.";
+		mes "SÃ³lo bromeaba. No puedo luchar contra un huÃ©sped en nuestra tierra.";
 		close; }
-	mes "ø¡ô¡ü ¡¡ø¡ô¡ü ¡ø";
-	mes "ô ¡ø";
+	mes "Ã¸Â¡Ã´Â¡Ã¼ Â¡Â¡Ã¸Â¡Ã´Â¡Ã¼ Â¡Ã¸";
+	mes "Ã´ Â¡Ã¸";
 	next;
 	mes "- No puedo entender lo que ella intenta decir. -";
 	close;
@@ -96,12 +96,12 @@ dicastes01,272,166,0	script	Training Galten#b	450,{
 		next;
 		mes "[Training Galten]";
 		mes "Hahaha~";
-		mes "Sólo bromeaba. No puedo luchar contra un huésped en nuestra tierra.";
+		mes "SÃ³lo bromeaba. No puedo luchar contra un huÃ©sped en nuestra tierra.";
 		close; }
-	mes "¡ø¡ô¡ü ¡ø";
-	mes "¡ø¡ô¡ü ¡ø ¡ø¡ô¡ü ¡ø ¡ø¡ô¡ü ¡ø";
+	mes "Â¡Ã¸Â¡Ã´Â¡Ã¼ Â¡Ã¸";
+	mes "Â¡Ã¸Â¡Ã´Â¡Ã¼ Â¡Ã¸ Â¡Ã¸Â¡Ã´Â¡Ã¼ Â¡Ã¸ Â¡Ã¸Â¡Ã´Â¡Ã¼ Â¡Ã¸";
 	next;
-	mes "- No puedo entender lo que él intenta decir. -";
+	mes "- No puedo entender lo que Ã©l intenta decir. -";
 	close;
 }
 
@@ -111,34 +111,34 @@ dicastes01,244,166,0	script	Training Galten#c	450,{
 		mes "Me pregunto si Ahat sabe";
 		mes "lo duro que he estado entrenando.";
 		close; }
-	mes "¡ø¡ô¡ü ¡ø ¡ø¡ô¡ü ¡ø";
-	mes "¡ø¡ô¡ü ¡ø";
+	mes "Â¡Ã¸Â¡Ã´Â¡Ã¼ Â¡Ã¸ Â¡Ã¸Â¡Ã´Â¡Ã¼ Â¡Ã¸";
+	mes "Â¡Ã¸Â¡Ã´Â¡Ã¼ Â¡Ã¸";
 	next;
-	mes "- No puedo entender lo que él intenta decir. -";
+	mes "- No puedo entender lo que Ã©l intenta decir. -";
 	close;
 }
 
 dicastes01,234,158,0	script	Training Galten#d	450,{
 	mes "[Training Galten]";
 	if (isequipped(2782)) {
-		mes "Estaré listo para cualquier cosa.";
-		mes "si mantengo mi entrenamiento todos los días.";
+		mes "EstarÃ© listo para cualquier cosa.";
+		mes "si mantengo mi entrenamiento todos los dÃ­as.";
 		close; }
-	mes "¡ø¡ô¡ü ¡ø ¡ø¡ô¡ü";
-	mes "¡ø¡ô¡ü ¡ø¡ ø¡ô¡ü ¡ø";
+	mes "Â¡Ã¸Â¡Ã´Â¡Ã¼ Â¡Ã¸ Â¡Ã¸Â¡Ã´Â¡Ã¼";
+	mes "Â¡Ã¸Â¡Ã´Â¡Ã¼ Â¡Ã¸Â¡ Ã¸Â¡Ã´Â¡Ã¼ Â¡Ã¸";
 	next;
-	mes "- No puedo entender lo que él intenta decir. -";
+	mes "- No puedo entender lo que Ã©l intenta decir. -";
 	close;
 }
 
 dic_in01,349,282,4	script	Waiting Galten#in_1	492,{
 	mes "[Waiting Galten]";
 	if (isequipped(2782)) {
-		mes "Aquí esta la Estación de Combate.";
-		mes "Todos estamos tensos y listos para la acción.";
+		mes "AquÃ­ esta la EstaciÃ³n de Combate.";
+		mes "Todos estamos tensos y listos para la acciÃ³n.";
 		close;	 }
-	mes "¡ñ¡õ¡ü ¢£ ¡ó";
-	mes "¢¤¡ó¡õ ¢£ ¢£¡ò¡ô ¡ö ¡ú¢¤¡ú ¢¤ ¡ò¡ö¡õ ¢¤";
+	mes "Â¡Ã±Â¡ÃµÂ¡Ã¼ Â¢Â£ Â¡Ã³";
+	mes "Â¢Â¤Â¡Ã³Â¡Ãµ Â¢Â£ Â¢Â£Â¡Ã²Â¡Ã´ Â¡Ã¶ Â¡ÃºÂ¢Â¤Â¡Ãº Â¢Â¤ Â¡Ã²Â¡Ã¶Â¡Ãµ Â¢Â¤";
 	close;
 }
 
@@ -147,7 +147,7 @@ dic_in01,370,261,1	script	Waiting Galten#in_2	492,{
 	if (isequipped(2782)) {
 		mes "Aburrido.";
 		close; }
-	mes "¡ù¢¤¢±";
+	mes "Â¡Ã¹Â¢Â¤Â¢Â±";
 	close;
 }
 
@@ -156,16 +156,16 @@ dic_in01,381,261,1	script	Waiting Galten#in_3	492,{
 	if (isequipped(2782)) {
 		mes "Zzzzz...";
 		close; }
-	mes "¡ú¡ô";
+	mes "Â¡ÃºÂ¡Ã´";
 	close;
 }
 
 dic_in01,370,282,4	script	Waiting Galten#in_4	492,{
 	mes "[Waiting Galten]";
 	if (isequipped(2782)) {
-		mes "El Dicastes el es lugar mas pacífico del mundo mientras yo esté en él";
+		mes "El Dicastes el es lugar mas pacÃ­fico del mundo mientras yo estÃ© en Ã©l";
 		close; }
-	mes "¡ï¡ï¢³ ¡ş ¡ö¢³¢£ ¢± ¢³¡û¡õ ¡ø ¡ş¡ï¡ï ¡ø ¡û";
+	mes "Â¡Ã¯Â¡Ã¯Â¢Â³ Â¡Ã¾ Â¡Ã¶Â¢Â³Â¢Â£ Â¢Â± Â¢Â³Â¡Ã»Â¡Ãµ Â¡Ã¸ Â¡Ã¾Â¡Ã¯Â¡Ã¯ Â¡Ã¸ Â¡Ã»";
 	close;
 }
 
@@ -174,47 +174,47 @@ dic_in01,354,219,4	script	Resting Galten#in_5	492,{
 	if (isequipped(2782)) {
 		mes "Descansar es siempre tan dulce.";
 		close; }
-	mes "¡ï¡õ¡ù ¡ö ¡ò¡ğ¢² ¢³ ¡ö";
+	mes "Â¡Ã¯Â¡ÃµÂ¡Ã¹ Â¡Ã¶ Â¡Ã²Â¡Ã°Â¢Â² Â¢Â³ Â¡Ã¶";
 	close;
 }
 
 dic_in01,365,197,1	script	Resting Galten#in_6	492,{
 	mes "[Resting Galten]";
 	if (isequipped(2782)) {
-		mes "Galten también puede descansar mientras está de pie como ahora.";
+		mes "Galten tambiÃ©n puede descansar mientras estÃ¡ de pie como ahora.";
 		next;
 		mes "[Resting Galten]";
 		mes "Dices que no parece que este descansando? Pero yo ya estoy acostumbrado a esto.";
 		close; }
-	mes "¡ô¡ï¢¤ ¡ö ¡ù¡ğ¡ñ ¡ü ¡ó¡û¡û";
-	mes "¡ï¢£¡ó ¡ù ¢³¡ô¡ğ ¢£ ¡Ğ¡û¡ô ¡ô ¡Ğ¡ú¡ù ¡ô ¡ó";
+	mes "Â¡Ã´Â¡Ã¯Â¢Â¤ Â¡Ã¶ Â¡Ã¹Â¡Ã°Â¡Ã± Â¡Ã¼ Â¡Ã³Â¡Ã»Â¡Ã»";
+	mes "Â¡Ã¯Â¢Â£Â¡Ã³ Â¡Ã¹ Â¢Â³Â¡Ã´Â¡Ã° Â¢Â£ Â¡ÃÂ¡Ã»Â¡Ã´ Â¡Ã´ Â¡ÃÂ¡ÃºÂ¡Ã¹ Â¡Ã´ Â¡Ã³";
 	close;
 }
 
 dic_in01,29,119,4	script	Resting Piom#04	489,{
 	mes "[Resting Piom]";
 	if (isequipped(2782)) {
-		mes "Por qué siempre hay tanto ruido cuando intento descansar?";
+		mes "Por quÃ© siempre hay tanto ruido cuando intento descansar?";
 		close; }
-	mes "¡ü¢²¡ğ ¡Ğ ¡ò¡ø¢² ¡ô ¢²¡õ";
+	mes "Â¡Ã¼Â¢Â²Â¡Ã° Â¡Ã Â¡Ã²Â¡Ã¸Â¢Â² Â¡Ã´ Â¢Â²Â¡Ãµ";
 	close;
 }
 
 dic_in01,91,113,5	script	Suspicious Piom#a	489,{
 	mes "[Suspicious Piom]";
 	if (isequipped(2782)) {
-		mes "Has oído algo acerca";
+		mes "Has oÃ­do algo acerca";
 		mes "del rumor sobre Ahat?";
 		next;
-		if(select("No!:Tú primero.")==2) {
+		if(select("No!:TÃº primero.")==2) {
 			mes "[Suspicious Piom]";
 			mes "No importa.";
 			close; }
 		mes "[Suspicious Piom]";
 		mes "Oh, sabes algo?";
-		mes "Necesito recoger información.";
-		mes "Tú primero.";
-		mes "Has oído el rumor, verdad?";
+		mes "Necesito recoger informaciÃ³n.";
+		mes "TÃº primero.";
+		mes "Has oÃ­do el rumor, verdad?";
 		next;
 		if(select("Algo no me huele bien?:Si tu no sueltas prenda yo tampoco!")==2) {
 			mes "[Suspicious Piom]";
@@ -224,12 +224,12 @@ dic_in01,91,113,5	script	Suspicious Piom#a	489,{
 		mes "[Suspicious Piom]";
 		mes "Yo tampoco pienso decir nada!";
 		close; }
-	mes "¡ó¢³¡ó ¡ó ¡ó¡ş¡ö";
-	mes "¡õ ¢³¢²¡÷ ¡ó¡ó";
+	mes "Â¡Ã³Â¢Â³Â¡Ã³ Â¡Ã³ Â¡Ã³Â¡Ã¾Â¡Ã¶";
+	mes "Â¡Ãµ Â¢Â³Â¢Â²Â¡Ã· Â¡Ã³Â¡Ã³";
 	next;
-	if(select("No puedo contar lo que significa:Es esto una maldición?")==2) {
+	if(select("No puedo contar lo que significa:Es esto una maldiciÃ³n?")==2) {
 		mes "[Suspicious Piom]";
-		mes "¡ó ¡ó ¡ó¡ş¡ö.";
+		mes "Â¡Ã³ Â¡Ã³ Â¡Ã³Â¡Ã¾Â¡Ã¶.";
 		close; }
 	mes "[Suspicious Piom]";
 	mes "Vete humano!";
@@ -240,30 +240,30 @@ dic_in01,168,116,5	script	Tired Piom#c	491,{
 	mes "[Tired Piom]";
 	if (isequipped(2782)) {
 		mes "Si necesitas alguna";
-		mes "información, deberías probar";
-		mes "suerte con el Mercader de Gatos en vez de vagar por aquí.";
-		mes "Pero por supuesto deberás pagar el precio.";
+		mes "informaciÃ³n, deberÃ­as probar";
+		mes "suerte con el Mercader de Gatos en vez de vagar por aquÃ­.";
+		mes "Pero por supuesto deberÃ¡s pagar el precio.";
 		close; }
-	mes "¡ş¡õ¡ğ ¢³ ¢³¡ş";
-	mes "¡ş¡ø¡ğ ¡ö ¡ñ¡ú¡ğ ¡ò";
-	mes "¡ï¡ñ¡ú ¡ô ¡ö¡ö¡ò ¡û ¡ó¢¤¡ø ¡ø ¢² ¡ø";
-	mes "¢¤¢²¡ø ¡ò ¡ú¡ó¢±";
+	mes "Â¡Ã¾Â¡ÃµÂ¡Ã° Â¢Â³ Â¢Â³Â¡Ã¾";
+	mes "Â¡Ã¾Â¡Ã¸Â¡Ã° Â¡Ã¶ Â¡Ã±Â¡ÃºÂ¡Ã° Â¡Ã²";
+	mes "Â¡Ã¯Â¡Ã±Â¡Ãº Â¡Ã´ Â¡Ã¶Â¡Ã¶Â¡Ã² Â¡Ã» Â¡Ã³Â¢Â¤Â¡Ã¸ Â¡Ã¸ Â¢Â² Â¡Ã¸";
+	mes "Â¢Â¤Â¢Â²Â¡Ã¸ Â¡Ã² Â¡ÃºÂ¡Ã³Â¢Â±";
 	close;
 }
 
 dic_in01,149,104,5	script	Tired Piom#b	455,{
 	mes "[Tired Piom]";
 	if (isequipped(2782)) {
-		mes "Me siento tan rígido ...";
+		mes "Me siento tan rÃ­gido ...";
 		mes "Voy a necesitar otra dosis de Bradium.";
-		mes "Los efectos son más debiles que antes,";
-		mes "o solo me lo parece a mí?";
+		mes "Los efectos son mÃ¡s debiles que antes,";
+		mes "o solo me lo parece a mÃ­?";
 		emotion e_what;
 		close; }
-	mes "¡ğ¡Ğ¡ú ¡ø ¢²";
-	mes "¡ö¡õ¡ó ¢¤ ¡ò¡ò¢³ ¡ô ¡ô¡ó¡ñ";
-	mes "¢£¡ñ¡ş ¡ü ¢²¡û¡ó ¡ò ¡ğ¡ş";
-	mes "¡ö¡ú¡ñ ¢³";
+	mes "Â¡Ã°Â¡ÃÂ¡Ãº Â¡Ã¸ Â¢Â²";
+	mes "Â¡Ã¶Â¡ÃµÂ¡Ã³ Â¢Â¤ Â¡Ã²Â¡Ã²Â¢Â³ Â¡Ã´ Â¡Ã´Â¡Ã³Â¡Ã±";
+	mes "Â¢Â£Â¡Ã±Â¡Ã¾ Â¡Ã¼ Â¢Â²Â¡Ã»Â¡Ã³ Â¡Ã² Â¡Ã°Â¡Ã¾";
+	mes "Â¡Ã¶Â¡ÃºÂ¡Ã± Â¢Â³";
 	emotion e_what;
 	close;
 }
@@ -272,28 +272,28 @@ dic_in01,341,113,3	script	Tired Piom#a	491,{
 	mes "[Tired Piom]";
 	if (isequipped(2782)) {
 		mes "Creo que me veo mejor en";
-		mes "túnica que de cuero.";
+		mes "tÃºnica que de cuero.";
 		mes "Puede que tenga que cambiar para hacer punto.";
-		mes "Pero creo que a mi me va más la minería.";
+		mes "Pero creo que a mi me va mÃ¡s la minerÃ­a.";
 		next;
 		mes "[Tired Piom]";
 		mes "...";
 		next;
 		emotion e_swt;
 		mes "[Tired Piom]";
-		mes "Seré rechazado de nuevo, verdad?";
+		mes "SerÃ© rechazado de nuevo, verdad?";
 		close; }
-	mes "¡÷¡ò¡û ¡ó ¡ó¡Ğ¢±";
-	mes "¡ó¡õ¡ù ¡ş ¡ò¢±¡ñ ¡õ ¢£";
-	mes "¡ü¡ğ¢¤ ¡ù ¡ò¡ô¡õ ¡ò ¡ñ";
-	mes "¢³¡ú¢³ ¡Ğ ¡ñ¡õ¡ù ¡÷ ¡÷¢±";
+	mes "Â¡Ã·Â¡Ã²Â¡Ã» Â¡Ã³ Â¡Ã³Â¡ÃÂ¢Â±";
+	mes "Â¡Ã³Â¡ÃµÂ¡Ã¹ Â¡Ã¾ Â¡Ã²Â¢Â±Â¡Ã± Â¡Ãµ Â¢Â£";
+	mes "Â¡Ã¼Â¡Ã°Â¢Â¤ Â¡Ã¹ Â¡Ã²Â¡Ã´Â¡Ãµ Â¡Ã² Â¡Ã±";
+	mes "Â¢Â³Â¡ÃºÂ¢Â³ Â¡Ã Â¡Ã±Â¡ÃµÂ¡Ã¹ Â¡Ã· Â¡Ã·Â¢Â±";
 	next;
 	mes "[Tired Piom]";
-	mes "¡ş";
+	mes "Â¡Ã¾";
 	next;
 	emotion e_swt;
 	mes "[Tired Piom]";
-	mes "¡ø¡ú¡ø ¢± ¡ö¡ò";
+	mes "Â¡Ã¸Â¡ÃºÂ¡Ã¸ Â¢Â± Â¡Ã¶Â¡Ã²";
 	close;
 }
 
@@ -302,17 +302,17 @@ dic_in01,252,103,3	script	Eating Adventurer#tre	711,{
 	mes "Eh, tienes algunas raciones de emergencia de Midgard contigo?";
 	next;
 	mes "[Eating Adventurer]";
-	mes "He venido todo el camino hasta aquí con el estómago vacío porque";
-	mes "Escuché que habia un pub de Midgar, pero";
-	mes "yo nunca había probado esta comida";				
+	mes "He venido todo el camino hasta aquÃ­ con el estÃ³mago vacÃ­o porque";
+	mes "EscuchÃ© que habia un pub de Midgar, pero";
+	mes "yo nunca habÃ­a probado esta comida";				
 	mes "en ninguna parte de Midgard.";
 	next;
 	mes "[Eating Adventurer]";
-	mes "No, Estoy seguro de que nadie en Midgard querría probar esto.";
+	mes "No, Estoy seguro de que nadie en Midgard querrÃ­a probar esto.";
 	next;
 	mes "[Eating Adventurer]";
-	mes "Realmente querría una comida calentita y rica.";
-	mes "Vengo de un genial y pequeño restaurante cercano a Geffen, y ahora mismo lo echo de menos.";
+	mes "Realmente querrÃ­a una comida calentita y rica.";
+	mes "Vengo de un genial y pequeÃ±o restaurante cercano a Geffen, y ahora mismo lo echo de menos.";
 	close;
 }
 
@@ -322,8 +322,8 @@ dic_in01,32,54,5	script	Venknick#el_01	449,{
 		mes "Oh, me siento tan renovado.";
 		mes "El Brandium refinado es el mejor sin duda. Quieres probar un poco?";
 		close; }
-	mes "¡ù¡ó¢¤ ¢± ¢£";
-	mes "¡õ¡ş¡ï ¢£ ¡÷¡÷¢¤ ¡ú ¡ó¡ñ¡ö ¢² ¡ş¢²¢¤ ¢² ¢£?";
+	mes "Â¡Ã¹Â¡Ã³Â¢Â¤ Â¢Â± Â¢Â£";
+	mes "Â¡ÃµÂ¡Ã¾Â¡Ã¯ Â¢Â£ Â¡Ã·Â¡Ã·Â¢Â¤ Â¡Ãº Â¡Ã³Â¡Ã±Â¡Ã¶ Â¢Â² Â¡Ã¾Â¢Â²Â¢Â¤ Â¢Â² Â¢Â£?";
 	close;
 }
 
@@ -333,90 +333,90 @@ dic_in01,372,116,3	script	Thrilled Piom#a	490,{
 		mes "Ahat es el elegido";
 		mes "y el orgullo Sapha.";
 		mes "Tenemos un monton de Brandium";
-		mes "y todo gracias a él!";
+		mes "y todo gracias a Ã©l!";
 		next;
 		mes "[Thrilled Piom]";
 		mes "...";
 		next;
 		mes "[Thrilled Piom]";
 		mes "No sientes su";
-		mes "bendición?";
+		mes "bendiciÃ³n?";
 		close; }
-	mes "¡ò¡õ¢³ ¡õ ¡ô";
-	mes "¢£¡ó¡ø ¢² ¡ô¡÷";
-	mes "¡ò¡ô¢³ ¡ù ¢±¡ó¢± ¡õ";
-	mes "¡ó¡ü¡Ğ ¡ø ¢²¡ü¡Ğ ¡õ ¡ï";
+	mes "Â¡Ã²Â¡ÃµÂ¢Â³ Â¡Ãµ Â¡Ã´";
+	mes "Â¢Â£Â¡Ã³Â¡Ã¸ Â¢Â² Â¡Ã´Â¡Ã·";
+	mes "Â¡Ã²Â¡Ã´Â¢Â³ Â¡Ã¹ Â¢Â±Â¡Ã³Â¢Â± Â¡Ãµ";
+	mes "Â¡Ã³Â¡Ã¼Â¡Ã Â¡Ã¸ Â¢Â²Â¡Ã¼Â¡Ã Â¡Ãµ Â¡Ã¯";
 	next;
 	mes "[Thrilled Piom]";
-	mes "¢£";
+	mes "Â¢Â£";
 	next;
 	mes "[Thrilled Piom]";
-	mes "¡Ğ¢¤¡ù ¢£ ¡ó¡ó";
-	mes "¡ù¡ó¡÷ ¡û ¡ş¡ô";
+	mes "Â¡ÃÂ¢Â¤Â¡Ã¹ Â¢Â£ Â¡Ã³Â¡Ã³";
+	mes "Â¡Ã¹Â¡Ã³Â¡Ã· Â¡Ã» Â¡Ã¾Â¡Ã´";
 	close;
 }
 
 dic_in01,360,125,5	script	Serious Venknicka	449,{
 	mes "[Serious Venknick]";
 	if (isequipped(2782)) {
-		mes "Un aumento repentino en la producción Bradium.";
-		mes "Por qué?";
-		mes "Tendré que abrir nuevas fábricas.";
+		mes "Un aumento repentino en la producciÃ³n Bradium.";
+		mes "Por quÃ©?";
+		mes "TendrÃ© que abrir nuevas fÃ¡bricas.";
 		close; }
-	mes "¡û¡õ¡ñ ¢² ¢²¢¤¡Ğ ¢² ¡ü¡ñ¡õ";
-	mes "¡ş¡ó¡ö ¢²";
-	mes "¡ö¡÷¡û ¡ú ¡÷¡Ğ¢³ ¢³";
+	mes "Â¡Ã»Â¡ÃµÂ¡Ã± Â¢Â² Â¢Â²Â¢Â¤Â¡Ã Â¢Â² Â¡Ã¼Â¡Ã±Â¡Ãµ";
+	mes "Â¡Ã¾Â¡Ã³Â¡Ã¶ Â¢Â²";
+	mes "Â¡Ã¶Â¡Ã·Â¡Ã» Â¡Ãº Â¡Ã·Â¡ÃÂ¢Â³ Â¢Â³";
 	close;
 }
 
 dic_in01,42,250,5	script	Guide#diel_1	489,{
 	if (ep13_3_invite == 5) {
-		mes "[Guía]";
+		mes "[GuÃ­a]";
 		if (isequipped(2782)) {
-			mes "Soy Dior, tu perfecto guía para El Dicastes.";
-			mes "Cómo puedo ayudarte?";
+			mes "Soy Dior, tu perfecto guÃ­a para El Dicastes.";
+			mes "CÃ³mo puedo ayudarte?";
 			next;
-			mes "[Guía]";
-			mes "Usted puede presentar sus denuncias civiles aquí.";
-			mes "Los Servicios Civiles y la zona de El Dicastes son controladas en la Habitación de Situación, en el piso de arriba.";
+			mes "[GuÃ­a]";
+			mes "Usted puede presentar sus denuncias civiles aquÃ­.";
+			mes "Los Servicios Civiles y la zona de El Dicastes son controladas en la HabitaciÃ³n de SituaciÃ³n, en el piso de arriba.";
 			next;
-			mes "[Guía]";
-			mes "La Oficina de Aministración está en el último piso y trata asuntos importantes.";
-			mes "La Habitación del Archivo está en el nivel más bajo. Allí podrás obtener una gran cantidad de información.";
+			mes "[GuÃ­a]";
+			mes "La Oficina de AministraciÃ³n estÃ¡ en el Ãºltimo piso y trata asuntos importantes.";
+			mes "La HabitaciÃ³n del Archivo estÃ¡ en el nivel mÃ¡s bajo. AllÃ­ podrÃ¡s obtener una gran cantidad de informaciÃ³n.";
 			next;
-			mes "[Guía]";
-			mes "Por cierto, puedes usar el ascensor de detrás para ir a las otras plantas.";
+			mes "[GuÃ­a]";
+			mes "Por cierto, puedes usar el ascensor de detrÃ¡s para ir a las otras plantas.";
 			next;
-			mes "[Guía]";
+			mes "[GuÃ­a]";
 			mes "Oh, no preguntaste?";
-			mes "Pero desde que soy Dior, el perfecto guía...";
+			mes "Pero desde que soy Dior, el perfecto guÃ­a...";
 			close; }
-		mes "¡õ¢£¡ó ¡Ğ ¡õ¡ñ¡ò ¢¤ ¡ø¡ø¢£ ¢± ¢²¢³¡÷ ¢±";
-		mes "¡ö¡ò¡ğ ¡ó ¡ô¡ô?";
+		mes "Â¡ÃµÂ¢Â£Â¡Ã³ Â¡Ã Â¡ÃµÂ¡Ã±Â¡Ã² Â¢Â¤ Â¡Ã¸Â¡Ã¸Â¢Â£ Â¢Â± Â¢Â²Â¢Â³Â¡Ã· Â¢Â±";
+		mes "Â¡Ã¶Â¡Ã²Â¡Ã° Â¡Ã³ Â¡Ã´Â¡Ã´?";
 		next;
-		mes "[Guía]";
-		mes "¡Ğ¡ù¡ó ¡ù ¡ü¢²¡Ğ ¢± ¡÷¡ö¡ş";
-		mes "¡ñ¡ş¢² ¡ø ¡ó¡ï¡ï ¡ù ¡ğ¡ñ¡Ğ ¡ù ¢³¡ò¡ş ¡ù ¡ø¡ğ¡õ ¡õ ¢¤";
+		mes "[GuÃ­a]";
+		mes "Â¡ÃÂ¡Ã¹Â¡Ã³ Â¡Ã¹ Â¡Ã¼Â¢Â²Â¡Ã Â¢Â± Â¡Ã·Â¡Ã¶Â¡Ã¾";
+		mes "Â¡Ã±Â¡Ã¾Â¢Â² Â¡Ã¸ Â¡Ã³Â¡Ã¯Â¡Ã¯ Â¡Ã¹ Â¡Ã°Â¡Ã±Â¡Ã Â¡Ã¹ Â¢Â³Â¡Ã²Â¡Ã¾ Â¡Ã¹ Â¡Ã¸Â¡Ã°Â¡Ãµ Â¡Ãµ Â¢Â¤";
 		next;
-		mes "[Guía]";
-		mes "¡û¡ù¡ô ¡ø ¡ğ¡ş¡÷ ¢³ ¡ş¡ù¡ñ ¡ú ¡ü¢¤¡ò ¡ú ¡ô¢£";
-		mes "¡÷¡ò¢¤ ¡ø ¡û¢³";
+		mes "[GuÃ­a]";
+		mes "Â¡Ã»Â¡Ã¹Â¡Ã´ Â¡Ã¸ Â¡Ã°Â¡Ã¾Â¡Ã· Â¢Â³ Â¡Ã¾Â¡Ã¹Â¡Ã± Â¡Ãº Â¡Ã¼Â¢Â¤Â¡Ã² Â¡Ãº Â¡Ã´Â¢Â£";
+		mes "Â¡Ã·Â¡Ã²Â¢Â¤ Â¡Ã¸ Â¡Ã»Â¢Â³";
 		next;
-		mes "[Guía]";
-		mes "¡ô¡ğ¡ñ ¢¤ ¡ó¡÷¢³ ¡ş ¡ó¡õ¡÷ ¡ö ¡ó ¡ö";
+		mes "[GuÃ­a]";
+		mes "Â¡Ã´Â¡Ã°Â¡Ã± Â¢Â¤ Â¡Ã³Â¡Ã·Â¢Â³ Â¡Ã¾ Â¡Ã³Â¡ÃµÂ¡Ã· Â¡Ã¶ Â¡Ã³ Â¡Ã¶";
 		next;
-		mes "[Guía]";
-		mes "¡ò¡ô¡ø ¡÷ ¡õ¡ø¡ğ ¡ó ¢¤¡Ğ¡ô ¡ø ¡ñ¡ñ¡ñ ¡ø ¡ú¡ö¡ø ¡ü";
-		mes "¡ï¢³¡ğ ¢¤ ¡ğ¡ö¢£ ¢± ¡ô¡ø";
+		mes "[GuÃ­a]";
+		mes "Â¡Ã²Â¡Ã´Â¡Ã¸ Â¡Ã· Â¡ÃµÂ¡Ã¸Â¡Ã° Â¡Ã³ Â¢Â¤Â¡ÃÂ¡Ã´ Â¡Ã¸ Â¡Ã±Â¡Ã±Â¡Ã± Â¡Ã¸ Â¡ÃºÂ¡Ã¶Â¡Ã¸ Â¡Ã¼";
+		mes "Â¡Ã¯Â¢Â³Â¡Ã° Â¢Â¤ Â¡Ã°Â¡Ã¶Â¢Â£ Â¢Â± Â¡Ã´Â¡Ã¸";
 		close; }
-	mes "- El guía te mira con una expresión de alerta. -";
+	mes "- El guÃ­a te mira con una expresiÃ³n de alerta. -";
 	close;
 }
 
 dic_in01,326,37,0	script	Talkative Piom#a	454,{
 	mes "[Talkative Piom]";
 	if (isequipped(2782)) {	
-		mes "En mi fábrica";
+		mes "En mi fÃ¡brica";
 		mes "pero no solo refinamos Bradium,";
 		mes "sino que tambien creamos varios";
 		mes "instrumentos de a diario.";
@@ -425,23 +425,23 @@ dic_in01,326,37,0	script	Talkative Piom#a	454,{
 		mes "Somos fabricantes de armamento";
 		mes "aqui tambien.";
 		close; }
-	mes "¡ü¡ù¢± ¢³";
-	mes "¡÷¡ø¡ï ¡ş ¡ó¡ó";
-	mes "¡ñ¡õ¡ò ¡ó ¡÷¡ü¡ù ¡ö";
-	mes "¡ñ¡ø¡ü ¡ú ¡ô";
-	mes "¡ş¡ú¡ò ¢± ¡û¡ò¡ò ¡ù ¡÷";
-	mes "¢³¡ò¡ò ¡ù ¢±¢£¡ò";
+	mes "Â¡Ã¼Â¡Ã¹Â¢Â± Â¢Â³";
+	mes "Â¡Ã·Â¡Ã¸Â¡Ã¯ Â¡Ã¾ Â¡Ã³Â¡Ã³";
+	mes "Â¡Ã±Â¡ÃµÂ¡Ã² Â¡Ã³ Â¡Ã·Â¡Ã¼Â¡Ã¹ Â¡Ã¶";
+	mes "Â¡Ã±Â¡Ã¸Â¡Ã¼ Â¡Ãº Â¡Ã´";
+	mes "Â¡Ã¾Â¡ÃºÂ¡Ã² Â¢Â± Â¡Ã»Â¡Ã²Â¡Ã² Â¡Ã¹ Â¡Ã·";
+	mes "Â¢Â³Â¡Ã²Â¡Ã² Â¡Ã¹ Â¢Â±Â¢Â£Â¡Ã²";
 	close;
 }
 
 dic_in01,351,35,7	script	Manuk Piom#a	454,{
 	mes "[Manuk Piom]";
 	if (isequipped(2782)) {
-		mes "Tú! nos conocimos en Manuk, cierto?";
-		mes "Vengo a recoge el arma que encargué.";
+		mes "TÃº! nos conocimos en Manuk, cierto?";
+		mes "Vengo a recoge el arma que encarguÃ©.";
 		close; }
-	mes "¡ü¡ó¡ş ¡ó ¡ï¡ğ¢¤ ¡ü ¡ğ¢±";
-	mes "¡ù¡ô¡ï ¡ú ¡ñ¡ù¢³ ¡ó ¡ò¡ö¡ó ¡ô¡ô";
+	mes "Â¡Ã¼Â¡Ã³Â¡Ã¾ Â¡Ã³ Â¡Ã¯Â¡Ã°Â¢Â¤ Â¡Ã¼ Â¡Ã°Â¢Â±";
+	mes "Â¡Ã¹Â¡Ã´Â¡Ã¯ Â¡Ãº Â¡Ã±Â¡Ã¹Â¢Â³ Â¡Ã³ Â¡Ã²Â¡Ã¶Â¡Ã³ Â¡Ã´Â¡Ã´";
 	close;
 }
 
@@ -451,43 +451,43 @@ dicastes01,282,210,4	script	Free Knit#a	453,{
 		mes "Siempre que tengamos un firme";
 		mes "suministro de Bradium,";
 		mes "los Saphas pueden vivir para siempre.";
-		mes "Nuestra infancia dura 10 años,";
+		mes "Nuestra infancia dura 10 aÃ±os,";
 		mes "lo que es poco.";
 		close; }
-	mes "¡ñ¡ş¡ğ ¡ó ¡ü¡ò¡ö ¡÷";
-	mes "¢³¡ğ¡ï ¢£ ¡ù¡ô¡ò ¡ô ¡ó¡ş¡ñ ¢² ¡ñ¡û¢£ ¢²";
-	mes "¡ô¡ó¡ğ ¡ş ¢£¡ğ¢¤ ¡õ ¡û¢³¡ü";
-	mes "¡ó¢³¡ò ¢± ¡ô¢£¢² ¡÷ ¡÷¡ñ";
-	mes "¡ò¢²¡ï ¢£ ¡ö¡ö";
+	mes "Â¡Ã±Â¡Ã¾Â¡Ã° Â¡Ã³ Â¡Ã¼Â¡Ã²Â¡Ã¶ Â¡Ã·";
+	mes "Â¢Â³Â¡Ã°Â¡Ã¯ Â¢Â£ Â¡Ã¹Â¡Ã´Â¡Ã² Â¡Ã´ Â¡Ã³Â¡Ã¾Â¡Ã± Â¢Â² Â¡Ã±Â¡Ã»Â¢Â£ Â¢Â²";
+	mes "Â¡Ã´Â¡Ã³Â¡Ã° Â¡Ã¾ Â¢Â£Â¡Ã°Â¢Â¤ Â¡Ãµ Â¡Ã»Â¢Â³Â¡Ã¼";
+	mes "Â¡Ã³Â¢Â³Â¡Ã² Â¢Â± Â¡Ã´Â¢Â£Â¢Â² Â¡Ã· Â¡Ã·Â¡Ã±";
+	mes "Â¡Ã²Â¢Â²Â¡Ã¯ Â¢Â£ Â¡Ã¶Â¡Ã¶";
 	close;
 }
 
 dicastes01,246,210,4	script	Free Venknick#a	449,{
 	mes "[Free Venknick]";
 	if (isequipped(2782)) {
-		mes "Por lo menos tenemos un montón de Bradium.";
+		mes "Por lo menos tenemos un montÃ³n de Bradium.";
 		mes "Mira,";
 		mes "puedes ver el Bradium";
-		mes "allá donde vayas.";
+		mes "allÃ¡ donde vayas.";
 		next;
 		mes "[Free Venknick]";
 		mes "?";
 		next;
 		mes "[Free Venknick]";
 		mes "Lo que rueda es una gema,";
-		mes "pero qué es lo que a ti te interesa?";
+		mes "pero quÃ© es lo que a ti te interesa?";
 		close; }
-	mes "¡ô¡ï¢£ ¢¤ ¡÷¡õ¢± ¡ü ¡ñ¡õ";
-	mes "¡ü¢³";
-	mes "¡ö¡ù¢¤ ¢² ¡ù¡ó¡ô";
-	mes "¡ü¢£¢³ ¡ø ¡û¡ğ¡ü ¡õ";
+	mes "Â¡Ã´Â¡Ã¯Â¢Â£ Â¢Â¤ Â¡Ã·Â¡ÃµÂ¢Â± Â¡Ã¼ Â¡Ã±Â¡Ãµ";
+	mes "Â¡Ã¼Â¢Â³";
+	mes "Â¡Ã¶Â¡Ã¹Â¢Â¤ Â¢Â² Â¡Ã¹Â¡Ã³Â¡Ã´";
+	mes "Â¡Ã¼Â¢Â£Â¢Â³ Â¡Ã¸ Â¡Ã»Â¡Ã°Â¡Ã¼ Â¡Ãµ";
 	next;
 	mes "[Free Venknick]";
-	mes "¡ù";
+	mes "Â¡Ã¹";
 	next;
 	mes "[Free Venknick]";
-	mes "¡ş¢¤¢£ ¢± ¡ó¡ò¢³ ¡ü ¡ñ¡ğ";
-	mes "¢±¡û¢£ ¡ö ¡ü¡ò¡÷ ¡û ¡õ¡ò¡÷ ¢²¢²";
+	mes "Â¡Ã¾Â¢Â¤Â¢Â£ Â¢Â± Â¡Ã³Â¡Ã²Â¢Â³ Â¡Ã¼ Â¡Ã±Â¡Ã°";
+	mes "Â¢Â±Â¡Ã»Â¢Â£ Â¡Ã¶ Â¡Ã¼Â¡Ã²Â¡Ã· Â¡Ã» Â¡ÃµÂ¡Ã²Â¡Ã· Â¢Â²Â¢Â²";
 	close;
 }
 
@@ -497,11 +497,11 @@ dicastes01,235,245,4	script	Excited Piom#a	490,{
 		mes "[Excited Piom]";
 		mes "Has visto a Ahat?";
 		emotion e_ho;
-		mes "Su popularidad aquí en El Discastes es enorme!";
+		mes "Su popularidad aquÃ­ en El Discastes es enorme!";
 		close; }
-	mes "¡ú¡ş¡ó ¢³ ¡ü¢²¡ñ ¢±";
+	mes "Â¡ÃºÂ¡Ã¾Â¡Ã³ Â¢Â³ Â¡Ã¼Â¢Â²Â¡Ã± Â¢Â±";
 	emotion e_ho;
-	mes "¢³¡ó¡ñ ¡õ ¡ğ¡ô¡ş ¡÷ ¡ú¡ò¡õ ¡ø ¢² ¡ø";
+	mes "Â¢Â³Â¡Ã³Â¡Ã± Â¡Ãµ Â¡Ã°Â¡Ã´Â¡Ã¾ Â¡Ã· Â¡ÃºÂ¡Ã²Â¡Ãµ Â¡Ã¸ Â¢Â² Â¡Ã¸";
 	close;
 }
 
@@ -510,17 +510,17 @@ dicastes01,284,262,4	script	Favorable Knit#a	453,{
 	if (isequipped(2782)) {
 		mes "A diferencia de Laphine, nosotros los Saphas";
 		mes "somos una comunidad muy cercana.";
-		mes "Empezamos a convivir en los centros comunes después de nacer.";
+		mes "Empezamos a convivir en los centros comunes despuÃ©s de nacer.";
 		next;
 		mes "[Favorable Knit]";
 		mes "Es por eso que todos los Saphas son como una familia.";
 		mes "Nunca tenemos disputas entre clases.";
 		close; }
-	mes "¡ô¢±¡ó ¡õ ¡ú¡÷¡Ğ ¡õ";
-	mes "¡ü¡ï¡Ğ ¡õ ¡ô¡ó¡ü ¡ó ¢³";
-	mes "¡ñ¡ô¡ü ¡ş ¢¤¡ñ¢¤ ¡ô ¡û¡ï¡ù";
-	mes "¡ú¡ö¡ô ¡ó ¢£¡ú¡ş ¡ø ¡ø¡ò";
-	mes "¢²¢³¡û ¢¤ ¡ú¡ñ¡ù ¡û ¢³¡ò¡ø ¡õ¡õ";
+	mes "Â¡Ã´Â¢Â±Â¡Ã³ Â¡Ãµ Â¡ÃºÂ¡Ã·Â¡Ã Â¡Ãµ";
+	mes "Â¡Ã¼Â¡Ã¯Â¡Ã Â¡Ãµ Â¡Ã´Â¡Ã³Â¡Ã¼ Â¡Ã³ Â¢Â³";
+	mes "Â¡Ã±Â¡Ã´Â¡Ã¼ Â¡Ã¾ Â¢Â¤Â¡Ã±Â¢Â¤ Â¡Ã´ Â¡Ã»Â¡Ã¯Â¡Ã¹";
+	mes "Â¡ÃºÂ¡Ã¶Â¡Ã´ Â¡Ã³ Â¢Â£Â¡ÃºÂ¡Ã¾ Â¡Ã¸ Â¡Ã¸Â¡Ã²";
+	mes "Â¢Â²Â¢Â³Â¡Ã» Â¢Â¤ Â¡ÃºÂ¡Ã±Â¡Ã¹ Â¡Ã» Â¢Â³Â¡Ã²Â¡Ã¸ Â¡ÃµÂ¡Ãµ";
 	close;
 }
 
@@ -535,11 +535,11 @@ dicastes01,164,180,4	script	Limpy Piom#a	489,{
 		mes "a la capital.";
 		emotion e_dots;
 		close; }
-	mes "¢²¡ô¡ş ¡ù ¡õ¡Ğ";
-	mes "¢³¡ô¡û ¡ú ¡ø";
-	mes "¢³¡ş¢¤ ¡ó ¡õ¡÷¡Ğ";
-	mes "¡ñ¡ò¡ü ¡ü ¡ù¡ş¢±";
-	mes "¢¤¡ò¡ş ¢¤ ¢£¡ñ ¢¤ ¢£¡ñ";
+	mes "Â¢Â²Â¡Ã´Â¡Ã¾ Â¡Ã¹ Â¡ÃµÂ¡Ã";
+	mes "Â¢Â³Â¡Ã´Â¡Ã» Â¡Ãº Â¡Ã¸";
+	mes "Â¢Â³Â¡Ã¾Â¢Â¤ Â¡Ã³ Â¡ÃµÂ¡Ã·Â¡Ã";
+	mes "Â¡Ã±Â¡Ã²Â¡Ã¼ Â¡Ã¼ Â¡Ã¹Â¡Ã¾Â¢Â±";
+	mes "Â¢Â¤Â¡Ã²Â¡Ã¾ Â¢Â¤ Â¢Â£Â¡Ã± Â¢Â¤ Â¢Â£Â¡Ã±";
 	emotion e_dots;
 	close;
 }
@@ -552,28 +552,28 @@ dicastes01,191,202,4	script	Complaining Galten#fihs	450,{
 		next;
 		mes "[Complaining Galten]";
 		mes "Alguna vez has hablado";
-		mes "con él?";
+		mes "con Ã©l?";
 		next;
 		if(select("No:Yes")==1) {
 			mes "[Complaining Galten]";
 			mes "Conoces la leyenda que esconde esa estatua?";
-			mes "Entonces no sé de qué puedo hablar contigo.";
+			mes "Entonces no sÃ© de quÃ© puedo hablar contigo.";
 			close; }
 		mes "[Complaining Galten]";
-		mes "Tu también te enamoraste de ese hombre loco?.";
+		mes "Tu tambiÃ©n te enamoraste de ese hombre loco?.";
 		next;
 		select("Yes");
 		emotion e_sob,1;
 		next;
 		mes "[Complaining Galten]";
-		mes "Olvídate de él rápido, por tu propio bien.";
+		mes "OlvÃ­date de Ã©l rÃ¡pido, por tu propio bien.";
 		close; }
-	mes "¡õ¡ò¡û ¡ò ¢£¡û¡÷ ¡÷ ";
-	mes "¡û¡ù¡û ¡÷ ¡ü¡ş¡û ¢³ ¡ó";
+	mes "Â¡ÃµÂ¡Ã²Â¡Ã» Â¡Ã² Â¢Â£Â¡Ã»Â¡Ã· Â¡Ã· ";
+	mes "Â¡Ã»Â¡Ã¹Â¡Ã» Â¡Ã· Â¡Ã¼Â¡Ã¾Â¡Ã» Â¢Â³ Â¡Ã³";
 	next;
 	mes "[Complaining Galten]";
-	mes "¡ğ¢±¡ü ¡û ¡õ¡÷¢¤";
-	mes "¢¤¡ş¡ø ¢² ¡÷";
+	mes "Â¡Ã°Â¢Â±Â¡Ã¼ Â¡Ã» Â¡ÃµÂ¡Ã·Â¢Â¤";
+	mes "Â¢Â¤Â¡Ã¾Â¡Ã¸ Â¢Â² Â¡Ã·";
 	next;
 	mes "- No puedo entender lo que intenta decir. -";
 	close;
@@ -585,64 +585,64 @@ dicastes01,181,198,5	script	Traveler Ichack#info	481,{
 	mes "Soy el Viajero Ichack, la primera persona en llegar a El Dicastes.";
 	next;
 	mes "[Viajero Ichack]";
-	mes "Vi a alguien que instía en que el fue el primero en llegar, pero te estoy diciendo la verdad. ¡Fui yo! ¡Es verdad!";
+	mes "Vi a alguien que instÃ­a en que el fue el primero en llegar, pero te estoy diciendo la verdad. Â¡Fui yo! Â¡Es verdad!";
 	next;
 	mes "[Viajero Ichack]";
-	mes "Estoy aquí para guiar a los nuevos visitantes de Rune Midgard.";
-	mes "Quieres saber más sobre otros lugares de aquí?";
+	mes "Estoy aquÃ­ para guiar a los nuevos visitantes de Rune Midgard.";
+	mes "Quieres saber mÃ¡s sobre otros lugares de aquÃ­?";
 	next;
 	switch(select("Dicastes Diel:Residence:Training Room:Factory:Pub:Cat Guild")) {
 		case 1:
 			mes "[Viajero Ichack]";
 			mes "Ah~ que edificio mas bonito.";
-			mes "He oído que ellos tratan cosas muy importantes.";
+			mes "He oÃ­do que ellos tratan cosas muy importantes.";
 			next;
 			mes "[Viajero Ichack]";
-			mes "Si no te registras en Diel, estarás en problemas, así que deberías pasarte por ahí.";
-			mes "Ve todo al norte y estarás allí.";
+			mes "Si no te registras en Diel, estarÃ¡s en problemas, asÃ­ que deberÃ­as pasarte por ahÃ­.";
+			mes "Ve todo al norte y estarÃ¡s allÃ­.";
 			close2;
 			viewpoint 1,198,351,1,0x00FF00;
 			end;
 		case 2:
 			mes "[Viajero Ichack]";
-			mes "La tribu Sapha es muy rara. Cómo pueden dormir ahí?";
+			mes "La tribu Sapha es muy rara. CÃ³mo pueden dormir ahÃ­?";
 			next;
 			mes "[Viajero Ichack]";
 			mes "Puedes entenderlo?";
-			mes "Mira por ti mismo y todo irá mejor!";
+			mes "Mira por ti mismo y todo irÃ¡ mejor!";
 			next;
 			mes "[Viajero Ichack]";
-			mes "La residencia está separada en dos partes. La clase baja y la clase alta.";
-			mes "La clase baja está al sur y la clase alta está al norte.";
+			mes "La residencia estÃ¡ separada en dos partes. La clase baja y la clase alta.";
+			mes "La clase baja estÃ¡ al sur y la clase alta estÃ¡ al norte.";
 			close2;
 			viewpoint 1,280,283,2,0x00FF00;
 			viewpoint 1,136,106,3,0x3355FF;
 			end;
 		case 3:
 			mes "[Viajero Ichack]";
-			mes "Es demasiado peligroso por aquí, por eso necesitamos un sistema de seguridad.";
-			mes "Fuiste a la sala de entrenamiento? Creo que allí nunca duermen.";
+			mes "Es demasiado peligroso por aquÃ­, por eso necesitamos un sistema de seguridad.";
+			mes "Fuiste a la sala de entrenamiento? Creo que allÃ­ nunca duermen.";
 			close2;
 			viewpoint 1,255,172,4,0xFBBBB9;
 			end;
 		case 4:
 			mes "[Viajero Ichack]";
-			mes "La fábrica es el lugar más importante aquí para la convivencia de los Sapha.";
-			mes "Puedes ver el Bradium que los Sapha crean allí.";
+			mes "La fÃ¡brica es el lugar mÃ¡s importante aquÃ­ para la convivencia de los Sapha.";
+			mes "Puedes ver el Bradium que los Sapha crean allÃ­.";
 			close2;
 			viewpoint 1,97,256,5,0x3355FF;
 			end;
 		case 5:
 			mes "[Viajero Ichack]";
-			mes "En realidad, llegué aquí como el primer aventurero, pero el dueño del pub dice que él fue el primero.";
-			mes "El pub de Bumen Florine está en el subterráneo de la resicencia baja.";
+			mes "En realidad, lleguÃ© aquÃ­ como el primer aventurero, pero el dueÃ±o del pub dice que Ã©l fue el primero.";
+			mes "El pub de Bumen Florine estÃ¡ en el subterrÃ¡neo de la resicencia baja.";
 			close2;
 			viewpoint 1,136,106,6,0xE77471;
 			end;
 		case 6:
 			mes "[Viajero Ichack]";
 			mes "Parece que los gatos no se llevan muy bien con los Sapha tampoco.";
-			mes "Pero debido a las tiendas tampoco pueden hacerlo. Pobres gatos. Ellos tiritan de frío ahí fuera.";
+			mes "Pero debido a las tiendas tampoco pueden hacerlo. Pobres gatos. Ellos tiritan de frÃ­o ahÃ­ fuera.";
 			// -- NPC Traveler Ichack#info (1) shown minimap indicator at location 199, 39 with the color [R:153, G:51, B:255, A:255]
 			close2;
 			viewpoint 1,199,39,7,0x800080;
@@ -681,10 +681,10 @@ dicastes01,202,197,4	script	Crazy Venknick#fihsing1	449,{
 		next;
 		sc_start SC_Blind,10000,0;
 		mes ""+strcharinfo(0)+"?";
-		mes "Te sientes indignado por haber sido engañado...";
+		mes "Te sientes indignado por haber sido engaÃ±ado...";
 		close; }
-	mes "¢²¡û¡ó ¡ó ¡ù¢¤¡ø";
-	mes "¢¤¡ğ¢² ¢± ¡ñ¡ö¢² ¡ø ¡ï¡ö¡ü";
+	mes "Â¢Â²Â¡Ã»Â¡Ã³ Â¡Ã³ Â¡Ã¹Â¢Â¤Â¡Ã¸";
+	mes "Â¢Â¤Â¡Ã°Â¢Â² Â¢Â± Â¡Ã±Â¡Ã¶Â¢Â² Â¡Ã¸ Â¡Ã¯Â¡Ã¶Â¡Ã¼";
 	next;
 	mes "- No puedo entender lo que intenta decir. -";
 	close;
