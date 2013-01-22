@@ -35,12 +35,12 @@
 //============================================================
 aldebaran,113,70,4	script	Forger Munster#alde	48,{
 	mes "[Munster]";
-	mes "My family used to live in Geffen. So I guess it was natural that we studied forging and eventually became Blacksmiths. Then, we finally moved to this town,";
+	mes "Mi familia vivía en Geffen. Así que supongo que era natural que los que estudiamos la forja y eventualmente nos convirtieramos en Blacksmiths. Entonces, finalmente nos trasladamos a esta ciudad,";
 	mes "Al De Baran.";
 	next;
 	if (select("About ^3355FFItem Upgrade^000000:Quit") == 1) {
 		mes "[Munster]";
-		mes "My father was a famous blacksmith in Geffen, and he taught me a lot about forging equipment.";
+		mes "Mi padre era Blacksmith famoso en Geffen, y él me enseñó mucho sobre la forja de equipo.";
 		next;
 		mes "[Munster]";
 		mes "One of the fundamentals is that the success probability of upgrading an item depends on the level of the weapon.";
