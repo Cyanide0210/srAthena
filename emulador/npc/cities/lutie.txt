@@ -1,11 +1,12 @@
 //===== rAthena Script ======================================= 
-//= Lutie Town
+//= Ciudad Lutie
 //===== By: ================================================== 
 //= rAthena dev team
+//= Traduccion al castellano por Hideki (Marux)
 //===== Current Version: ===================================== 
 //= 1.7
 //===== Compatible With: ===================================== 
-//= rAthena SVN
+//= srAthena SVN
 //===== Description: ========================================= 
 //= Lutie - City NPCs
 //===== Additional Comments: ================================= 
@@ -24,46 +25,46 @@
 aldebaran,223,222,4	script	Mr. Claus	718,{
 	mes "[Mr. Claus]";
 	mes "Ho Ho Ho~";
-	mes "Merry Christmas!!";
-	mes "I wish all of you joy";
-	mes "and Christmas cheer!";
+	mes "¡Feliz Navidad!";
+	mes "Les deseo a todos ustedes";
+	mes "Una Feliz Navidad!";
 	next;
 	switch(select("Info about Lutie:Move to 'Lutie':Cancel")) {
 		case 1:
 			mes "[Mr. Claus]";
-			mes "^3355FFLutie^000000, the fantastic Christmas Town! Always filled with the spirit of giving, Lutie is filled with appetizing cakes, tiny toy soldiers, and all sorts of wonderful things~!";
+			mes "^3355FFLutie^000000, la fantástica ciudad de Navidad! Siempre lleno con el espíritu de dar alegria, Lutie está llena de apetitosas tortas, soldados diminutos juguetes y todo tipo de cosas maravillosas ~!";
 			next;
 			mes "[Mr. Claus]";
 			mes "Ho Ho Ho~";
-			mes "It's an amazing land blessed with the beauty of winter, and a year round atmosphere of festivity!";
+			mes "Es una asombrosa tierra bendecida con la belleza del invierno, y un ambiente de fiesta durante todo el año!";
 			next;
 			mes "[Mr. Claus]";
-			mes "I'm a Santa that will guide people to Lutie, the Christmas Town. Ask me at any time, and I'll magically send you there~";
+			mes "Soy Santa que guia a la gente a Lutie, la ciudad de Eterna Navidad. Pregunta a mí en cualquier momento y por arte de magia te enviare allí ~";
 			close;
 		case 2:
 			mes "[Mr. Claus]";
 			mes "Ho Ho Ho~";
-			mes "The only way to get to Lutie is here in Al de Baran!";
+			mes "La única manera de llegar a Lutie está aquí en Al de Baran!";
 			next;
 			mes "[Mr. Claus]";
-			mes "I keep this place and personally transport people who want to visit Lutie. Please ask Santa Claus over there if you want to leave town. He will let you know the way out of Lutie.";
+			mes "Me Mantengo en este lugar y personalmente transporto a la gente que quiere visitar Lutie. Por favor pregunte a Papá Noel si usted quiere dejar la ciudad. Él le dirá la salida de Lutie.";
 			next;
 			mes "[Mr. Claus]";
 			mes "Ho Ho Ho~";
-			mes "Well, are you ready?";
-			mes "Have a nice trip!";
-			mes "Meeeeerry Christmas!";
+			mes "Bueno, ¿estás listo?";
+			mes "¡Que tenga un buen viaje!";
+			mes "¡Feeeeliz Navidad!";
 			close2;
 			warp "xmas_fild01",78,68;
 			end;
 		case 3:
 			mes "[Mr. Claus]";
 			mes "Ho Ho Ho~";
-			mes "Whenever you want to visit Lutie, be my guest. Just let me know when you want to leave.";
+			mes "Cada vez que desee visitar Lutie, adelante!. Avísame cuando quiera irse.";
 			next;
 			mes "[Mr. Claus]";
 			mes "Ho ho hooooo!!";
-			mes "Haaaaappy Holidays!";
+			mes "¡Feeeeeeeeeelices Fiestas!";
 			close;
 	}
 }
@@ -73,80 +74,80 @@ aldebaran,223,222,4	script	Mr. Claus	718,{
 xmas_in,100,96,4	script	Santa Claus	718,{
 	mes "[Santa Claus]";
 	mes "Ho Ho Ho~";
-	mes "Meeeerry Christmas !!";
+	mes "¡Feeeeliz Navidad!";
 	next;
-	mes "^3355FFIt's...^000000";
-	mes "^3355FFIt's the original Santa Claus!^000000";
+	mes "^3355FFEs...^000000";
+	mes "^3355FFEs el Papá Noel original!^000000";
 	next;
 	mes "[Santa Claus]";
 	mes "Ho Ho Ho~";
-	mes "I'm Santa Claus, and I bring gifts to every good boy and girl on Christmas!";
+	mes "¡Soy el Papá Noel, y traigo regalos a cada muchacho bueno y muchacha durante la Navidad!";
 	next;
 	mes "[Santa Claus]";
-	mes "If you want to leave Lutie, go outside town and head south to the first field that you see. You'll be able to find a magical warp that will take you to Al de Baran.";
+	mes "Si usted quiere dejar Lutie, vaya fuera de ciudad y encabece sobre el sur al primer campo que usted ve. Usted será capaz de encontrar un urdimbre mágico que le tomará a Al de Baran.";
 	next;
 	mes "[Santa Claus]";
 	mes "Ho ho ho~";
-	mes "Meeeeeeerry Christmas!";
+	mes "¡Feeeeliz Navidad!";
 	close;
 }
 
 xmas_in,167,173,4	script	Duffle	711,{
 	if(xmas_npc == 1) {
 		mes "[Duffle]";
-		mes "Merry Christmas!";
-		mes "Welcome to Lutie!";
+		mes "¡Feliz Navidad!";
+		mes "¡Bienvenidos a Lutie!";
 		next;
 		mes "[Duffle]";
-		mes "You got a present";
-		mes "from Santa Claus?!";
-		mes "Ha ha, you must";
-		mes "be really excited!";
+		mes "¡¿Usted consiguió un presente";
+		mes "de Papá Noel?!";
+		mes "¡¡Ajá! ¡ajá!, creo realmente";
+		mes "debe estar excitado!";
 		next;
 		mes "[Duffle]";
-		mes "Hey, have you heard that here in Lutie, we have an attraction that's equally as famous as Santa himself?";
+		mes "Oye, ¿has oído hablar de Lutie, tenemos una atracción que es igualmente tan famoso como el mismo Santa?";
 		next;
 		mes "[Duffle]";
 		mes "It's ^3355FFSnowysnow^000000,";
-		mes "the magical";
-		mes "talking snowman!";
+		mes "¡la magia";
+		mes "que habla a muñeco de nieve!";
 		next;
 		mes "[Duffle]";
-		mes "Before you leave, you really should meet and talk to Snowysnow, even if it's only once. He's really a nice guy and fun to talk to.";
+		mes "Antes de salir, usted debe realmente conocer y hablar con Snowysnow, aunque sea sólo una vez. Él es realmente un buen tipo y divertido para hablar.";
 		next;
 		mes "[Duffle]";
-		mes "Well then...";
-		mes "Merry Christmas!!";
+		mes "Bueno, entonces ...";
+		mes "Feliz Navidad!!";
 		set xmas_npc,2;
 		close;
 	}
 	else if (xmas_npc > 1) {
 		mes "[Duffle]";
-		mes "Have you ever talked to the snowman in front of this town? The lonely snowman who stands in solitude...";
+		mes "¿Alguna vez has hablado con el muñeco de nieve en frente de este pueblo? El muñeco de nieve solitario que se destaca en la soledad ...";
 		next;
 		mes "[Duffle]";
-		mes "But he's so warm hearted~! Sometimes, I talk to Snowysnow the snowman. For some weird reason, he can talk just like us!";
+		mes "Pero es tan buen corazón a veces, hablo con Snowysnow el muñeco de nieve. Por alguna extraña razón, puede hablar como nosotros!";
 		next;
 		mes "[Duffle]";
-		mes "When I talk to Snowysnow, I get to wondering how he came to be. I guess if you talk to him too, you'll feel the same way.";
+		mes "Cuando hablo con Snowysnow, llego a preguntarme cómo había llegado a ser a si. Supongo que si le hablas demasiado, se sentirá de la misma manera.";
 		next;
 		mes "[Duffle]";
-		mes "How he was created, and how he thinks and talks like a human is such a mystery...";
+		mes "¿Cómo fue creado, y cómo piensa y habla como un ser humano es un misterio ...";
 		next;
 		mes "[Duffle]";
-		mes "Where did he come from and what kind of place was it? And how did he come to Lutie without any legs...?";
+		mes "¿De dónde vienen y qué tipo de lugar es? Y cómo llegó a Lutie sin piernas ...?";
 		next;
 		mes "[Duffle]";
-		mes "Lately, it seems more and more people are coming to this town to see Snowysnow.";
+		mes "Últimamente, parece que más y más personas están llegando a esta ciudad para ver Snowysnow.";
 		next;
 		mes "[Duffle]";
-		mes "I guess you should talk to the other people living in Lutie if you want to learn more about the mystery of Snowysnow...";
+		mes "Creo que deberías hablar con las otras personas que viven en Lutie si quieres aprender más sobre el misterio de Snowysnow ...";
 		close;
 	}
 	else {
 		mes "[Duffle]";
 		mes "Oh...!";
-		mes "While you're here, don't forget to visit the original Santa Claus here in Lutie.";
+		mes "Mientras usted está aquí, no olvide de visitar al verdadero Papá Noel de Lutie.";
 		close;
 	}
 }
@@ -155,50 +156,50 @@ xmas_in,27,103,4	script	Lenient Aunt	701,{
 switch (xmas_npc) {
 	case 5:
 		mes "[Thachentze]";
-		mes "Hmm? The Hairy guy";
-		mes "spoke well of me,";
-		mes "did he? Well well...";
+		mes "¿¡Um!? El tipo Cabelludo";
+		mes "habló bien de mí,";
+		mes "verdad? bien bien...";
 		next;
 		mes "[Thachentze]";
-		mes "I know what he thinks... Ho ho ho~! He intends to make me feel happy so that I'll give him some free jars of pickles! Oh well~!";
+		mes "Sé lo que él piensa... ¡Ho ho ho ~! ¡Él tiene la intención de hacerme sentirme feliz de modo que yo le dé algunos tarros gratis de escabeches! ¡Ah bien ~!";
 		next;
 		mes "[Thachentze]";
-		mes "He knows me too well. I almost can't stop from giving that man some pickles. Yes, even I know my pickles are the best in town!";
+		mes "Él me conoce demasiado bien. Casi no puedo parar de dar algunos escabeches a aquel hombre. ¡Sí, aún sé que mis escabeches son lo mejor a la ciudad!";
 		next;
 		mes "[Thachentze]";
 		mes "Hmmm~?";
-		mes "You want to know";
-		mes "about ^3355FFSnowysnow^000000?";
-		mes "Oh. Yes, yes, I see...";
+		mes "Usted quiere saber";
+		mes "sobre ^3355FFSnowysnow^000000?";
+		mes "Oh. Sí, sí, ya veo ...";
 		next;
 		mes "[Thachentze]";
-		mes "Well, I can't just let anyone know something so important about Snowysnow. Hmmm...";
+		mes "Bien, solamente no puedo dejar a nadie saber algo tan importante sobre Snowysnow. Hmmm...";
 		next;
 		mes "[Thachentze]";
-		mes "Snowysnow has been holding something for me as a favor, the ^3355FFroughest salt in the world^000000 which I use to pickle cabbages.";
+		mes "Snowysnow ha estado sosteniendo algo para mí, como un favor, el más ^3355FFáspero de sal en el mundo^000000 cual utilizo para conservar en vinagre.0000 which I use to pickle cabbages.";
 		next;
 		mes "[Thachentze]";
-		mes "I suppose if you're really Snowysnow's friend, he will trust you enough to give it to you so you can deliver it to me. And in any case, I'll need more of it soon.";
+		mes "Supongo que si eres realmente amigo Snowysnow, él va a confiar lo suficiente como para darle esto a usted y a la vez que me lo entregar a mí. Y, en cualquier caso, voy a necesitar más de él pronto.";
 		next;
 		mes "[Thachentze]";
-		mes "Now be a dear";
-		mes "and hurry up.";
-		mes "Come back quickly~";
+		mes "Ahora sé amable";
+		mes "y date prisa.";
+		mes "¡Vuelve pronto ~";
 		set xmas_npc,6;
 		close;
 	case 6:
 		mes "[Thachentze]";
 		mes "Hohohoho~";
-		mes "You're back!";
+		mes "Has vuelto!";
 		next;
 		mes "[Thachentze]";
-		mes "Did you bring it?";
-		mes "Oh goodness...!";
-		mes "My cabbages will";
-		mes "get sour soon!";
+		mes "¿Lo has traído?";
+		mes "¡Ay Dios ...!";
+		mes "¡Mis coles";
+		mes "se harán ácidas pronto!";
 		next;
 		mes "[Thachentze]";
-		mes "You...";
+		mes "Tú ...";
 		mes "Don't have it?";
 		next;
 		mes "[Thachentze]";
@@ -206,21 +207,21 @@ switch (xmas_npc) {
 		mes "You are really a scatter-brained person, my dear. Now hurry over to Snowysnow and bring me the ^3355FFroughest salt in the world^000000.";
 		next;
 		mes "[Thachentze]";
-		mes "Hurry now, dear,";
+		mes "Date prisa ahora, querido,";
 		mes "Chop Chop~!";
 		close;
 	case 7:
 		mes "[Thachentze]";
 		mes "Hohohohoh hohohohoho !";
-		mes "Let's see, let's see...";
-		mes "Thank you dear,Thank you.";
+		mes "Vamos a ver, vamos a ver ...";
+		mes "Gracias, querido, Gracias.";
 		next;
 		set xmas_npc,8;
-		mes "^3355FFYou gave her the";
-		mes "roughest salt in the world.^000000";
+		mes "^3355FFLe diste el más";
+		mes "áspero de sal del mundo^000000";
 		next;
 		mes "[Thachentze]";
-		mes "Now I am able to pickle my cabbages properly. Thank you, my dear. Thank you...";
+		mes "Ahora soy capaz de conservar en escabeche de mis coles correctamente. Gracias, mi querido. Gracias...";
 		next;
 		mes "...";
 		next;
@@ -228,48 +229,48 @@ switch (xmas_npc) {
 		mes "......";
 		next;
 		mes "[Thachentze]";
-		mes "Oh yes, I'm sorry. I almost forgot what I promised you. You asked me about Snowysnow's magical gift bag, didn't you?";
+		mes "Oh, sí, lo siento. Casi se me olvida lo que te he prometido. Usted me preguntó por la bolsa de regalo mágico de Snowysnow, no es cierto?";
 		next;
 		mes "[Thachentze]";
-		mes "If you already met Uncle Cantata, you must know by now that Snowysnow has been made out of some mysterious snow that covered a thick field of magical flowers.";
+		mes "Si ya conociste a la tia cantata deberias saber que snowysnow esta hecho de una misteriosa nieve que cubre un campo de flores magicas";
 		next;
 		mes "[Thachentze]";
-		mes "I can't tell you how, but when Snowysnow was revived, there was a reaction between the Alchemist's materials and the energies of Snowysnow's snow.";
+		mes "No te puedo decir cómo, pero cuando Snowysnow fue restablecido, hubo una reacción entre los materiales del Alquimista y las energías de nieve de Snowysnow.";
 		next;
 		mes "[Thachentze]";
-		mes "For some reason, Snowysnow's gift bag can now create as many presents as Snowysnow wants, just like Santa Claus.";
+		mes "Por cualquiera razón, la bolsa de regalo de Snowysnow ahora puede crear tantos regalos como Snowysnow quiere, justo como Papá Noel.";
 		next;
 		mes "[Thachentze]";
 		mes "Of course, if this power were to fall into the hands of evil, we would all be in trouble.";
 		next;
 		mes "[Thachentze]";
-		mes "However, everyone knows that Snowysnow is kind and loving towards others. So we're never worried about Snowysnow's powers.";
+		mes "Por supuesto, si este poder cayera en las manos del mal, todos estaríamos en problemas.";
 		next;
 		mes "[Thachentze]";
-		mes "Oh, and I've just heard some shocking news from ^3355FFHashokii^000000 the clown. It's quite an interesting story, actually. Why don't you ask him more about it?";
+		mes "Ah, y acabo de oír algunas noticias espantosas de ^3355FFHashokii^000000 el payaso. Esto es bastante una historia interesante, en realidad. ¿Por qué no lo pregunta usted más sobre ello?";
 		close;
 	default:
 		mes "[Thachentze]";
-		mes "Merry Christmas~";
+		mes "Feliz Navidad~";
 		mes "Ho! Ho! Ho!";
 		next;
 		mes "[Thachentze]";
-		mes "I can feel the Christmas spirit all around me! It's even in the eyes of the young travelers who've come out here all the way to Lutie. Hoho, I wish you a Merry Christmas!";
+		mes "Puedo sentir el espíritu de la Navidad a mi alrededor! Incluso los ojos de los viajeros jóvenes que han venido aquí hasta el final de Lutie. Hoho, les deseo una Feliz Navidad!";
 		next;
 		mes "[Thachentze]";
-		mes "We have a dungeon named";
-		mes "'Christmas dungeon' around here. Well, I guess I don't need to tell you much if you've heard about it already.";
-		mes "Oh well...";
+		mes "Tenemos una mazmorra llamada";
+		mes "'Christmas dungeon'. Bueno, supongo que no hace falta que te diga mucho si usted ha oído hablar de ella ya.";
+		mes "Oh, bueno ...";
 		next;
 		mes "[Thachentze]";
-		mes "I figured something out a few days ago. In the Christmas dungeon, you'll run into creatures that are similar to those outside of town.";
+		mes "Me di cuenta de algo hace algunos dias en el christmas dungeon, tu ves critaturas que son similares a las que estan fuera de la ciudad.";
 		next;
 		mes "[Thachentze]";
-		mes "I'm guessing that monsters wandered here from outside of town, and were changed by the cold weather here. So monsters adapted to live in this environment.";
+		mes "Supongo que los monstruos vagaban aquí desde fuera de la ciudad, y fueron cambiados por el clima frío aquí. Así monstruos se adaptaron a vivir en este ambiente.";
 		next;
 		mes "[Thachentze]";
 		mes "...";
-		mes "Okay, now I think I better be ready to pickle some cabbages. If you didn't know already, I make the best pickles around! Why don't you visit me later and try some?";
+		mes "Bueno, ahora creo que es mejor estar preparado para el decapado de algunas coles. Si usted no lo sabía ya, yo hago los mejores encurtidos de todo! ¿Por qué no me visitar más tarde y probar un poco?";
 		close;
 	}
 }
@@ -279,43 +280,43 @@ switch (xmas_npc) {
 xmas,117,304,4	script	Poze	713,{
 	if(xmas_npc == 3 || xmas_npc == 4) {
 		mes "[Poze]";
-		mes "You've gone to";
-		mes "^3355FFSnowysnow^000000 and he";
-		mes "mentioned me?";
+		mes "Usted ha visitado";
+		mes "^3355FFSnowysnow^000000 y el";
+		mes "me mencionó?";
 		next;
 		mes "[Poze]";
-		mes "Oh I see...";
-		mes "He's a snowman that doesn't have any legs. No wonder he hasn't come to visit me. What a shame, what a shame. I guess I better go visit him instead.";
+		mes "Oh, ya veo ...";
+		mes "Es un muñeco de nieve que no tiene piernas. No me extraña que no ha venido a visitarme. ¡Qué vergüenza, qué vergüenza. Creo que es mejor ir a visitarlo en su lugar.";
 		next;
 		mes "[Poze]";
 		mes "Oh, there is someone who knows how Snowysnow came to be able to speak. That person would be ^3355FFUncle Hairy Cantata^000000...";
 		next;
 		mes "[Poze]";
-		mes "One day when apprentice of the great alchemist visted Lutie, I came to listen in on a conversation between him and Uncle Hairy.";
+		mes "Un día cuando el aprendiz del gran alquimista visted Lutie, vine para escuchar en sobre una conversación entre él Uncle Hairy.";
 		next;
 		mes "[Poze]";
-		mes "Long ago, a great alchemist came by Snowysnow's hometown and happened to meet Snowysnow dying, melting down into water. However, Snowysnow was miraculously revived by that Alchemist.";
+		mes "Hace mucho, un gran alquimista adquirió la ciudad natal de Snowysnow y resultó encontrar el morir de Snowysnow, la fundición en el agua. Sin embargo, Snowysnow milagrosamente fue reanimado por aquel Alquimista.";
 		next;
 		mes "[Poze]";
-		mes "But that's pretty much all I know. For the actual details, you should ask ^3355FFUncle Hairy Cantata^000000.";
+		mes "Pero eso es casi todo lo que sé. Para los detalles reales, usted debe preguntarle a ^3355FFUncle Hairy Cantata^000000.";
 		set xmas_npc,4;
 		close;
 	}else{
 		mes "[Poze]";
-		mes "Welcome to Lutie,";
-		mes "the town which blesses";
-		mes "all of its visitors with";
-		mes "the spirit of Christmas!";
-		mes "Merry Christmas !";
+		mes "Bienvenido a Lutie,";
+		mes "la ciudad que bendice";
+		mes "a todos sus visitantes con";
+		mes "el espíritu de la Navidad!";
+		mes "¡Feliz Navidad!";
 		next;
 		mes "[Poze]";
-		mes "Here in this magical land of fun and fancy, you can enjoy the spirit of Christmas all year round~! Isn't that wonderful?";
+		mes "Aquí en esta tierra mágica de diversión y fantasía, se puede disfrutar del espíritu de la Navidad todo el año ~! ¿No es maravilloso?";
 		next;
 		mes "[Poze]";
-		mes "Lutie isn't merely just a simple attraction. We have convenient facilities like the other towns, but in a festive environment.";
+		mes "Lutie no es más que un simple atracción. Contamos con cómodas instalaciones como las otras ciudades, pero en un ambiente festivo.";
 		next;
 		mes "[Poze]";
-		mes "So if you decide to stay here for a while, you should have all the comforts that you need. Merry Christmas~";
+		mes "Así que si usted decide quedarse aquí por un tiempo, usted debe tener todas las comodidades que usted necesita. Feliz Navidad ~";
 		close;
 	}
 }
@@ -324,131 +325,131 @@ xmas,176,236,4	script	Uncle Hairy	712,{
 	if(xmas_npc == 4) {
 		if(countitem(1024) > 0 && countitem(938) > 0) {
 			mes "[Cantata]";
-			mes "Oh? Y-y-you've got the stuff? Goooooooood. It's been so long since I've been able to have some of this... G-give it to me!";
+			mes "Oh? usted tiene el material? Dios. Ha pasado tanto tiempo desde que he sido incapaz de tener algo de esto ... dámelo!";
 			next;
 			delitem 1024,1;	// Chinese_Ink
 			delitem 938,1;	// Sticky_Mucus
-			mes "^3355FFYou quickly handed him the Squid Ink and Sticky Mucus and watched with a little disgust as he relished the flavor.^000000";
+			mes "^3355FFPronto se le entregó la Squid  de calamar y Sticky Mucus  y miró con disgusto a poco mientras disfrutaba del sabor.^000000";
 			next;
 			mes "[Cantata]";
 			mes "*Burrrrpppp~*";
-			mes "Well, now it's the time for my story. Keep in mind that this is the whole story from what I know. I'm not sure how much you've already heard though...";
+			mes "Bueno, ahora es el momento de mi historia. Tenga en cuenta que esta es la historia completa de lo que sé. No estoy seguro de lo mucho que ya has oído hablar, aunque ...";
 			next;
 			mes "[Cantata]";
-			mes "A long time ago,";
-			mes "there was a great";
-			mes "Alchemist living";
-			mes "in the far north.";
-			mes "His name was";
+			mes "Hace mucho tiempo,";
+			mes "hubo una gran";
+			mes "Alchemist con vida";
+			mes "en el extremo norte.";
+			mes "Su nombre era";
 			mes "^3355FFPhilip Varsez^000000!";
 			next;
 			mes "[Cantata]";
-			mes "He was always foremost in the research of alchemy and needed rare materials to conduct his studies. Because of that, he had to travel the world in search of materials containing magical energies...";
+			mes "Siempre fue más importante en la investigación de la alquimia y los materiales necesarios para llevar a cabo sus raros estudios. Debido a eso, tuvo que viajar por el mundo en busca de materiales que contienen energías mágicas ...";
 			next;
 			mes "[Cantata]";
-			mes "One day, his travels brought him to a northern village known for its freezing weather. But when he arrived, he was welcomed by a smouldering town that had recently been destroyed.";
+			mes "Un día, sus viajes lo llevaron a una aldea norteña conocida por su clima helado. Pero cuando llegó, fue recibido por una ciudad humeante que había sido destruido recientemente.";
 			next;
 			mes "[Cantata]";
-			mes "It was a grim sight: People were lying at the roadside, groaning in agony. As Varsez walked by, each villager would beg, 'K-Kill me...' and plead for him to put them out of their misery.";
+			mes "Era un espectáculo terrible: La gente estaba acostado en la carretera, gimiendo de dolor. Como Varsez pasaba, cada aldeano le rogaba: 'Mátame ... 'y abogar por él para sacarlos de su miseria.";
 			next;
 			mes "[Cantata]";
-			mes "Amidst the woeful cries of despair, the wails of two infants reached the ears of Philip Varsez. He rushed to investigate and found two babies cushioned in the bosom of a melting snowman.";
+			mes "En medio de los gritos lamentables de la desesperación, el llanto de dos niños llegaron a los oídos de Felipe Varsez. Corrió a investigar y encontró a dos bebés acolchadas en el seno de un muñeco de nieve de fusión.";
 			next;
 			mes "[Cantata]";
-			mes "That snowman...";
-			mes "was ^3355FFSnowysnow^000000.";
+			mes "Ese muñeco de nieve ...";
+			mes "era ^3355FFSnowysnow^000000.";
 			next;
 			mes "[Cantata]";
-			mes "Being the wise Alchemist that he is, Varsez deduced that Snowysnow sacrificed himself to protect those two babies from the great disaster that had destroyed the village.";
+			mes "Siendo el Alquimista sabio que es, Varsez deduce que Snowysnow se sacrificó para proteger a los dos bebés de la gran catástrofe que destruyó la aldea.";
 			next;
 			mes "[Cantata]";
-			mes "Varsez was touched, and was determined to save the life of this snowman with his alchemy. He would then transport him here to Lutie, the safest place in the world.";
+			mes "Varsez fue tocado, y estaba decidido a salvar la vida de este hombre de nieve con su alquimia. A continuación, le transportará aquí para Lutie, el lugar más seguro del mundo.";
 			next;
 			mes "[Cantata]";
-			mes "Of course, there was another rumor that, in addition to the mercy from that Alchemist, Snowysnow was able to survive due to the special properties of his snow.";
+			mes "Por supuesto, había otro rumor que, además de la misericordia de aquel Alchemist, Snowysnow pudo sobrevivir debido a las características especiales de su nieve.";
 			next;
 			mes "[Cantata]";
-			mes "It's believed that Snowysnow's snow used to cover a mysterious field that would be filled with the bloom of magical flowers.";
+			mes "Se cree que la nieve Snowysnow utilizó para cubrir un campo misterioso que estaría lleno de la flor de las flores mágicas.";
 			next;
 			mes "[Cantata]";
 			mes "Muhahaha~";
-			mes "Well, that's pretty much all I know. I hope you were able to learn what you wanted from my story! Haw haw haw!";
+			mes "Bueno, eso es más o menos todo lo que sé. Espero que eran capaces de aprender lo que quería de mi historia! Haw haw haw!";
 			next;
 			mes "[Cantata]";
-			mes "Well...";
-			mes "Now that I think about it...";
+			mes "Bueno ...";
+			mes "Ahora que lo pienso ...";
 			next;
 			mes "[Cantata]";
-			mes "Snowysnow can not only speak, but he also seems to be able to create an endless supply of Christmas presents. Or at least, that's what I hear.";
+			mes "Snowysnow no sólo se puede hablar, pero también parece ser capaz de crear una fuente sin fin de regalos de Navidad. O al menos, eso es lo que he oído.";
 			next;
 			mes "[Cantata]";
-			mes "^3355FFThachentze^000000, that lovely pickle maker, knows more about it. So if you're curious, you should go talk to her. Alrighty then, Merry Christmas!";
+			mes "^3355FFThachentze^000000, que es el fabricante de escabeche encantador, sabe más sobre ello. Tan si usted es curioso, debería dirigirse a ella. ¡Alrighty entonces, Feliz Navidad!";
 			set xmas_npc,5;
 			close;
 		}else{
 			mes "[Cantata]";
-			mes "Oh yeah? Heard about me from Poze, did you? Haw haw haw! Yeah, I know a little bit about Snowysnow. In fact, I may even be his weak point, since...";
+			mes "Ah, sí? He oído hablar de mí Poze, ¿verdad? Haw haw haw! Sí, ya sé un poco sobre Snowysnow. De hecho, incluso puede ser su punto débil, ya que ...";
 			next;
 			mes "[Cantata]";
-			mes "I know";
-			mes "the secret of";
+			mes "Se que";
+			mes "el secreto de";
 			mes "^3355FFSnowysnow's birth^000000!!";
 			next;
 			mes "[Cantata]";
-			mes "Are you curious?";
-			mes "Heh heh heh~ Well, don't think I'll let you know unless you give me something in return!";
+			mes "¿Tienes curiosidad?";
+			mes "¡Heh heh heh ~ Bien, no piense que le avisaré a no ser que usted me dé algo a cambio!";
 			next;
 			mes "[Cantata]";
-			mes "Living in this";
-			mes "town doesn't give me";
-			mes "much of a chance to enjoy";
-			mes "a man's drink. Hmmm, bring me...";
+			mes "Vivir en esta";
+			mes "ciudad no me da";
+			mes "muchas posibilidades para disfrutar";
+			mes "la bebida de un hombre. Hmmm, tráigame...";
 			next;
 			mes "[Cantata]";
 			mes "^3355FF1 Squid Ink^000000 and";
 			mes "^3355FF1 Sticky Muscus^000000!";
 			next;
 			mes "[Cantata]";
-			mes "Wahhahaha! What the hell is that look for?! Never you mind my gourmet sense of taste! Now get to work~!";
+			mes "¡Wahhahaha! ¡¿Qué es esto que busca?! ¡Nunca le preocupa mi sentido de gastrónomo de gusto! ¡Ahora consigalo y a trabajar ~!";
 			close;
 		}
 	}
 	else {
 		mes "[Cantata]";
-		mes "Merry Christmas!";
-		mes "Welcome to Lutie!";
+		mes "Feliz Navidad!";
+		mes "Bienvenido a Lutie";
 		next;
 		mes "[Cantata]";
-		mes "It looks like the cold has brought a rosiness to your cheeks.";
+		mes "Parece que el frío ha traído un rosiness a sus mejillas.";
 		mes "Haw haw haw!";
 		next;
 		mes "[Cantata]";
-		mes "Be careful, it wouldn't be good for you to catch the Lutie Flu.";
+		mes "Ten cuidado, no sería bueno para que usted que coja la gripe de Lutie.";
 		mes "...";
 		next;
 		mes "[Cantata]";
-		mes "*Sigh* That reminds me...";
-		mes "My little boy had a terrible case of the Lutie Flu a while ago.";
+		mes "* Suspiro * Eso me recuerda ...";
+		mes "Mi hijo tenía un terrible caso de la gripe de Lutie hace un rato.";
 		next;
 		mes "[Cantata]";
-		mes "It was during the night, and there was no place I could get any medicine. It seemed I could do nothing for my little boy.";
+		mes "Fue durante la noche, y no había un lugar que podría conseguir cualquier medicamento. Parecía que nada podía hacer por mi niño.";
 		next;
 		mes "[Cantata]";
-		mes "I thought the least I could do for my son was get something cold to bring down his fever, but the snow of Lutie kept on melting after being placed on his forehead. He was burning up, and I was failing to relieve him.";
+		mes "Pensé que lo menos que podía hacer por mi hijo, estaba algo fría para bajar la fiebre, pero la nieve de fusión Lutie siguió después de ser colocado en la frente. Él estaba ardiendo, y yo estaba fallando a relevarlo.";
 		next;
 		mes "[Cantata]";
-		mes "It was then that";
-		mes "I knew I needed";
-		mes "some magic ice.";
+		mes "Fue entonces cuando";
+		mes "Sabía que necesitaba";
+		mes "un poco de hielo mágico.";
 		next;
 		mes "[Cantata]";
-		mes "Eventually, I found myself in the Christmas dungeon without any goal in mind. Inside I found, thank God, a certain creature made entirely of ice!";
+		mes "Con el tiempo, me encontré en la mazmorra de Navidad sin ningún objetivo en mente. Dentro encontré, gracias a Dios, una cierta criatura hecha enteramente de hielo!";
 		next;
 		mes "[Cantata]";
-		mes "It was an ^3355FFIceporing^000000! The local people used to call it 'Icepantzering.' Anyway, I was able to save my boy's life with it. Thank goodness something like that was around in this town.";
+		mes "Era un Iceporing! Los habitantes locales solían llamarlo 'Icepantzering'. De todos modos, tuve la oportunidad de salvar la vida de mi hijo con ella. Gracias a Dios como algo que estaba alrededor en esta ciudad.";
 		next;
 		mes "[Cantata]";
-		mes "Oops, I think I've talked a bit much. Merry Christmas~!";
+		mes "Vaya, creo que he hablado demasiado. Feliz Navidad ~!";
 		close;
 	}
 }
@@ -456,86 +457,86 @@ xmas,176,236,4	script	Uncle Hairy	712,{
 xmas,134,112,4	script	Snowman	710,{
 	if (checkweight(1201,1) == 0 ) {
 		cutin "rutie_snownow01.bmp",2;
-		mes "- Wait a minute !! -";
-		mes "- Currently you're carrying -";
-		mes "- too many items with you. -";
-		mes "- Please try again -";
-		mes "- after you loose some weight. -";
+		mes "- ¡Espera un minuto! -";
+		mes "- Actualmente se está llevando -";
+		mes "- Demasiados elementos con usted. -";
+		mes "- Por favor, inténtelo de nuevo -";
+		mes "- Después de perder algo de peso. -";
 		close2;	cutin "",255;	end;
 	}
 	cutin "rutie_snownow03.bmp",2;
 	mes "[Snowysnow]";
-	mes "I'm...";
-	mes "I'm so lonely!";
+	mes "Estoy ...";
+	mes "Me siento tan solo!";
 	next;
 	mes "[Snowysnow]";
-	mes "Always stuck here...";
-	mes "On the same spot...";
-	mes "Day after day after day after day after day after day after day after day after day after day...";
+	mes "Siempre atrapado aquí ...";
+	mes "En el mismo lugar ...";
+	mes "Día tras día tras día tras día tras día tras día tras día tras día tras día tras día ...";
 	next;
 	switch(select("^3355FFSnowysnow?^000000:Info about the Christmas dungeon:Quit this conversation")) {
 	case 1:
 		if (xmas_npc < 2) {
 			cutin "rutie_snownow01.bmp",2;
 			mes "[Snowysnow]";
-			mes "I was born in an area to the north where it snowed all the time, and was much colder than Lutie, if you can believe that.";
+			mes "Nací en una zona situada al norte, donde nevó todo el tiempo, y era mucho más frío que Lutie, si usted puede creer eso.";
 			next;
 			mes "[Snowysnow]";
-			mes "I was made with love by a human, and I was really happy there. Life was simple, but it was full of quiet bliss.";
+			mes "Estaba hecha con amor por un ser humano, y yo estaba muy feliz allí. La vida era sencilla, pero estaba lleno de felicidad tranquila.";
 			next;
 			mes "[Snowysnow]";
-			mes "I thought I could live the rest of my life in that kind of contentment. But... It was not to be.";
+			mes "Pensé que podría vivir el resto de mi vida en ese tipo de satisfacción. Pero ... No fue así.";
 			next;
 			cutin "rutie_snownow01.bmp",2;
 			mes "[Snowysnow]";
-			mes "One fateful day, some ugly old woman came to our town. People say her name was 'Merlophechum,' and that she was from some strange cave town where the weather was always hot.";
+			mes "Un fatídico día, una mujer vieja y fea vino a nuestra ciudad. La gente dice que su nombre era 'Merlophechum', y eso que era de alguna ciudad extraña cueva donde el tiempo era siempre caliente.";
 			next;
 			mes "[Snowysnow]";
-			mes "On the third night she was there, she set the town on fire with frightening magic. Everyone was running in panic amongst the fear and chaos. And somehow, I was knocked out.";
+			mes "En la tercera noche ella estaba allí, puso la ciudad en llamas con la magia aterradora. Todo el mundo estaba corriendo en pánico entre el miedo y el caos. Y de alguna manera, yo estaba fuera de combate.";
 			next;
 			cutin "rutie_snownow02.bmp",2;
 			mes "[Snowysnow]";
-			mes "I didn't notice how much time passed after that, but when I woke up, I was here. Well, I can say that this place, Lutie, is pretty much like heaven.";
+			mes "No me di cuenta cuanto tiempo pasó después de eso, pero cuando me desperté, estaba aquí. Bueno, puedo decir que este lugar, Lutie, es más o menos como el cielo.";
 			next;
 			mes "[Snowysnow]";
-			mes "Everyone here is never worried, and I'm always hearing Christmas carols and stuff.";
+			mes "Aquí todo el mundo está nunca preocupada, y siempre estoy escuchando villancicos y esas cosas.";
 			next;
 			cutin "rutie_snownow03.bmp",2;
 			mes "[Snowysnow]";;
-			mes "But still...";
-			mes "Sometimes all that Christmas joy somehow doesn't cure the dark loneliness that wells deep inside of me.";
+			mes "Pero aún así ...";
+			mes "A veces, todo lo que de alguna manera la alegría de Navidad no cura la soledad oscura que dentro de los pozos profundos de mí.";
 			next;
 			mes "[Snowysnow]";
-			mes "So will you be my friend? If you do, I'll be your friend too~";
+			mes "Así que va a ser mi amigo? Si lo hace, voy a ser tu amigo también ~";
 			close2;	cutin "",255;	end;
 		}else{
 			switch(xmas_npc) {
 			case 2:
 				cutin "rutie_snownow01.bmp",2;
 				mes "[Snowysnow]";
-				mes "Oh...?";
-				mes "So you've met Duffle?";
-				mes "Yeah, sometimes she";
-				mes "stops by and says 'hi...'";
+				mes "Oh ...?";
+				mes "Así que he conocido Duffle?";
+				mes "Sí, a veces";
+				mes "detiene y dice 'hola ...'";
 				next;
 				mes "[Snowysnow]";
-				mes "It's weird that the people of Lutie call me a mysterious, magical snowman. I mean, inside, aren't I just the same as regular people?";
+				mes "Es raro que la gente de Lutie me llaman un muñeco de nieve misterioso y mágico. Quiero decir, en el interior, ¿no es lo mismo que la gente normal?";
 				next;
 				mes "[Snowysnow]";
-				mes "*Sniff* S-sometimes,";
-				mes "I don't even know what I am. But even so, the people of Lutie try to accept me no matter what.";
+				mes "* Sniff * a veces,";
+				mes "Yo no sé ni lo que soy. Pero aún así, la gente de Lutie trates de aceptar no importa qué.";
 				next;
 				mes "[Snowysnow]";
-				mes "^3355FFPoze^000000 gave me his glamour photo with his address on it, and told me to visit him whenever I'm feeling blue. I was so happy to hear that...";
+				mes "^3355FFPoze^000000 me dio su foto glamour con su dirección en ella, y me dijo que lo visitaba cada vez que me siento triste. Yo estaba tan feliz de saber que ...";
 				next;
 				mes "[Snowysnow]";
-				mes "But then fate played its cruel joke on me once again, and I realized that I had no legs to visit him with.";
+				mes "Pero el destino jugó su broma cruel para mí, una vez más, y me di cuenta de que no tenía piernas para visitarlo con.";
 				next;
 				mes "[Snowysnow]";
-				mes "How did I ever get to this town? And how in the world am I able to talk?! I-It's not natural, is it? Does... Does that make me a monster?";
+				mes "¿Cómo pude llegar a esta ciudad? Y como en el mundo que yo soy capaz de hablar?! I-No es natural, ¿no? ¿Tiene ... ¿Eso me convierte en un monstruo?";
 				next;
-				mes "^3355FFSnowysnow is immersed in his deep thoughts, and seems^000000";
-				mes "^3355FFfixated on Poze's memento.^000000";
+				mes "^3355FFSnowysnow está inmerso en sus pensamientos profundos, y parece^000000";
+				mes "^3355FFPoze obsesionado con el recuerdo.^000000";
 				set xmas_npc,3;
 				close2;	cutin "",255; end;
 			case 3:
@@ -543,100 +544,100 @@ xmas,134,112,4	script	Snowman	710,{
 				mes "[Snowysnow]";
 				mes "...";
 				next;
-				mes "^3355FFSnowysnow is immersed in his deep thoughts, and seems^000000";
-				mes "^3355FFfixated on Poze's memento.^000000";
+				mes "^3355FFSnowysnow está inmerso en sus pensamientos profundos, y parece^000000";
+				mes "^3355FFPoze obsesionado con el recuerdo.^000000";
 				close2;	cutin "",255;	end;
 			case 4:
 				cutin "rutie_snownow01.bmp",2;
 				mes "[Snowysnow]";
-				mes "Oh goody!";
-				mes "You've met Poze!";
+				mes "Oh bien!";
+				mes "Ya conoces a Poze!";
 				next;
 				mes "[Snowysnow]";
-				mes "He's such an honest, good hearted guy. I hope he and Duffle get together someday.";
+				mes "Él es un hombre honesto, de buen corazón. Espero que se reunan algún día él y Duffle.";
 				next;
 				mes "[Snowysnow]";
 				mes "...Oh no~!";
-				mes "Did I say that out loud? That was supposed to stay in my head! I'm soooo sorry! Boy, I can be a real dum-dum head, huh?";
+				mes "¿Yo dije eso en voz alta? Se suponía que era estar en mi cabeza! Estoy taaaan sentimos! Boy, puedo ser un verdadero dum-dum cabeza, ¿eh?";
 				next;
 				mes "[Snowysnow]";
-				mes "Yeah...";
-				mes "Poze is in love with Duffle. And she's kind to everybody, except for Poze.";
+				mes "Si ...";
+				mes "Poze está enamorado de Duffle. Y ella es amable con todo el mundo, a excepción de Poze.";
 				next;
 				mes "[Snowysnow]";
-				mes "But I know that's because she likes him a whole whole lot! Hee hee hee!";
+				mes "Pero yo sé que es porque le gusta lo mucho todo! Hee Hee Hee!";
 				close2;	cutin "",255;	end;
 			case 5:
 				cutin "rutie_snownow01.bmp",2;
 				mes "[Snowysnow]";
 				mes "Oh...?";
-				mes "You've met";
+				mes "Has conocido";
 				mes "^3355FFUncle Hairy Cantata^000000?";
 				next;
 				cutin "rutie_snownow02.bmp",2;
 				mes "[Snowysnow]";
-				mes "Sure, he has a loud voice, doesn't take showers and smells like rotting food. But he's a funny guy with a warm heart. Everybody loves him!";
+				mes "Claro, él tiene una gran voz, no tiene duchas y huele a comida podrida. Pero él es un tipo gracioso con un corazón cálido. Todo el mundo lo ama!";
 				next;
 				mes "[Snowysnow]";
-				mes "Of course, he still enjoys drinking strange things. They say it's a miracle that he doesn't have a tummyache. Hee hee~! Oh, I love that guy!";
+				mes "Por supuesto, él todavía disfruta bebiendo cosas extrañas. Dicen que es un milagro que no tiene un dolor de estómago. ~ Hee Hee! Oh, me encanta ese tipo!";
 				close2;	cutin "",255;	end;
 			case 6:
 				cutin "rutie_snownow01.bmp",2;
 				mes "[Snowysnow]";
 				mes "Oh...?";
-				mes "You've met";
+				mes "Has conocido";
 				mes "^3355FFAunt Thachentze^000000?";
 				next;
 				mes "[Snowysnow]";
-				mes "Yeah, she's a pickle expert, alright. Oh right, would you give this to her? I've been keeping the roughest salt in the world for her as a bit of a favor.";
+				mes "Sí, es un experto en salmuera, está bien. Ah, claro, le daría esto a ella? He estado guardando el más áspero de sal en el mundo para ella como una especie de favor.";
 				next;
 				set xmas_npc,7;
-				mes "^3355FFSnowysnow gave you the roughest salt in the world^000000.";
+				mes "^3355FFSnowysnow le dio el más áspero de sal del mundo^000000.";
 				next;
 				mes "[Snowysnow]";
-				mes "I like her cooking because it's soooo delicious! Sometimes, she gives me grape syrup on snow flakes. Anyway, please deliver that salt for me, buddy~!";
+				mes "Me gusta su forma de cocinar porque es tan deliciosa! A veces, me da arrope de copos de nieve. De todos modos, por favor entregar la sal por mí, amigo ~!";
 				close2;	cutin "",255;	end;
 			case 7:
 				cutin "rutie_snownow01.bmp",2;
 				mes "[Snowysnow]";
-				mes "'^3355FFThe roughest";
-				mes "salt in the world^000000...'";
-				mes "Wow. Now, that's rough! Aunt Tachentze is always making pickles, so she sure could use it soon!";
+				mes "'^3355FFLa más dura";
+				mes "sal en el mundo^000000...'";
+				mes "Wow. Ahora, eso es duro! Tía Tachentze siempre hacer encurtidos, así que seguro que podría usarlo pronto!";
 				close2;	cutin "",255;	end;
 			case 8:
 				cutin "rutie_snownow01.bmp",2;
 				mes "[Snowysnow]";
-				mes "Hashokii, the boring clown? At first, he seems kind of dumb and not really that funny. But deep inside, he cares a lot about other people.";
+				mes "Hashokii, el payaso aburrido? Al principio, parece un poco tonto y que no es realmente gracioso. Pero en el fondo, él se preocupa mucho por los demás.";
 				next;
 				mes "[Snowysnow]";
-				mes "He's always trying his best to make those two orphans laugh and forget their troubles...";
+				mes "Siempre está haciendo todo lo posible para que esos dos huérfanos reír y olvidar sus problemas ...";
 				close2;	cutin "",255;	end;
 			case 9:
 				cutin "rutie_snownow01.bmp",2;
 				mes "[Snowysnow]";
 				mes "Ah...";
-				mes "So you've met Charu Charu? That boy is so full of optimism and always looking forward. When he grows up, he's going to be a big shot!";
+				mes "Así que he conocido Charu Charu? Ese chico está tan lleno de optimismo y siempre mirando hacia adelante. Cuando sea grande, va a ser un pez gordo!";
 				next;
 				mes "[Snowysnow]";
-				mes "I'm sure of it!";
+				mes "Estoy seguro de ello!";
 				mes "Hee hee hee~!";
 				close2;	cutin "",255;	end;
 			case 10:
 				cutin "rutie_snownow01.bmp",2;
 				mes "[Snowysnow]";
-				mes "Thank you for listening to me so far. I really appreciate that you try to understand me, even though you're a stranger here.";
+				mes "Gracias por haberme escuchado hasta ahora. Realmente aprecio que trates de entenderme, a pesar de que eres un extraño aquí.";
 				next;
 				mes "[Snowysnow]";
-				mes "Now, you know me better than anyone else in this town. So, in return, I want to give you a small present.";
+				mes "Ahora, tú me conoces mejor que nadie en esta ciudad. Así que, a cambio, quiero darte un pequeño regalo.";
 				next;
 				mes "[Snowysnow]";
 				mes "Tah dah!";
-				mes "Pick anything";
-				mes "you want in here~";
+				mes "Elija cualquier cosa";
+				mes "te quiero aquí ~";
 				next;
-				mes "^3355FFYou gingerly stir";
-				mes "your hand around in";
-				mes "Snowysnow's magical gift bag^000000.";
+				mes "^3355FFUsted cautelosamente revolver";
+				mes "su mano alrededor de";
+				mes "Bolsa de regalo mágico de Snowysnow^000000.";
 				set .@snownow,rand(1,8);
 				next;
 				switch(.@snownow) {
@@ -647,7 +648,7 @@ xmas,134,112,4	script	Snowman	710,{
 					mes "[Snowysnow]";
 					mes "Wow~!";
 					mes "^3355FF5 Candy^000000!";
-					mes "Congratulations!";
+					mes "¡Felicitaciones!";
 					break;
 				case 2:
 					set xmas_npc,11;
@@ -670,7 +671,7 @@ xmas,134,112,4	script	Snowman	710,{
 					getitem 530,10;	// Candy_Striper
 					cutin "rutie_snownow02.bmp",2;
 					mes "[Snowysnow]";
-					mes "Wow, that's so great!";
+					mes "Wow, eso es genial!";
 					mes "^3355FF10 Candy Cane^000000!";
 					break;
 				case 5:
@@ -678,7 +679,7 @@ xmas,134,112,4	script	Snowman	710,{
 					getitem 539,1;	// Piece_Of_Cake
 					cutin "rutie_snownow02.bmp",2;
 					mes "[Snowysnow]";
-					mes "Aren't you lucky!";
+					mes "¿No estás de suerte!";
 					mes "^3355FF1 Piece Of Cake^000000!";
 					break;
 				case 6:
@@ -686,7 +687,7 @@ xmas,134,112,4	script	Snowman	710,{
 					getitem 539,2;	// Piece_Of_Cake
 					cutin "rutie_snownow02.bmp",2;
 					mes "[Snowysnow]";
-					mes "Now, isn't that nice?";
+					mes "Ahora, ¿no es bonito?";
 					mes "^3355FF2 Piece Of Cake^000000!";
 					break;
 				case 7:
@@ -708,43 +709,43 @@ xmas,134,112,4	script	Snowman	710,{
 				}
 				next;
 				mes "[Snowysnow]";
-				mes "My dear friend, please visit me from time to time, so that we can chitchat, okay? See you soon! And Merry Christmas!";
+				mes "Mi querido amigo, por favor visite mi de vez en cuando, para que podamos charla, ¿de acuerdo? ¡Hasta pronto! Y Feliz Navidad!";
 				close2;	cutin "",255;	end;
 			case 11:
 				cutin "rutie_snownow02.bmp",2;
 				mes "[Snowysnow]";
-				mes "Hello hello!";
+				mes "Hola hola!";
 				next;
 				mes "[Snowysnow]";
-				mes "You're always welcome in Lutie, especially by me, Snowysnow! Happy Kwanza, Happy Hannukah and Merry Christmas~!";
+				mes "Usted es siempre bienvenido en Lutie, sobre todo por mí, Snowysnow! Feliz Kwanza, Feliz Hannukah y Feliz Navidad ~!";
 				close2;	cutin "",255;	end;
 			}
 		}
 		case 2:
 			cutin "rutie_snownow01.bmp",2;
 			mes "[Snowysnow]";
-			mes "Around this wonderful town, eternally blessed with Christmas, there is a horrible dungeon, eternally cursed with Christmas.";
+			mes "Alrededor de esta maravillosa ciudad, eternamente bendecido con la Navidad, hay un calabozo horrible, eternamente maldecida con la Navidad.";
 			next;
 			mes "[Snowysnow]";
-			mes "I've heard that it's well decorated and looks just like a Toy Factory inside, where everything is so cute and pretty. They are Toy Soldiers and Gift Boxes as far as the eye can see!";
+			mes "He oído que está bien decorado y se parece a una fábrica de juguetes en el interior, donde todo es tan lindo y bonito. Son soldados de juguete y cajas de regalo en la medida que el ojo puede ver!";
 			next;
 			cutin "rutie_snownow01.bmp",2;
 			mes "[Snowysnow]";
-			mes "Isn't that soooo exciting?! *Sigh* Even if it is a dungeon, I would like to go inside just to look. If only I was a real boy, or even had legs...";
+			mes "¿No es taaaan emocionante?! * Suspiro * Incluso si se trata de un calabozo, me gustaría entrar sólo para mirar. Si yo fuera un niño de verdad, ni siquiera tenía las piernas ...";
 			close2;	cutin "",255;	end;
 		case 3:
 			cutin "rutie_snownow03.bmp",2;
 			mes "[Snowysnow]";
-			mes "Bye bye, friend~!";
-			mes "Thank you for listening me~";
-			mes "I'll see you again, someday! You'll always be in my heart~";
+			mes "Adiós, amigo ~!";
+			mes "Gracias por escucharme me ~";
+			mes "Nos veremos de nuevo algún día! Siempre estarás en mi corazón ~";
 			close2;	cutin "",255;	end;
 		}
 }
 
 xmas,146,136,4	script	Hashokii	715,{
 	mes "[Hashokii]";
-	mes "Meeee~RrrrrYYYY Christmas~!";
+	mes "Feeee ~ Liiiiiiiiiiiz Navidad ~!";
 	mes "La La La~!";
 	mes "Dum di Dum di Dum!";
 	next;
@@ -753,65 +754,65 @@ xmas,146,136,4	script	Hashokii	715,{
 		mes "[Hashokii]";
 		mes "La La La~!";
 		mes "Dum di Dum di Dum!";
-		mes "Ooh, I'm trying to think of a good show to put on for Charu Charu and Marcell!";
+		mes "Ooh, estoy tratando de pensar en un buen espectáculo para poner en para Charu Charu y Marcell!";
 		next;
 		mes "[Hashokii]";
-		mes "They are getting smarter and wittier everyday, and now it seems that they don't laugh at my best jokes anymore. How did they get to be so clever?";
+		mes "Son cada vez más inteligente y más ingenioso todos los días, y ahora parece que no se ríen de mis mejores chistes más. ¿Cómo llegaron a ser tan inteligente?";
 		next;
 		mes "[Hashokii]";
-		mes "Well, if I work hard enough, they can't help but laugh at my hilarious jokes! So... I better start inventing better jokes. Like, pronto.";
+		mes "Bueno, si me esfuerzo lo suficiente, no puede dejar de reírse de mis chistes hilarantes! Así que ... Será mejor que comenzar a inventar mejores chistes. Al igual, pronto.";
 		next;
 		mes "[Hashokii]";
 		mes "La La La~!";
 		mes "Dum di Dum di Dum";
-		mes "Merry Christmas!";
+		mes "¡Feliz Navidad!";
 		close;
 	case 2:
 		if (xmas_npc == 8) {
 			mes "[Hashokii]";
 			mes "Dum di Dum di Dum";
-			mes "Ah ha! So you wanna learn more about Snowyshow! Let's see...";
+			mes "Ah ha! Así que quieres aprender más sobre Snowyshow! Vamos a ver ...";
 			next;
 			mes "[Hashokii]";
-			mes "Well, there are two naughty kids,";
-			mes "^3355FF' Charu Charu '^000000 and";
-			mes "^3355FF' Marcell '^000000. They attend my show regularly. I'm guessing you've heard the story from Cantata?";
+			mes "Bueno, hay dos niños traviesos,";
+			mes "^3355FF' Charu Charu '^000000 y";
+			mes "^3355FF' Marcell '^000000. Asisten a mi programa regular. Supongo que has oído la historia de la Cantata?";
 			next;
 			mes "[Hashokii]";
-			mes "Anyway, the two babies that were protected in Snowysnow's bosom? Yup, that's them. But Charu Charu and Marcell don't seem to know that Snowysnow saved them.";
+			mes "De todos modos, los dos niños que estaban protegidas en el seno de Snowysnow? Sí, son ellos. Pero Charu Charu y Marcell no parecen saber que Snowysnow los salvó.";
 			next;
 			mes "[Hashokii]";
-			mes "Snowysnow told me the story of how he let his body fly into the air to block the giant fire ball that was about to hit them when they were babies. For their sake, he was willing to sacrifice himself.";
+			mes "Snowysnow me contó la historia de cómo dejó que su cuerpo volar en el aire para bloquear la bola de fuego gigante que estaba a punto de golpear cuando eran bebés. Por su bien, que estaba dispuesto a sacrificarse.";
 			next;
 			mes "[Hashokii]";
-			mes "Why don't you go meet those 2 children? They might tell you the story we've never got the chance to hear. Okay then, good luck~! Bye bye!";
+			mes "¿Por qué no vas a cumplir con esos dos niños? Puede ser que le cuente la historia que nunca hemos tenido la oportunidad de escuchar. Está bien, entonces, buena suerte ~! Bye bye!";
 			set xmas_npc,9;
 			close;
 		}else{
 			mes "[Hashokii]";
 			mes "Ah... ^3355FFSnowysnow^000000?";
-			mes "Of course I know him! Anyone who doesn't know Snowysnow is a total stranger around here! Sometimes, he and I share a nice chat...";
+			mes "Por supuesto que lo sé! Cualquier persona que no sabe Snowysnow es un total desconocido por aquí! A veces, él y yo compartimos una agradable charla ...";
 			next;
 			mes "[Hashokii]";
-			mes "He makes such a a good audience for my show. But to be honest, I'm not sure if he really likes it or not. Most people don't seem to care for my jokes.";
+			mes "Hace un público tan bueno por mi show. Pero para ser honesto, no estoy seguro de si le gusta o no. La mayoría de la gente no parece importarle para mis chistes.";
 			next;
 			mes "[Hashokii]";
-			mes "It totally baffles me! How could they not like the best jokes in the world?! Sheeeeesh~";
+			mes "Se me desconcierta totalmente! ¿Cómo no les gusta los mejores chistes del mundo?! Sheeeeesh ~";
 			next;
 			mes "[Hashokii]";
-			mes "Hmmm, sorry!";
-			mes "Anyway, Snowysnow";
-			mes "is a great guy!";
+			mes "Hmmm, lo siento!";
+			mes "De todos modos, Snowysnow";
+			mes "es un gran tipo!";
 			mes "La La La~!";
 			mes "Dum di Dum di Dum";
-			mes "Merry Christmas- !!";
+			mes "Feliz Navidad!";
 			close;
 		}
 	case 3:
 		mes "[Hashokii]";
 		mes "La La La~!";
 		mes "Dum di Dum di Dum";
-		mes "Merry Christmas~!";
+		mes "Feliz Navidad!";
 		close;
 	}
 }
@@ -823,37 +824,37 @@ xmas,206,168,4	script	Little Boy	706,{
 		mes "Snowysnow?";
 		next;
 		mes "[Charu Charu]";
-		mes "Hmmm, well...";
-		mes "He's a nice snowman!";
-		mes "You want to know more about Snowysnow? Ummm, I'm not that smart! Ask Marcell!";
+		mes "Hmmm, bueno ...";
+		mes "Es un muñeco de nieve lindo!";
+		mes "¿Quieres saber más sobre Snowysnow? Ummm, yo no soy tan inteligente! Pregunta a Marcell!";
 		close;
 	}else{
 		mes "[Charu Charu]";
-		mes "Merry Merry Christmas!";
+		mes "Feliz Feliz Navidad!";
 		mes "Heheheheheh~!";
 		next;
 		mes "[Charu Charu]";
-		mes "Did you talk to that clown guy over there? Isn't he soooooo booooring? (-.-)";
+		mes "¿Has hablado con ese tipo payaso por ahí? ¿No es tan aburrido? (-. -)";
 		next;
 		mes "[Charu Charu]";
-		mes "When Marcell and I watch his show, we feel like we're getting dumber and dumber~";
+		mes "Cuando Marcell y veo su programa, nos sentimos como que estamos recibiendo más tonto y más tonto ~";
 		next;
 		mes "[Marcell]";
-		mes "Charu Charu!! Watch your mouth! How dare you say that about poor Hashokii?! He's always trying hard to make us happy!";
+		mes "Charu Charu! Cuida tu boca! ¿Cómo te atreves a decir que el pobre Hashokii?! Siempre está tratando de hacernos felices!";
 		next;
 		mes "[Charu Charu]";
-		mes "Yeah, yeah.";
-		mes "Whatever~";
-		mes "I already know that!";
-		mes "But he's not funny at all!";
-		mes "I'd rather stay with ^3355FFSnowysnow^000000~";
+		mes "Sí, sí.";
+		mes "Cualquiera que sea ~";
+		mes "Eso ya lo sé!";
+		mes "Pero no es divertido en absoluto!";
+		mes "Prefiero quedarme con ^3355FFSnowysnow^000000~";
 		next;
 		mes "[Charu Charu]";
-		mes "Oh well, if you didn't visit Snowysnow yet, you should see him at least once. He's funny!";
+		mes "Bueno, si usted no visitó Snowysnow aún, deberías ver al menos una vez. Es divertido!";
 		next;
 		mes "[Charu Charu]";
-		mes "Merry Christmas!";
-		mes "Enjoy your Holiday in Lutie~!";
+		mes "¡Feliz Navidad!";
+		mes "Disfrute de sus vacaciones en Lutie ~!";
 		close;
 	}
 }
@@ -863,53 +864,53 @@ xmas,208,168,4	script	Little Girl	703,{
 		switch(xmas_npc) {
 		case 9:
 			mes "[Marcell]";
-			mes "You mean Snowysnow?";
-			mes "Of course I know him!";
+			mes "¿Quieres decir Snowysnow?";
+			mes "Por supuesto que lo sé!";
 			next;
 			mes "[Marcell]";
-			mes "He's a nice and funny guy!";
-			mes "And as Charu Charu always insists, he's funnier than Hashokii~ (But please don't let Hashokii know!)";
+			mes "Es un tipo agradable y divertido!";
+			mes "Y como Charu Charu insiste siempre, es más divertido que Hashokii ~ (Pero por favor no dejes que Hashokii se entere!)";
 			next;
 			mes "[Marcell]";
-			mes "Well, Charu Charu and I are orphans, and don't remember our parents at all. We've been brought up by the people here in Lutie.";
+			mes "Bueno, Charu Charu y yo somos huérfanos, y no recuerdo a nuestros padres en absoluto. Hemos sido educados por la gente aquí en Lutie.";
 			next;
 			mes "[Marcell]";
-			mes "Uncle Cantata and Auntie Thachentze treated us like their own children, and Poze and Duffle have been like a brother and sister to us!";
+			mes "Cantata del tío y la tía Thachentze nos trataron como a sus propios hijos, y Poze y Duffle han sido como un hermano y una hermana para nosotros!";
 			next;
 			mes "[Marcell]";
-			mes "They're all nice and generous, and we always appreciate what they've done to take care of us.";
+			mes "Son muy agradables y generosos, y siempre apreciamos lo que han hecho para cuidar de nosotros.";
 			next;
 			mes "[Marcell]";
-			mes "I also heard Snowysnow doesn't have a mommy or daddy too. And I also heard Snowysnow and us weren't born here, but somewhere else.";
+			mes "También he oído Snowysnow no tiene una mamá o papá también. Y también he oído Snowysnow y nosotros no nacimos aquí, sino en otro lugar.";
 			next;
 			mes "[Marcell]";
-			mes "I've heard that Snowysnow and us actually come from the same place, although I'm not sure yet. But I know that Snowysnow and me have the same kind of burns on our body.";
+			mes "He oído que Snowysnow y nosotros realmente vienen del mismo lugar, aunque no estoy seguro todavía. Pero sé que Snowysnow y yo tenemos el mismo tipo de quemaduras en el cuerpo.";
 			next;
 			mes "[Marcell]";
-			mes "Charu Charu and I have these old burns on our backs, and Snowysnow has a dark smudge on his tummy. So I think we got burned all at the same time...";
+			mes "Charu Charu y tengo estas quemaduras antiguas en la espalda, y Snowysnow tiene una mancha oscura en su panza. Así que creo que se quemó todo al mismo tiempo ...";
 			next;
 			mes "[Marcell]";
-			mes "Oh, now I see . . . . .";
-			mes "You wanna learn all about Snowysnow because you want to become his friend! He'll be so happy to know that! Ooh! Maybe he'll give you a present! Good luck!";
+			mes "Oh, ahora veo. . . . .";
+			mes "¿Quieres aprender todo sobre Snowysnow porque quiere ser su amigo! Él va a estar muy feliz de saber eso! Ooh! Tal vez voy a dar un regalo! ¡Buena suerte!";
 			set xmas_npc,10;
 			close;
 		case 10:
 			mes "[Marcell]";
-			mes "More than anybody else, you know the most about Snowysnow! Please talk to Mr.Snowysnow, he'll be happy to know you care about him. Merry Christmas!";
+			mes "Más que nadie, sabe más acerca de la Snowysnow! Por favor hable con Mr.Snowysnow, estará feliz de saber que usted se preocupa por él. ¡Feliz Navidad!";
 			close;
 		}
 	}else{
 		mes "[Marcell]";
-		mes "Merry Christmas~!";
+		mes "Feliz Navidad~!";
 		next;
 		mes "[Marcell]";
-		mes "It's freezing out here...! And Charu Charu makes me colder with his unbearable jokes. And the wind's blowing so hard!";
+		mes "Está helando aquí afuera ...! Y Charu Charu me hace más frío, con sus bromas insoportables. Y el viento está soplando tan fuerte!";
 		next;
 		mes "[Marcell]";
-		mes "You know what? Snowysnow has a special power. He can make as many presents as Santa Claus! Isn't that great?";
+		mes "¿Sabes qué? Snowysnow tiene un poder especial. Él puede hacer regalos, ya muchos como Santa Claus! ¿No es genial?";
 		next;
 		mes "[Marcell]";
-		mes "Huh? What's that look on your face for? Snowysnow has a big gift bag inside of his body, and gives gifts whenever he feels like it. What's so hard to believe about that?";
+		mes "¿Eh? ¿Qué es esa mirada en tu cara? Snowysnow tiene una bolsa de regalo grande dentro de su cuerpo, y le da regalos cuando le da la gana. ¿Qué es tan difícil de creer eso?";
 		close;
 	}
 }
