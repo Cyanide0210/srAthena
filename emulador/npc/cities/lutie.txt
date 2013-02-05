@@ -26,20 +26,20 @@ aldebaran,223,222,4	script	Mr. Claus	718,{
 	mes "[Mr. Claus]";
 	mes "Ho Ho Ho~";
 	mes "¡Feliz Navidad!";
-	mes "Les deseo a todos ustedes";
+	mes "Les deseo a todos";
 	mes "Una Feliz Navidad!";
 	next;
-	switch(select("Info about Lutie:Move to 'Lutie':Cancel")) {
+	switch(select("Informacion acerca de Lutie:Ir a 'Lutie':Cancelar")) {
 		case 1:
 			mes "[Mr. Claus]";
-			mes "^3355FFLutie^000000, la fantástica ciudad de Navidad! Siempre lleno con el espíritu de dar alegria, Lutie está llena de apetitosas tortas, soldados diminutos juguetes y todo tipo de cosas maravillosas ~!";
+			mes "^3355FFLutie^000000, la fantástica ciudad de la Navidad! Siempre con espíritu de dar, Lutie está llena de apetitosos pasteles, soldados diminutos juguetes y todo tipo de cosas maravillosas ~!";
 			next;
 			mes "[Mr. Claus]";
 			mes "Ho Ho Ho~";
-			mes "Es una asombrosa tierra bendecida con la belleza del invierno, y un ambiente de fiesta durante todo el año!";
+			mes "Es una asombrosa tierra bendecida con la belleza del invierno, y un ambiente de festivo durante todo el año!";
 			next;
 			mes "[Mr. Claus]";
-			mes "Soy Santa que guia a la gente a Lutie, la ciudad de Eterna Navidad. Pregunta a mí en cualquier momento y por arte de magia te enviare allí ~";
+			mes "Soy Santa que guia a la gente a Lutie, la ciudad Navideña. Hablame en cualquier momento y por arte de magia te enviare allí ~";
 			close;
 		case 2:
 			mes "[Mr. Claus]";
@@ -47,12 +47,12 @@ aldebaran,223,222,4	script	Mr. Claus	718,{
 			mes "La única manera de llegar a Lutie está aquí en Al de Baran!";
 			next;
 			mes "[Mr. Claus]";
-			mes "Me Mantengo en este lugar y personalmente transporto a la gente que quiere visitar Lutie. Por favor pregunte a Papá Noel si usted quiere dejar la ciudad. Él le dirá la salida de Lutie.";
+			mes "Me Mantengo en este lugar y personalmente transporto a la gente que quiere visitar Lutie. Por favor habla con Santa Claus quieres dejar la ciudad. Él le dirá la salida de Lutie.";
 			next;
 			mes "[Mr. Claus]";
 			mes "Ho Ho Ho~";
 			mes "Bueno, ¿estás listo?";
-			mes "¡Que tenga un buen viaje!";
+			mes "¡Que tengas un buen viaje!";
 			mes "¡Feeeeliz Navidad!";
 			close2;
 			warp "xmas_fild01",78,68;
@@ -60,7 +60,7 @@ aldebaran,223,222,4	script	Mr. Claus	718,{
 		case 3:
 			mes "[Mr. Claus]";
 			mes "Ho Ho Ho~";
-			mes "Cada vez que desee visitar Lutie, adelante!. Avísame cuando quiera irse.";
+			mes "Siempre que quieras visitar Lutie, adelante. Solo avisame cuando quieras ir.";
 			next;
 			mes "[Mr. Claus]";
 			mes "Ho ho hooooo!!";
@@ -77,14 +77,14 @@ xmas_in,100,96,4	script	Santa Claus	718,{
 	mes "¡Feeeeliz Navidad!";
 	next;
 	mes "^3355FFEs...^000000";
-	mes "^3355FFEs el Papá Noel original!^000000";
+	mes "^3355FFEs el Santa Claus original!^000000";
 	next;
 	mes "[Santa Claus]";
 	mes "Ho Ho Ho~";
-	mes "¡Soy el Papá Noel, y traigo regalos a cada muchacho bueno y muchacha durante la Navidad!";
+	mes "¡Soy Santa Claus, y traigo regalos a cada muchacho bueno y muchacha durante la Navidad!";
 	next;
 	mes "[Santa Claus]";
-	mes "Si usted quiere dejar Lutie, vaya fuera de ciudad y encabece sobre el sur al primer campo que usted ve. Usted será capaz de encontrar un urdimbre mágico que le tomará a Al de Baran.";
+	mes "Si quieres abandonar Lutie, ve fuera a la ciudad y dirijete al sur en el primer campo que veas. En el sur de ese campo seras capaz de encontrar un portal magico que te enviara de regreso a Al de Baran.";
 	next;
 	mes "[Santa Claus]";
 	mes "Ho ho ho~";
@@ -96,24 +96,24 @@ xmas_in,167,173,4	script	Duffle	711,{
 	if(xmas_npc == 1) {
 		mes "[Duffle]";
 		mes "¡Feliz Navidad!";
-		mes "¡Bienvenidos a Lutie!";
+		mes "¡Bienvenido a Lutie!";
 		next;
 		mes "[Duffle]";
-		mes "¡¿Usted consiguió un presente";
-		mes "de Papá Noel?!";
-		mes "¡¡Ajá! ¡ajá!, creo realmente";
-		mes "debe estar excitado!";
+		mes "¡¿Conseguiste un regalo";
+		mes "de Santa Claus?!";
+		mes "Ha ha, debes estar";
+		mes "realmente emocionado!";
 		next;
 		mes "[Duffle]";
-		mes "Oye, ¿has oído hablar de Lutie, tenemos una atracción que es igualmente tan famoso como el mismo Santa?";
+		mes "Oye, ¿has oído hablar que aqui en Lutie, tenemos una atracción que es igual de famosa que Santa?";
 		next;
 		mes "[Duffle]";
 		mes "It's ^3355FFSnowysnow^000000,";
-		mes "¡la magia";
-		mes "que habla a muñeco de nieve!";
+		mes "el muñeco magico";
+		mes "que habla!";
 		next;
 		mes "[Duffle]";
-		mes "Antes de salir, usted debe realmente conocer y hablar con Snowysnow, aunque sea sólo una vez. Él es realmente un buen tipo y divertido para hablar.";
+		mes "Antes de salir, realmente debes conocer y hablar con Snowysnow, aunque sea sólo una vez. Él es realmente un buen tipo y divertido para hablar.";
 		next;
 		mes "[Duffle]";
 		mes "Bueno, entonces ...";
@@ -123,19 +123,19 @@ xmas_in,167,173,4	script	Duffle	711,{
 	}
 	else if (xmas_npc > 1) {
 		mes "[Duffle]";
-		mes "¿Alguna vez has hablado con el muñeco de nieve en frente de este pueblo? El muñeco de nieve solitario que se destaca en la soledad ...";
+		mes "¿Alguna vez has hablado con el muñeco de nieve en frente de este pueblo? El muñeco de nieve solitario que se encuentra solo ...";
 		next;
 		mes "[Duffle]";
-		mes "Pero es tan buen corazón a veces, hablo con Snowysnow el muñeco de nieve. Por alguna extraña razón, puede hablar como nosotros!";
+		mes "Pero tiene un buen corazón a veces, hablo con Snowysnow el muñeco de nieve. Por alguna razón, puede hablar como nosotros!";
 		next;
 		mes "[Duffle]";
-		mes "Cuando hablo con Snowysnow, llego a preguntarme cómo había llegado a ser a si. Supongo que si le hablas demasiado, se sentirá de la misma manera.";
+		mes "Cuando hablo con Snowysnow, llego a preguntarme cómo había llegado a ser a si. Supongo que si le hablas demasiado, te sentiras de la misma manera.";
 		next;
 		mes "[Duffle]";
-		mes "¿Cómo fue creado, y cómo piensa y habla como un ser humano es un misterio ...";
+		mes "El cómo fue creado, cómo piensa y habla igual a un ser humano es un misterio ...";
 		next;
 		mes "[Duffle]";
-		mes "¿De dónde vienen y qué tipo de lugar es? Y cómo llegó a Lutie sin piernas ...?";
+		mes "¿De dónde viene y qué tipo de lugar era? Y cómo llegó a Lutie sin piernas ...?";
 		next;
 		mes "[Duffle]";
 		mes "Últimamente, parece que más y más personas están llegando a esta ciudad para ver Snowysnow.";
@@ -147,7 +147,7 @@ xmas_in,167,173,4	script	Duffle	711,{
 	else {
 		mes "[Duffle]";
 		mes "Oh...!";
-		mes "Mientras usted está aquí, no olvide de visitar al verdadero Papá Noel de Lutie.";
+		mes "Mientras estes aquí, no olvides visitar al verdadero Santa Claus de Lutie.";
 		close;
 	}
 }
