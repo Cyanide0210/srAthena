@@ -59,7 +59,7 @@ OnTimer60000:
 	mapannounce "airplane","Bienvenido a Einbroch. Que tengas buen viaje.",bc_map,"0x00ff00";
 	end;
 OnTimer70000:
-	mapannounce "airplane","Actualmente estamos en Einbroch. La aeronave despegará en breve.",bc_map,"0x00ff00";
+	mapannounce "airplane","Actualmente estamos en Einbroch. El dirigible despegará en breve.",bc_map,"0x00ff00";
 	end;
 OnTimer80000:
 	donpcevent "#AirshipWarp-1::OnHide";
@@ -70,101 +70,101 @@ OnTimer100000:
 	mapannounce "airplane","Nos dirigimos a Lighthalzen.",bc_map,"0x70dbdb";
 	end;
 OnTimer130000:
-	mapannounce "airplane","Llegaremos en breve Lighthalzen.",bc_map,"0x70dbdb";
+	mapannounce "airplane","Llegaremos en breve a Lighthalzen.",bc_map,"0x70dbdb";
 	end;
 OnTimer140000:
 	set $@airplanelocation,2;
 	donpcevent "#AirshipWarp-1::OnUnhide";
 	donpcevent "#AirshipWarp-2::OnUnhide";
-	mapannounce "airplane","Bienvenido a Lighthalzen. Que tengas buen viaje.",bc_map,"0x70dbdb";
+	mapannounce "airplane","Bienvenido a Lighthalzen. Que tengas un buen viaje.",bc_map,"0x70dbdb";
 	end;
 OnTimer150000:
-	mapannounce "airplane","Actualmente estamos en Lighthalzen. La aeronave se irá en breve.",bc_map,"0x70dbdb";
+	mapannounce "airplane","Actualmente estamos en Lighthalzen. El dirigible partirá en breve.",bc_map,"0x70dbdb";
 	end;
 OnTimer160000:
 	donpcevent "#AirshipWarp-1::OnHide";
 	donpcevent "#AirshipWarp-2::OnHide";
-	mapannounce "airplane","La aeronave está dejando el terreno. Nuestro próximo destino es Einbroch.",bc_map,"0x00ff00";
+	mapannounce "airplane","La aeronave está despegando. Nuestro próximo destino es Einbroch.",bc_map,"0x00ff00";
 	end;
 OnTimer180000:
 	mapannounce "airplane","Nos dirigimos a Einbroch.",bc_map,"0x00ff00";
 	end;
 OnTimer210000:
-	mapannounce "airplane","We will arrive in Einbroch shortly.",bc_map,"0x00FF00";
+	mapannounce "airplane","Aterrizaremos en Einbroch en breve.",bc_map,"0x00FF00";
 	end;
 OnTimer220000:
 	set $@airplanelocation,1;
 	donpcevent "#AirshipWarp-1::OnUnhide";
 	donpcevent "#AirshipWarp-2::OnUnhide";
-	mapannounce "airplane","Welcome to Einbroch. Have a safe trip.",bc_map,"0x00ff00";
+	mapannounce "airplane","Bienvenido a Einbroch. Que tenga un buen viaje.",bc_map,"0x00ff00";
 	end;
 OnTimer230000:
-	mapannounce "airplane","Currently we are in Einbroch. The Airship will take off shortly.",bc_map,"0x00ff00";
+	mapannounce "airplane","Actualmente estamos en Einbroch. El dirigible partirá en breve.",bc_map,"0x00ff00";
 	end;
 OnTimer240000:
 	donpcevent "#AirshipWarp-1::OnHide";
 	donpcevent "#AirshipWarp-2::OnHide";
-	mapannounce "airplane","The Airship is now taking off. Our next destination is Juno.",bc_map,"0xff8200";
+	mapannounce "airplane","La aeronave está despegando. Nuestro próximo destino es Juno.",bc_map,"0xff8200";
 	end;
 OnTimer260000:
-	mapannounce "airplane","We are heading to Juno.",bc_map,"0xff8200";
+	mapannounce "airplane",Nos dirigimos a Juno.",bc_map,"0xff8200";
 	end;
 OnTimer290000:
-	mapannounce "airplane","We will arrive in Juno shortly.",bc_map,"0xff8200";
+	mapannounce "airplane","Aterrizaremos en Juno en breve.",bc_map,"0xff8200";
 	end;
 OnTimer300000:
 	set $@airplanelocation,0;
 	donpcevent "#AirshipWarp-1::OnUnhide";
 	donpcevent "#AirshipWarp-2::OnUnhide";
-	mapannounce "airplane","Welcome to Juno. Have a safe trip.",bc_map,"0xff8200";
+	mapannounce "airplane","Bienvenido a Juno. Que tenga un buen viaje.",bc_map,"0xff8200";
 	end;
 OnTimer310000:
-	mapannounce "airplane","Currently we are in Juno. The Airship will leave shortly.",bc_map,"0xff8200";
+	mapannounce "airplane","Actualmente estamos en Juno. El dirigible partirá en breve.",bc_map,"0xff8200";
 	end;
 OnTimer320000:
 	donpcevent "#AirshipWarp-1::OnHide";
 	donpcevent "#AirshipWarp-2::OnHide";
-	mapannounce "airplane","The Airship is leaving the ground. Our next destination is Hugel.",bc_map,"0xca4bf3";
+	mapannounce "airplane","La aeronave está despegando. Nuestro próximo destino es Hugel.",bc_map,"0xca4bf3";
 	end;
 OnTimer340000:
-	mapannounce "airplane","We are heading to Hugel.",bc_map,"0xca4bf3";
+	mapannounce "airplane","Nos dirigimos a Hugel.",bc_map,"0xca4bf3";
 	end;
 OnTimer370000:
-	mapannounce "airplane","We will arrive in Hugel shortly.",bc_map,"0xca4bf3";
+	mapannounce "airplane","Aterrizaremos en Hugel en breve.",bc_map,"0xca4bf3";
 	end;
 OnTimer380000:
 	set $@airplanelocation,3;
 	donpcevent "#AirshipWarp-1::OnUnhide";
 	donpcevent "#AirshipWarp-2::OnUnhide";
-	mapannounce "airplane","Welcome to Hugel. Have a safe trip.",bc_map,"0xca4bf3";
+	mapannounce "airplane","Bienvenido a Hugel. Que tenga un buen viaje.",bc_map,"0xca4bf3";
 	end;
 OnTimer390000:
-	mapannounce "airplane","Currently we are in Hugel. The Airship will leave shortly.",bc_map,"0xca4bf3";
+	mapannounce "airplane","Actualmente estamos en Hugel. El dirigible partirá en breve.",bc_map,"0xca4bf3";
 	end;
 OnTimer400000:
 	donpcevent "#AirshipWarp-1::OnHide";
 	donpcevent "#AirshipWarp-2::OnHide";
-	mapannounce "airplane","The Airship is leaving the ground. Our next destination is Juno.",bc_map,"0xff8200";
+	mapannounce "airplane","La aeronave está despegando. Nuestro próximo destino es Juno.",bc_map,"0xff8200";
 	end;
 OnTimer420000:
-	mapannounce "airplane","We are heading to Juno.",bc_map,"0xff8200";
+	mapannounce "airplane","Nos dirigimos a Juno.",bc_map,"0xff8200";
 	end;
 OnTimer450000:
-	mapannounce "airplane","We will arrive in Juno shortly.",bc_map,"0xff8200";
+	mapannounce "airplane","Aterrizaremos en Juno en breve.",bc_map,"0xff8200";
 	end;
 OnTimer460000:
 	set $@airplanelocation,0;
 	donpcevent "#AirshipWarp-1::OnUnhide";
 	donpcevent "#AirshipWarp-2::OnUnhide";
-	mapannounce "airplane","Welcome to Juno. Have a safe trip.",bc_map,"0xff8200";
+	mapannounce "airplane","Bienvenido a Juno. Que tenga un buen viaje.",bc_map,"0xff8200";
 	end;
 OnTimer470000:
-	mapannounce "airplane","Currently we are in Juno. The Airship will leave shortly.",bc_map,"0xff8200";
+	mapannounce "airplane","Actualmente estamos en Juno. El dirigible partirá en breve.",bc_map,"0xff8200";
 	end;
 OnTimer480000:
 	donpcevent "#AirshipWarp-1::OnHide";
 	donpcevent "#AirshipWarp-2::OnHide";
-	mapannounce "airplane","The Airship is leaving the ground. Our next destination is Einbroch.",bc_map,"0x00ff00";
+	mapannounce "airplane","La aeronave está despegando. Nuestro próximo destino es Einbroch.",bc_map,"0x00ff00";
 	stopnpctimer;
 	initnpctimer;
 }
@@ -178,12 +178,12 @@ airplane,247,40,1	duplicate(ExitAirplane)	Exit#airplane2b	857
 
 airplane,100,69,3	script	Airship Crew#ein-1	852,{
 	mes "[Airship Crew]";
-	mes "If we've landed at";
-	mes "your destination and";
-	mes "you'd like to leave the";
-	mes "Airship, please use the";
-	mes "stairs up ahead. Thank";
-	mes "you for your patronage.";
+	mes "Si ya hemos llegado a";
+	mes "Su destino y";
+	mes "usted desea descender de la";
+	mes "aeronave, por favor use las";
+	mes "escaleras delante suyo. Gracias";
+	mes "por su preferencia.";
 	close;
 }
 
@@ -191,10 +191,10 @@ airplane,64,94,1	script	Umbala Kid#ein_p	787,{
 	emotion e_swt2;
 	mes "[Kid]";
 	if (event_umbala >= 3) {
-		mes "Wow, mom!";
-		mes "L-look at this!";
-		mes "We're flying! W-we're...";
-		mes "We're in the freakin' sky!";
+		mes "!Wow, mamaá!";
+		mes "!M-Mira esto!";
+		mes "!Estamos volando! !Estamos...";
+		mes "Estamos en el maldito cielo!";
 	}
 	else {
 		mes "Makumalagu!";
@@ -210,10 +210,10 @@ airplane,66,93,3	script	Umbala Lady#ein_p	783,{
 	mes "[Lady]";
 	if (event_umbala >= 3) {
 		mes "Shush...";
-		mes "Honey, behave~";
-		mes "Don't act so excited";
-		mes "when we're out in a";
-		mes "public place like this!";
+		mes "Cariño, compórtate~";
+		mes "!No te alteres tanto";
+		mes "cuando salgamos y estemos en";
+		mes "un lugar público como este!";
 	}
 	else {
 		mes "Chooktu!";
@@ -227,31 +227,30 @@ airplane,66,93,3	script	Umbala Lady#ein_p	783,{
 airplane,71,91,7	script	Umbala Man#ein_p	789,{
 	if (event_umbala >= 3) {
 		mes "[Chrmlim]";
-		mes "Hey there~";
-		mes "From that look on";
-		mes "your face, I see that";
-		mes "you can understand";
-		mes "me. ^333333*Whew...!*^000000";
+		mes "Hey~";
+		mes "Con esa mirada en tu";
+		mes "cara, veo que";
+		mes "tu puedes";
+		mes "entenderme. ^333333*Whew...!*^000000";
 		next;
 		emotion e_pif;
 		mes "[Chrmlim]";
-		mes "I've been helping the";
-		mes "Airship enterprise by";
-		mes "having the Airship Crewmen";
-		mes "train in Umbala to overcome";
-		mes "any acrophobia they might have through bungee jumping. Neat, eh?";
+		mes "He estado ayudando";
+		mes "a la empresa del Dirgible";
+		mes "ayudando a los tripulantes, en Umbala";
+		mes "a superar cualquier acrofobia";
+		mes "que pudiesen tener en un salto en bungee. ¿Estupendo, eh?";
 		next;
 		mes "[Chrmlim]";
-		mes "But...";
-		mes "Some of them couldn't";
-		mes "overcome their fear of";
-		mes "heights. And a few even";
-		mes "ended up, um, ^333333in Nifflheim^000000.";
+		mes "Pero...";
+		mes "Algunos de ellos no pueden";
+		mes "superar su miedo a las";
+		mes "alturas. E incluso algunos pocos abandonan, um, ^333333in Nifflheim^000000.";
 	}
 	else {
 		mes "[Chrmlim]";
 		mes "Bajoo ga";
-		mes "nukta Airship.";
+		mes "nukta dirigible.";
 		next;
 		mes "[Chrmlim]";
 		mes "...";
@@ -260,7 +259,7 @@ airplane,71,91,7	script	Umbala Man#ein_p	789,{
 		emotion e_pif;
 		mes "[Chrmlim]";
 		mes "Shabala moow bajama";
-		mes "Airship kulaha googoona ";
+		mes "Dirigible kulaha googoona ";
 		mes "salu. Dama, kookoo na nu";
 		mes "yukuta. Um, fashuku na ret!";
 	}
@@ -271,46 +270,45 @@ airplane,250,58,2	script	Airship Staff#airplane	67,{
 	// Hugel quest addition
 	if (hg_ma1 == 3) {
 		mes "[Airship Staff]";
-		mes "Welcome";
-		mes "to the Airship.";
-		mes "How may I help you?";
+		mes "Bienvenido";
+		mes "a el dirigible.";
+		mes "¿En qué puedo ayudarlo?";
 		next;
-		select("Do you have a passenger named Thierry?");
+		select("¿Tienes algún pasajero llamado Thierry?");
 		mes "[Airship Staff]";
-		mes "I am sorry, but I do not think that we have a passenger by that name.";
+		mes "Lo siento, pero no creo que tengamos algún pasajero con ese nombre.";
 		close;
 	}
 	// Hugel quest end
 	mes "[Airship Staff]";
-	mes "Welcome";
-	mes "to the Airship.";
-	mes "How may I help you?";
+	mes "Bienvenido";
+	mes "a el dirigible.";
+	mes "¿En qué puedo ayudarlo?";
 	next;
 	switch (select("Using the Airship:Captain's Cabin:Facilities:Cancel")) {
 	case 1:
 		mes "[Airship Staff]";
-		mes "When you see a broadcast";
-		mes "announcing that we have";
-		mes "arrived at your destination,";
-		mes "please use one of the exits";
-		mes "located at the north and";
-		mes "south ends of the Airship.";
+		mes "Cuando veas una transmisión";
+		mes "anunciando que hemos";
+		mes "llegado a su destino,";
+		mes "por favor utilice las salidas";
+		mes "ubicadas hacia el norte";
+		mes "y sur del dirigible.";
 		next;
 		mes "[Airship Staff]";
-		mes "If you happen to miss";
-		mes "your stop, don't worry.";
-		mes "The Airship is constantly";
-		mes "en route and you'll get";
-		mes "another chance to arrive";
-		mes "to your intended destination.";
+		mes "Si has perdido tu";
+		mes "parada, no te preocupes.";
+		mes "El dirigible esta constantemente";
+		mes "en la misma ruta, y tendras";
+		mes "otra oportunidad de poder llegar";
+		mes "al destino establecido.";
 		close;
 	case 2:
 		mes "[Airship Staff]";
-		mes "The Captain's Cabin";
-		mes "is located at the front";
-		mes "of the Airship. There, you";
-		mes "can meet the captain and";
-		mes "the pilot of the Airship.";
+		mes "La cabina del capitan";
+		mes "Se encuentra al frente";
+		mes "de el Dirigible. Allí, puedes conocer al capitan y al";
+		mes "piloto.";
 		close;
 	case 3:
 		mes "[Airship Staff]";
